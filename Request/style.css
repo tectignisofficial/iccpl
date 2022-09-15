@@ -1,0 +1,588 @@
+*{
+    box-sizing: border-box;
+}
+:root {
+    --rem-base: 10px;
+    --requests-color-gray: #9EA9B9;
+}
+@media (max-width: 1500px){
+:root {
+    --searatesRem: 8px;
+}
+}
+:root {
+    --header: #FFFFFF;
+    --main-dark: #15354E;
+    --main-blue: #0088FF;
+    --light-blue: #F1F9FF;
+    --light-blue2: #E2F2FF;
+    --white: #fff;
+    --gray: #607385;
+    --gray2: #a1b3c8;
+}
+body{
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.main{
+    margin:0;
+    padding: 0;
+    padding-top:10px;
+}
+.section{
+    max-width: 80%;
+    padding:20px;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.card{
+    border:none;
+}
+.card-head{
+    position: relative;
+}
+.Q4DyOc{
+    display: flex;
+    align-items: center;
+}
+._HGYQo {
+    font-size: calc(3.6*var(--rem-base));
+    line-height: calc(4.8*var(--rem-base));
+}
+.aPz0gF {
+    font-family: "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: normal;
+    font-weight: 600;
+    color: #000c37;
+}
+.nnz5w6 {
+    display: inline-block;
+    padding: 0 calc(1.6*var(--rem-base));
+}
+.onaOcu {
+    margin-top: calc(1.6*var(--rem-base));
+}
+.evnicv {
+    font-size: calc(1.4*var(--rem-base));
+    line-height: calc(2.2*var(--rem-base));
+    font-weight: 500;
+}
+.aPz0gF {
+    font-family: "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: normal;
+    font-weight: 600;
+    color: #000c37;
+}
+.vy8SM7 {
+    margin-top: calc(2.4*var(--rem-base));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(.8*var(--rem-base)) calc(2.4*var(--rem-base));
+    background-color: #f2f9ff;
+    border-radius: calc(.8*var(--rem-base));
+}
+.evnicv {
+    font-size: calc(1.4*var(--rem-base));
+    line-height: calc(2.2*var(--rem-base));
+    font-weight: 500;
+}
+.vy8SM7 .HNidcP {
+    padding: 0 calc(1.6*var(--rem-base));
+    min-width: calc(10.5*var(--rem-base));
+    text-decoration: none;
+}
+.WTsBDL.t9IfML.C6py6B, .WTsBDL.t9IfML.SU5U8K {
+    padding: calc(.8*var(--rem-base)) 0;
+}
+.WTsBDL.SU5U8K {
+    font-size: calc(1.4*var(--rem-base));
+    line-height: calc(1.6*var(--rem-base));
+}
+.WTsBDL.C6py6B, .WTsBDL.SU5U8K {
+    padding: calc(.8*var(--rem-base)) calc(2.4*var(--rem-base));
+    font-weight: 600;
+}
+.WTsBDL.t9IfML {
+    color: #08f;
+}
+.WTsBDL {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    border-radius: calc(.6*var(--rem-base));
+    font-family: "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-align: center;
+    color: #f8f9fd;
+    transition-property: background-color,box-shadow,color;
+    transition-duration: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._8NSuBT {
+    margin-top: calc(3*var(--rem-base));
+}
+.wJcNOZ {
+    max-width: calc(79.2*var(--rem-base));
+    width: 100%;
+}
+.wJcNOZ .CccMir {
+    margin-bottom: calc(2.4*var(--rem-base));
+}
+.ubj37B {
+    font-size: calc(2*var(--rem-base));
+    line-height: calc(3*var(--rem-base));
+}
+.aPz0gF {
+    font-family: "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: normal;
+    font-weight: 600;
+    color: #000c37;
+}
+.UXBQhB {
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+.VZ5Y_D, .j4gBUh {
+    display: block;
+}
+.UXBQhB .AkQUso, .UXBQhB .xriwPI {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.j4gBUh.uMoBHL {
+    margin-bottom: calc(.8*var(--rem-base));
+}
+.j4gBUh {
+    font-size: calc(1*var(--rem-base));
+    line-height: calc(1.2*var(--rem-base));
+    font-weight: 700;
+    letter-spacing: calc(.06*var(--rem-base));
+    text-transform: uppercase;
+    color: #000c37;
+}
+.j4gBUh.oLLBF9 .ZGKXWC {
+    color: #f52c5c;
+}
+.UXBQhB .AkQUso .PNeZ2W {
+    text-decoration: underline;
+    margin-left: auto;
+    margin-bottom: calc(.5*var(--rem-base));
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.FBF5lA {
+    font-size: calc(1.4*var(--rem-base));
+    line-height: calc(2.2*var(--rem-base));
+    font-weight: 400;
+}
+.UXBQhB .xriwPI {
+    position: relative;
+    justify-content: flex-end;
+}
+.UXBQhB .AkQUso, .UXBQhB .xriwPI {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.UXBQhB .d0rQWT, .wJcNOZ {
+    width: 100%;
+}
+.mBN212, .mBN212 .ZayS8x {
+    color: #000c37;
+    border-radius: calc(.6*var(--rem-base));
+}
+.mBN212 {
+    display: block;
+    background: #fff;
+    font-family: "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: normal;
+    font-size: calc(1.4*var(--rem-base));
+    line-height: calc(2.2*var(--rem-base));
+    font-weight: 400;
+    position: relative;
+    caret-color: #000c37;
+}
+.UXBQhB .xriwPI .d0rQWT .MhWfur {
+    position: absolute;
+    left: calc(1.6*var(--rem-base));
+    top: calc(1.6*var(--rem-base));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: calc(.24*var(--rem-base));
+    width: calc(1.6*var(--rem-base));
+    height: calc(1.6*var(--rem-base));
+}
+.Et0u2X {
+    display: flex!important;
+    width: calc(1.6*var(--rem-base));
+    height: calc(1.6*var(--rem-base));
+}
+.Et0u2X .SWGRgT {
+    background-position: -128px;
+}
+.Et0u2X .H2k7Rl {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 786px;
+    background-repeat: no-repeat;
+}
+.mBN212 .CF9Fef {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.UXBQhB .xriwPI .d0rQWT .cKEZ64 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: calc(4.2*var(--rem-base));
+}
+.mBN212 .ZayS8x {
+    width: 100%;
+    height: 100%;
+    padding: calc(1.4*var(--rem-base)) calc(1.6*var(--rem-base));
+    border: calc(.1*var(--rem-base)) solid #e0e4ec;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    background: 0 0;
+    line-height: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    transition-property: border-color,box-shadow;
+    transition-duration: .1s;
+}
+.mBN212, .mBN212 .ZayS8x {
+    color: #000c37;
+    border-radius: calc(.6*var(--rem-base));
+}
+.UXBQhB .xriwPI .nAo1Hh {
+    border: 0;
+    box-shadow: none;
+    position: absolute;
+    right: 16px;
+    background-color: transparent;
+}
+svg{
+    overflow: hidden;
+    vertical-align: middle;
+}
+.Jiye_i {
+    position: relative;
+    margin-top: calc(1.6*var(--rem-base))!important;
+}
+.pXIXmu:not(:first-child) {
+    margin-top: 60px;
+}
+.DVB7lE, .PaZejs {
+    max-width: calc(79.2*var(--rem-base));
+}
+.ubj37B {
+    font-size: calc(2*var(--rem-base));
+    line-height: calc(3*var(--rem-base));
+}
+
+.PaZejs .NWncKG {
+    margin-top: calc(3.2*var(--rem-base));
+}
+.fancy-forms{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.tab1{
+    margin-right: 4px;
+    background: #fff;
+    box-shadow: 0 calc(.4*var(--rem-base)) calc(1.5*var(--rem-base)) rgba(58,112,191,.1);
+    border-radius: calc(.8*var(--rem-base));
+    padding: calc(.3*var(--rem-base));
+    text-transform: uppercase;
+}
+.fancy-forms .nav-tabs .nav-item{
+    background-color: #eaf5ff;
+    color: #08f;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    font-family: "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: normal;
+    font-size: calc(1*var(--rem-base));
+    line-height: calc(1.2*var(--rem-base));
+    font-weight: 700;
+    letter-spacing: calc(.1*var(--rem-base));
+    width: calc(9.2*var(--rem-base));
+    /* padding: calc(1*var(--rem-base)) 0; */
+    border-radius: calc(.8*var(--rem-base));
+    transition: background-color .1s;
+    position: relative;
+}
+.fancy-forms .nav-tabs .nav-item{
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-radius: 10px;
+}
+.nav-tabs .nav-link {
+    border: none;
+    font-size: calc(1*var(--rem-base));
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    
+    background-color: #eaf5ff;
+    color: #08f;
+}
+.fa-ship, .fa-road, .fa-plane, .fa-rocket{
+    color:darkgrey;
+}
+.tab-pane{
+    position: relative;
+    z-index: 2;
+    margin-top: calc(3.2*var(--rem-base));
+    display: flex;
+    align-items: center;
+}
+.fancyformcontainer{
+    z-index: 1;
+    width: 100%;
+    -webkit-animation: fade-in-animation .2s ease-in-out forwards;
+    animation: fade-in-animation .2s ease-in-out forwards;
+}
+.form-control:focus {
+    box-shadow: rgba(38, 10, 140, 0.16) 0px 3px 8px;
+  }
+.label{
+    margin-bottom: calc(.8*var(--rem-base));
+    font-size: calc(1*var(--rem-base));
+    line-height: calc(1.2*var(--rem-base));
+    font-weight: 700;
+    letter-spacing: calc(.06*var(--rem-base));
+    text-transform: uppercase;
+    color: #000c37;
+    display: block;
+  }
+.checklabel{
+    grid-column: 1/-1;
+    justify-self: flex-start;
+    display: block;
+}
+.checkspan{
+    border-color: transparent;
+    box-shadow: none;
+    padding: 0 0 0 calc(3.3*var(--rem-base));
+    min-height: auto;
+    background: 0 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: calc(3*var(--rem-base));
+    border: 1px solid #fff;
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: box-shadow .2s ease;
+}
+.checkinput{
+    left: 0;
+    position: absolute;
+    width: calc(1.6*var(--rem-base));
+    height: calc(1.6*var(--rem-base));
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0;
+    color: #222;
+}
+.checktext{
+    font-size: calc(1.6*var(--rem-base));
+    line-height: calc(2.2*var(--rem-base));
+    font-weight: 500;
+}
+.weightdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 calc(1.6*var(--rem-base));
+    border: calc(.1*var(--rem-base)) solid #e0e4ec;
+    border-radius: calc(.6*var(--rem-base));
+    transition-property: border-color,box-shadow;
+    transition-duration: .2s;
+}
+.weightdiv1{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.OfQTtD{
+    width: calc(6*var(--rem-base));
+    padding: calc(1.1*var(--rem-base)) 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    color: #000c37;
+    font-family: "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: normal;
+    font-size: calc(1.4*var(--rem-base));
+    line-height: calc(2.2*var(--rem-base));
+    font-weight: 400;
+    flex-grow: 1;
+}
+.mt{
+    align-self: center;
+    min-width: calc(2.7*var(--rem-base));
+    display: flex;
+    position: relative;
+    margin-left: calc(2.5*var(--rem-base));
+    font-size: calc(1.4*var(--rem-base));
+    line-height: calc(2.2*var(--rem-base));
+    font-weight: 500;
+    border-left: 1px solid lightgrey;
+    padding-left: 8px;
+}
+.dropmt{
+    border:none;
+    background: white;
+    width: 100% !important;
+}
+.dropmt:focus{
+    border: none;
+}
+.dimlabel{
+    display: block;
+}
+.dimspan{
+    margin-bottom: calc(.8*var(--rem-base));
+    font-size: calc(1*var(--rem-base));
+    line-height: calc(1.2*var(--rem-base));
+    font-weight: 700;
+    letter-spacing: calc(.06*var(--rem-base));
+    text-transform: uppercase;
+    color: #000c37;
+    display: block;
+}
+.dimdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 calc(1.6*var(--rem-base));
+    border: calc(.1*var(--rem-base)) solid #e0e4ec;
+    border-radius: calc(.6*var(--rem-base));
+    transition-property: border-color,box-shadow;
+    transition-duration: .2s;
+}
+.diminput{
+    width: calc(6*var(--rem-base));
+    padding: calc(1.1*var(--rem-base)) 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    color: #000c37;
+    font-family: "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: normal;
+    font-size: calc(1.4*var(--rem-base));
+    line-height: calc(2.2*var(--rem-base));
+    font-weight: 400;
+    flex-grow: 1;
+}
+.divcross{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    width: calc(2*var(--rem-base));
+    height: calc(2*var(--rem-base));
+    flex-shrink: 0;
+}
+.bkqCEi{
+    position: relative;
+}
+.CJNtUg{
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+    border: 1px solid #e0e4ec;
+    border-radius: 6px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.H2mEFc{
+    margin-right: 10px;
+}
+.totalship{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 1/-1;
+}
+.shiptotal{
+    font-size: calc(1.4*var(--rem-base));
+    line-height: calc(2.2*var(--rem-base));
+    font-weight: 500;
+    font-family: "Montserrat",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: normal;
+    font-weight: 600;
+    color: #000c37;
+}
+.associatemaindiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(1.6*var(--rem-base)) calc(-.8*var(--rem-base)) 0;
+}
+.assodiv{
+    position: relative;
+    padding: 0 20px 0 20px;
+    margin-right: 20px;
+    display: flex;
+    /* margin-top: auto; */
+    max-width: -moz-max-content;
+    max-width: max-content;
+    border-radius: 27px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.buttoncargo{
+    border: none;
+    background-color:white
+}
+.addnewrow{
+    color: #0d48ae;
+    background: white;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+}
+.removeRow{
+    color: darkgray;
+}
+.buttoncargo{
+    padding: 8px;
+}
