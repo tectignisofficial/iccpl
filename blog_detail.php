@@ -83,7 +83,7 @@ $id=$_GET['id'];
 
                 
                 <div class="">
-                  <img src="admin/dist/img/blog/<?php echo $arr['image'];?>" alt="" style="margin-left: 14%;">
+                  <img src="admin/dist/img/blog/<?php echo $arr['image'];?>" alt="" style="margin-left: 21%;">
                 </div>
 
               </div>

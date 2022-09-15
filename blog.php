@@ -1,7 +1,6 @@
 <?php
 include('admin/include/config.php');
 
-$id=$_GET['id'];
 ?>
 
 <!DOCTYPE html>
@@ -60,57 +59,33 @@ $id=$_GET['id'];
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <!-- ======= More Services Section ======= -->
+    <section id="more-services" class="more-services">
       <div class="container">
-      <?php 
+      
+        <div class="row">
+        <?php 
                       
-                      $sql=mysqli_query($conn,"select * from `blog` where id='$id' ");
+                      $sql=mysqli_query($conn,"select * from `blog`");
                    
                        while($arr=mysqli_fetch_array($sql)){
                       ?>
-      <div class="section-title" data-aos="fade-up">
-      <h2><?php echo $arr['title'];?></h2>
-          </div>
-        <div class="row gy-4">
-
-          <div class="col-lg-12">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-               
-
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style='background-image: url("admin/dist/img/blog/<?php echo $arr['image'];?>");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="blog_detail.php?id=<?php echo $arr['id']; ?>"><?php echo $arr['title'];?></a></h5>
                 
-                <div class="">
-                <img src="admin/dist/img/blog/<?php echo $arr['image'];?>" alt="" style="margin-left: 14%;">
-                </div>
-
+                <div class="read-more"><a href="blog_detail.php?id=<?php echo $arr['id']; ?>"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
-              <div class="swiper-pagination"></div>
             </div>
           </div>
-         
-
-          <div class="row content">
-            
-            <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <p  style="margin-left: 6%;     margin-top: 41px;
-">
-<?php echo $arr['blog_content'];?>
-
-              </p>
-              
-            
-            </div>
-           
-          </div>
-  
-
           
-
+          
+          <?php    } ?>  
         </div>
-        <?php    } ?>
+      
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section><!-- End More Services Section -->
     
     
 
