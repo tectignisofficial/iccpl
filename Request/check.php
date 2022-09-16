@@ -25,8 +25,8 @@
             <div class="card">
                 <div class="card-head">
                     <div>
-                        <div class="Q4DyOc">
-                            <h2 class="aPz0gF _HGYQo doHN6G">Request a quote</h2><span class="nnz5w6"><svg width="40"
+                        <div class="divmainheader">
+                            <h2 class="divhead divhead1">Request a quote</h2><span class="divheadspan"><svg width="40"
                                     height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#cargowizardicon_svg__clip0)">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -79,28 +79,21 @@
                                     </defs>
                                 </svg></span>
                         </div>
-                        <div class="onaOcu">
-                            <p class="aPz0gF evnicv">And get the best rates from the leading logistics providers.</p>
+                        <div class="divhead3">
+                            <p class="divhead divTitle">And get the best rates from the leading logistics providers.</p>
                         </div>
                     </div>
-                    <div class="vy8SM7"><span class="aPz0gF evnicv">If you have an account, log in to have everything in
+                    <div class="divTitle1"><span class="divhead divTitle">If you have an account, log in to have everything in
                             one place.</span>
-                        <a href="/auth/sign-in" class="HNidcP">
-                            <button type="button" class="WTsBDL t9IfML SU5U8K AyNgLC"> Sign in<svg
-                                    class="qejKbC AtleRi _6IHag uXwDvJ K8gn6P" width="13" height="12"
-                                    viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path class="a91wsF" d="M10.6517 6L1.65173 6" stroke="#2197FF" stroke-width="2"
-                                        stroke-linecap="round"></path>
-                                    <path class="SjXckP" fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M13 6L8.12712 10.8729C7.6846 11.3154 6.96713 11.3154 6.52461 10.8729C6.08209 10.4304 6.08209 9.71289 6.52461 9.27037L9.79498 6L6.52461 2.72963C6.08209 2.28711 6.08209 1.56964 6.52461 1.12712C6.96713 0.684601 7.6846 0.684601 8.12712 1.12712L13 6Z"
-                                        fill="#2197FF"></path>
-                                </svg>
+                        <a href="/auth/sign-in" class="divlink">
+                            <button type="button" class="divSign"> Sign in
+                                &nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i>
                             </button>
                         </a>
                     </div>
-                    <form action="" class="_8NSuBT">
-                        <div class="pXIXmu PaZejs">
-                            <h3 class="aPz0gF ubj37B">Enquiry Form</h3>
+                    <form action="" class="divform">
+                        <div class="divformhead divformwidth">
+                            <h3 class="divhead divformheading">Enquiry Form</h3>
                             <form action="">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -147,40 +140,37 @@
                             </form>
                         </div>
 
-                        <div class="wJcNOZ mt-4">
-                            <h3 class="aPz0gF ubj37B CccMir">Shipment Details</h3>
-                            <div class="UXBQhB">
-                                <div class="VZ5Y_D">
-                                    <div class="AkQUso"><label class="j4gBUh oLLBF9 uMoBHL">Cargo name<span
-                                                class="ZGKXWC">
+                        <div class="divformmain mt-4">
+                            <h3 class="divhead divformheading mb-4">Shipment Details</h3>
+                            <div class="divformcargomain">
+                                <div class="d-block">
+                                    <div class="divformcargohead"><label class="label">Cargo name<span
+                                                style="color:red">
                                                 *</span></label>
                                     </div>
-                                    <div class="xriwPI"><span class="mBN212 d0rQWT">
-                                            <span class="MhWfur"><span class="Et0u2X"><span class="H2k7Rl SWGRgT"
-                                                        style="background-image: url(&quot;/design/images/apps/shipping/request/icon-css_sprites.png&quot;);"></span></span></span><span
-                                                class="CF9Fef">
+                                    <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
+                                            <span class="divformcargospan2"></span>
+                                                <input class="divforminputControl divforminputControl1" name="cargoname" autocomplete="off"
+                                                    value="" placeholder="Enter commodity type ">
 
-                                                <input class="ZayS8x cKEZ64" name="ProductCategory" autocomplete="off"
-                                                    value="" placeholder="Enter commodity type or HS code">
-
-                                            </span></span>
+                                            </span>
                                     </div>
                                     <p>eg. Sodium Carbonate, Banana, Meat etc.</p>
 
-                                    <div class="AkQUso mt-5"><label class="j4gBUh oLLBF9 uMoBHL">HS Code<span
-                                                class="ZGKXWC">
+                                    <div class="divformcargohead mt-5"><label class="label">HS Code<span
+                                    style="color:red">
                                                 *</span></label>
                                     </div>
-                                    <div class="xriwPI"><span class="mBN212 d0rQWT">
-                                            <input type="tel" class="ZayS8x cKEZ64" name="ProductCategory"
+                                    <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
+                                            <input type="tel" class="divforminputControl divforminputControl1" name="hscode"
                                                 minlength="10" maxlength="10" placeholder="Enter HS code"></span></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="pXIXmu PaZejs">
-                            <h3 class="aPz0gF ubj37B">Nature of Cargo</h3>
+                        <div class="divformhead divformwidth">
+                            <h3 class="divhead divformheading">Nature of Cargo</h3>
                             <div class="">
                                 <div class="associatemaindiv">
                                     <div class="assodiv">
@@ -206,32 +196,32 @@
                                         </button>
                                     </div>
                                 </div>
-                                <div class="row invoiceAmt">
+                                <!-- <div class="row invoiceAmt">
                                     <div class="col-md-6">
                                         <div class="form-group mt-4">
                                             <label class="label" for="email_id">Invoice Amount <span
                                                     style="color:red">*</span></label>
                                             <div class="weightdiv">
-                                                <div class="weightdiv1"><input class="OfQTtD" type="text"
+                                                <div class="weightdiv1"><input class="divformcontrolInput" type="text"
                                                         name="cargoWeight" placeholder="0" value="">
                                                 </div><span class="mt">USD</span>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
 
-                        <div class="row pXIXmu PaZejs perishableout">
+                        <div class="row divformhead divformwidth perishableout">
                             <div class="col-md-6">
                                 <div class="form-group mt-2">
                                     <label class="label">Temperature Regime <span style="color:red">*</span></label>
                                     <div class="weightdiv">
-                                        <div class="weightdiv1"><input class="OfQTtD" type="number" name="grossWeight"
+                                        <div class="weightdiv1"><input class="divformcontrolInput" type="number" name="temperatureRegime"
                                                 placeholder="0">
                                         </div>
                                         <span class="mt">
-                                            <select name="grossmt" id="" class="dropmt">
+                                            <select name="temperatureDegree" id="" class="dropmt">
                                                 <option value="°F">°F</option>
                                                 <option value="°C">°C</option>
                                             </select>
@@ -241,12 +231,12 @@
                             </div>
                         </div>
 
-                        <div class="pXIXmu PaZejs haraout">
+                        <div class="divformhead divformwidth haraout">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group mt-2">
                                         <label class="label">IMO Class <span style="color:red">*</span></label>
-                                        <select class="form-control">
+                                        <select class="form-control" name="imoClass">
                                             <optgroup label="Class 1: Explosives">
                                                 <option>Subclass 1.1. Objects that have a mass explosion hazard.
                                                 </option>
@@ -378,8 +368,8 @@
                                     <div class="form-group mt-2">
                                         <label class="label">UN NUMBER <span style="color:red">*</span></label>
                                         <div class="weightdiv">
-                                            <div class="weightdiv1"><input class="OfQTtD" type="text" placeholder="0"
-                                                    name="discharge">
+                                            <div class="weightdiv1"><input class="divformcontrolInput" type="text" placeholder="0"
+                                                    name="unNumber">
                                             </div>
 
                                         </div>
@@ -390,7 +380,7 @@
                                     <div class="form-group mt-2">
                                         <label class="label">Upload MSDS <span style="color:red">*</span></label>
                                         <div class="weightdiv">
-                                            <div class="weightdiv1"><input class="OfQTtD" type="file" name="imagemsds">
+                                            <div class="weightdiv1"><input class="divformcontrolInput" type="file" name="imagemsds">
                                             </div>
                                         </div>
                                     </div>
@@ -400,7 +390,7 @@
                                     <div class="form-group mt-2">
                                         <label class="label">Upload IIP</label>
                                         <div class="weightdiv">
-                                            <div class="weightdiv1"><input class="OfQTtD" type="file" name="imageiip">
+                                            <div class="weightdiv1"><input class="divformcontrolInput" type="file" name="imageiip">
                                             </div>
                                         </div>
                                     </div>
@@ -409,14 +399,14 @@
                             </div>
                         </div>
 
-                        <div class="pXIXmu PaZejs odcout">
+                        <div class="divformhead divformwidth odcout ">
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="form-group mt-2">
                                         <label class="label">Length </label>
                                         <div class="weightdiv">
-                                            <div class="weightdiv1"><input class="OfQTtD" type="number"
-                                                    name="grossWeight" placeholder="0">
+                                            <div class="weightdiv1"><input class="divformcontrolInput" type="number"
+                                                    name="odcLength" placeholder="0">
                                             </div>
                                             <span class="mt">
                                                 m
@@ -428,8 +418,8 @@
                                     <div class="form-group mt-2">
                                         <label class="label">Width </label>
                                         <div class="weightdiv">
-                                            <div class="weightdiv1"><input class="OfQTtD" type="number"
-                                                    name="grossWeight" placeholder="0">
+                                            <div class="weightdiv1"><input class="divformcontrolInput" type="number"
+                                                    name="odcwidth" placeholder="0">
                                             </div>
                                             <span class="mt">
                                                 m
@@ -441,8 +431,8 @@
                                     <div class="form-group mt-2">
                                         <label class="label">Height</label>
                                         <div class="weightdiv">
-                                            <div class="weightdiv1"><input class="OfQTtD" type="number"
-                                                    name="grossWeight" placeholder="0">
+                                            <div class="weightdiv1"><input class="divformcontrolInput" type="number"
+                                                    name="odcheight" placeholder="0">
                                             </div>
                                             <span class="mt">
                                                 m
@@ -453,9 +443,9 @@
                             </div>
                         </div>
 
-                        <div class="pXIXmu Jiye_i"></div>
-                        <div class="pXIXmu PaZejs">
-                            <h3 class="aPz0gF ubj37B">Mode of Transportation</h3>
+                        <div class="divformhead Jiye_i"></div>
+                        <div class="divformhead divformwidth">
+                            <h3 class="divhead divformheading">Mode of Transportation</h3>
                             <div class="NWncKG">
                                 <div class="row">
                                     <div class="col-md-12 fancy-forms">
@@ -496,7 +486,7 @@
                                                                 <div class="form-group">
                                                                     <label class="label" for="email_id">TRANSPORTATION
                                                                         BY <span style="color:red">*</span></label>
-                                                                    <select class="form-control trans" name="transport">
+                                                                    <select class="form-control trans" name="seaTransport">
                                                                         <option value="Full container load  FCL">Full
                                                                             container load FCL</option>
                                                                         <option value="Less container load  LCL">Less
@@ -517,12 +507,12 @@
                                                                     <label class="label" for="email_id">TRANSPORTATION
                                                                         BY <span style="color:red">*</span></label>
                                                                     <select class="form-control roadraltrans"
-                                                                        name="roadraltrans">
+                                                                        name="landtrans">
                                                                         <optgroup label="Road">
                                                                             <option>Full
                                                                                 container load FCL</option>
-                                                                            <option>Full truck load FCL</option>
-                                                                            <option>less truck load FCL</option>
+                                                                            <option>Full truck load FTL</option>
+                                                                            <option>less truck load LTL</option>
                                                                         </optgroup>
                                                                         <optgroup label="Rail">
                                                                             <option>Full wagon load FWL</option>
@@ -569,7 +559,7 @@
                                                                         Box<span
                                                                             style="color:red">*</span></label></label>
                                                                     <div class="weightdiv">
-                                                                        <div class="weightdiv1"><input class="OfQTtD"
+                                                                        <div class="weightdiv1"><input class="divformcontrolInput"
                                                                                 type="text" name="autoWeight"
                                                                                 placeholder="Weight" value="766">
                                                                         </div><span class="mt">
@@ -586,7 +576,7 @@
                                                                     <label class="label" for="email_id">Volume<span
                                                                             style="color:red">*</span></label></label>
                                                                     <div class="weightdiv">
-                                                                        <div class="weightdiv1"><input class="OfQTtD"
+                                                                        <div class="weightdiv1"><input class="divformcontrolInput"
                                                                                 type="text" name="autovol"
                                                                                 placeholder="Weight" value="766">
                                                                         </div><span class="mt">
@@ -606,7 +596,7 @@
                                                         <div class="form-group mt-2">
                                                             <label class="label" for="email_id">CONTAINER TYPE
                                                                 <span style="color:red">*</span></label>
-                                                            <select class="form-control" name="transport">
+                                                            <select class="form-control" name="containerType">
                                                                 <option value="20'ft Standard">20'ft Standard
                                                                 </option>
                                                                 <option value="40'ft Standard">40'ft Standard
@@ -652,7 +642,6 @@
                                                     </div>
                                                 </div>
                                                 <div class="lessContainer">
-
                                                     <div class="row">
                                                         <div class="col-md-5">
                                                             <div class="form-group mt-4">
@@ -670,13 +659,13 @@
                                                         </div>
                                                         <div class="col-md-5">
                                                             <div class="form-group mt-4">
-                                                                <input type="file">
+                                                                <input type="file" name="invoicetype">(Invoice / Package List)
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="checkboxconta" id="checkboxconta">
-                                                        <div>
-                                                            <div class="row control-group">
+                                                        <div class="newRow">
+                                                            <div class="row calculate">
                                                                 <div class="col-md-6">
                                                                     <div class="form-group mt-4">
                                                                         <label class="dimlabel"><span
@@ -686,41 +675,21 @@
                                                                                 <div class="weightdiv1"><span
                                                                                         class="weightdiv1"
                                                                                         style="max-width: initial;">
-                                                                                        <input class="diminput lwhq"
+                                                                                        <input class="diminput length"
                                                                                             type="number"
                                                                                             name="dimensions.length"
                                                                                             placeholder="length"
                                                                                             value="" >
-                                                                                        <span class="divcross"><svg
-                                                                                                width="10" height="10"
-                                                                                                fill="none"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    fill-rule="evenodd"
-                                                                                                    clip-rule="evenodd"
-                                                                                                    d="M.529 8.529a.667.667 0 00.943.943L5 5.943l3.53 3.529a.667.667 0 10.943-.943L5.942 5l3.53-3.528a.667.667 0 00-.943-.943L5 4.057 1.472.53a.667.667 0 00-.943.943L4.057 5 .53 8.53z"
-                                                                                                    fill="#6E7E92">
-                                                                                                </path>
-                                                                                            </svg></span></span><span
+                                                                                        <span class="divcross">x</span></span><span
                                                                                         class="weightdiv1">
-                                                                                        <input class="diminput lwhq"
+                                                                                        <input class="diminput width"
                                                                                             type="number"
                                                                                             name="dimensions.width"
                                                                                             placeholder="width"
                                                                                             value=""><span
-                                                                                            class="divcross"><svg
-                                                                                                width="10" height="10"
-                                                                                                fill="none"
-                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                <path
-                                                                                                    fill-rule="evenodd"
-                                                                                                    clip-rule="evenodd"
-                                                                                                    d="M.529 8.529a.667.667 0 00.943.943L5 5.943l3.53 3.529a.667.667 0 10.943-.943L5.942 5l3.53-3.528a.667.667 0 00-.943-.943L5 4.057 1.472.53a.667.667 0 00-.943.943L4.057 5 .53 8.53z"
-                                                                                                    fill="#6E7E92">
-                                                                                                </path>
-                                                                                            </svg></span></span><span
+                                                                                            class="divcross">X</span></span><span
                                                                                         class="weightdiv1">
-                                                                                        <input class="diminput lwhq"
+                                                                                        <input class="diminput height"
                                                                                             type="number"
                                                                                             name="dimensions.height"
                                                                                             placeholder="height"
@@ -739,13 +708,11 @@
                                                                 </div>
                                                                 <div class="col-md-3">
                                                                     <div class="form-group mt-4">
-                                                                        <label class="label" for="email_id">Number
-                                                                            of
-                                                                            Box<span
+                                                                        <label class="label" for="email_id">Number of  Box<span
                                                                                 style="color:red">*</span></label></label>
                                                                         <div class="weightdiv">
                                                                             <div class="weightdiv1"><input
-                                                                                    class="OfQTtD lwhq" type="text"
+                                                                                    class="divformcontrolInput qty" type="text"
                                                                                     name="cargoWeight"
                                                                                     placeholder="no of boxes">
                                                                             </div>
@@ -760,22 +727,23 @@
                                                                                 style="color:red">*</span></label></label>
                                                                         <div class="weightdiv">
                                                                             <div class="weightdiv1"><input
-                                                                                    class="OfQTtD boxweight" type="text"
+                                                                                    class="divformcontrolInput boxweight" type="text"
                                                                                     name="cargoWeight"
                                                                                     placeholder="no of boxes">
                                                                             </div>
                                                                             <span class="mt">
-                                                                                <select name="" id="" class="dropmt">
+                                                                                <select name="" id="weightkg" class="dropmt">
                                                                                     <option value="kg">kg</option>
                                                                                     <option value="mt">mt</option>
                                                                                 </select>
                                                                             </span>
                                                                         </div>
                                                                     </div>
+                                                                    <input type="hidden" class="bal">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <!-- <div class="row">
+                                                         <div class="row calculate">
                                                             <div class="col-md-6">
                                                                 <div class="form-group">
                                                                     <label class="dimlabel"><span
@@ -785,7 +753,7 @@
                                                                             <div class="weightdiv1"><span
                                                                                     class="weightdiv1"
                                                                                     style="max-width: initial;">
-                                                                                    <input class="diminput"
+                                                                                    <input class="diminput length"
                                                                                         type="number"
                                                                                         name="dimensions.length"
                                                                                         placeholder="length" value="">
@@ -800,7 +768,7 @@
                                                                                             </path>
                                                                                         </svg></span></span><span
                                                                                     class="weightdiv1">
-                                                                                    <input class="diminput"
+                                                                                    <input class="diminput width"
                                                                                         type="number"
                                                                                         name="dimensions.width"
                                                                                         placeholder="width"
@@ -815,7 +783,7 @@
                                                                                             </path>
                                                                                         </svg></span></span><span
                                                                                     class="weightdiv1">
-                                                                                    <input class="diminput"
+                                                                                    <input class="diminput height"
                                                                                         type="number"
                                                                                         name="dimensions.height"
                                                                                         placeholder="height"
@@ -838,7 +806,7 @@
                                                                         Box<span
                                                                             style="color:red">*</span></label></label>
                                                                     <div class="weightdiv">
-                                                                        <div class="weightdiv1"><input class="OfQTtD"
+                                                                        <div class="weightdiv1"><input class="divformcontrolInput qty"
                                                                                 type="text" name="cargoWeight"
                                                                                 placeholder="no of boxes">
                                                                         </div>
@@ -852,7 +820,7 @@
                                                                         Box<span
                                                                             style="color:red">*</span></label></label>
                                                                     <div class="weightdiv">
-                                                                        <div class="weightdiv1"><input class="OfQTtD"
+                                                                        <div class="weightdiv1"><input class="divformcontrolInput"
                                                                                 type="text" name="cargoWeight"
                                                                                 placeholder="no of boxes">
                                                                         </div>
@@ -864,9 +832,11 @@
                                                                         </span>
                                                                     </div>
                                                                 </div>
+                                                                <input type="hidden" class="bal">
                                                             </div>
                                                         </div>
-                                                        <div class="row">
+                                                        
+                                                        <!--<div class="row">
                                                             <div class="col-md-6">
                                                                 <div class="form-group">
                                                                     <label class="dimlabel"><span
@@ -929,7 +899,7 @@
                                                                         Box<span
                                                                             style="color:red">*</span></label></label>
                                                                     <div class="weightdiv">
-                                                                        <div class="weightdiv1"><input class="OfQTtD"
+                                                                        <div class="weightdiv1"><input class="divformcontrolInput"
                                                                                 type="text" name="cargoWeight"
                                                                                 placeholder="no of boxes">
                                                                         </div>
@@ -943,7 +913,7 @@
                                                                         Box<span
                                                                             style="color:red">*</span></label></label>
                                                                     <div class="weightdiv">
-                                                                        <div class="weightdiv1"><input class="OfQTtD"
+                                                                        <div class="weightdiv1"><input class="divformcontrolInput"
                                                                                 type="text" name="cargoWeight"
                                                                                 placeholder="no of boxes">
                                                                         </div>
@@ -1020,7 +990,7 @@
                                                                         Box<span
                                                                             style="color:red">*</span></label></label>
                                                                     <div class="weightdiv">
-                                                                        <div class="weightdiv1"><input class="OfQTtD"
+                                                                        <div class="weightdiv1"><input class="divformcontrolInput"
                                                                                 type="text" name="cargoWeight"
                                                                                 placeholder="no of boxes">
                                                                         </div>
@@ -1034,7 +1004,7 @@
                                                                         Box<span
                                                                             style="color:red">*</span></label></label>
                                                                     <div class="weightdiv">
-                                                                        <div class="weightdiv1"><input class="OfQTtD"
+                                                                        <div class="weightdiv1"><input class="divformcontrolInput"
                                                                                 type="text" name="cargoWeight"
                                                                                 placeholder="no of boxes">
                                                                         </div>
@@ -1048,12 +1018,11 @@
                                                                 </div>
                                                             </div>
                                                         </div> -->
-                                                        <div id="newRow"></div>
 
                                                         <div class="totalship mt-2 mb-3">
                                                             <button class="add addnewrow"><span style="">+ &nbsp;</span>Add</button>
                                                             <span class="shiptotal">Shipment total:<span class="totalwh"> 0</span>
-                                                                m<sup>3</sup> <span class="totalweig"> 0 </span> mt</span>
+                                                                m<sup>3</sup> <span class="totalweig"> 0 </span><span class="kgclass"> mt </span></span>
                                                         </div>
                                                     </div>
                                                     <div class="row weightch">
@@ -1062,7 +1031,7 @@
                                                                 <label class="label" for="email_id">Weight of
                                                                     Box<span style="color:red">*</span></label></label>
                                                                 <div class="weightdiv">
-                                                                    <div class="weightdiv1"><input class="OfQTtD"
+                                                                    <div class="weightdiv1"><input class="divformcontrolInput"
                                                                             type="text" name="cargoWeight"
                                                                             placeholder="Weight" value="766">
                                                                     </div><span class="mt">
@@ -1079,7 +1048,7 @@
                                                                 <label class="label" for="email_id">Volume<span
                                                                         style="color:red">*</span></label></label>
                                                                 <div class="weightdiv">
-                                                                    <div class="weightdiv1"><input class="OfQTtD"
+                                                                    <div class="weightdiv1"><input class="divformcontrolInput"
                                                                             type="text" name="cargoWeight"
                                                                             placeholder="Weight" value="766">
                                                                     </div><span class="mt">
@@ -1135,7 +1104,7 @@
                                                                 <label class="label">Gross Weight<span
                                                                         style="color:red">*</span></label>
                                                                 <div class="weightdiv">
-                                                                    <div class="weightdiv1"><input class="OfQTtD"
+                                                                    <div class="weightdiv1"><input class="divformcontrolInput"
                                                                             type="text" name="grossWeight"
                                                                             placeholder="no of boxes">
                                                                     </div>
@@ -1152,7 +1121,7 @@
                                                             <div class="form-group mt-2">
                                                                 <label class="label">Loading Rate </label>
                                                                 <div class="weightdiv">
-                                                                    <div class="weightdiv1"><input class="OfQTtD"
+                                                                    <div class="weightdiv1"><input class="divformcontrolInput"
                                                                             type="text" name="loading">
                                                                     </div>
                                                                     <span class="mt">
@@ -1165,7 +1134,7 @@
                                                             <div class="form-group mt-2">
                                                                 <label class="label">Discharge Rate</label>
                                                                 <div class="weightdiv">
-                                                                    <div class="weightdiv1"><input class="OfQTtD"
+                                                                    <div class="weightdiv1"><input class="divformcontrolInput"
                                                                             type="text" name="discharge">
                                                                     </div>
                                                                     <span class="mt">
@@ -1181,7 +1150,7 @@
                                                         <div class="col-md-6">
                                                             <div class="form-group mt-2">
                                                                 <label class="label">Truck Type</label>
-                                                                <select class="form-control" name="shiptype">
+                                                                <!-- <select class="form-control" name="shiptype">
                                                                     <option value="2т - 14м³">2т - 14м³
                                                                     </option>
                                                                     <option value="3.5т - 35м³">3.5т - 35м³
@@ -1220,7 +1189,8 @@
                                                                     </option>
                                                                     <option value="Tilt 82м³">Tilt 82м³</option>
                                                                     <option value="Tilt 92м³">Tilt 92м³</option>
-                                                                </select>
+                                                                </select> -->
+                                                                <input type="text" class="form-control" name="shiptype" placeholder="2т - 14м³">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
@@ -1228,7 +1198,7 @@
                                                                 <label class="label">Number of Trucks<span
                                                                         style="color:red">*</span></label>
                                                                 <div class="weightdiv">
-                                                                    <div class="weightdiv1"><input class="OfQTtD"
+                                                                    <div class="weightdiv1"><input class="divformcontrolInput"
                                                                             type="number" name="truckquantity"
                                                                             placeholder="no of boxes">
                                                                     </div>
@@ -1275,7 +1245,7 @@
                                                                 <label class="label">Number of Wagons<span
                                                                         style="color:red">*</span></label>
                                                                 <div class="weightdiv">
-                                                                    <div class="weightdiv1"><input class="OfQTtD"
+                                                                    <div class="weightdiv1"><input class="divformcontrolInput"
                                                                             type="number" name="truckquantity"
                                                                             placeholder="no of boxes">
                                                                     </div>
@@ -1409,8 +1379,8 @@
 
                             </div>
                         </div>
-                        <div class="pXIXmu PaZejs">
-                            <h3 class="aPz0gF ubj37B">Associated services</h3>
+                        <div class="divformhead divformwidth">
+                            <h3 class="divhead divformheading">Associated services</h3>
                             <div class="">
                                 <div class="associatemaindiv">
                                     <div class="assodiv">
@@ -1442,7 +1412,7 @@
                                             <label class="label" for="email_id">Invoice Amount <span
                                                     style="color:red">*</span></label>
                                             <div class="weightdiv">
-                                                <div class="weightdiv1"><input class="OfQTtD" type="text"
+                                                <div class="weightdiv1"><input class="divformcontrolInput" type="text"
                                                         name="cargoWeight" placeholder="0" value="">
                                                 </div><span class="mt">USD</span>
                                             </div>
@@ -1451,8 +1421,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pXIXmu PaZejs">
-                            <!-- <h3 class="aPz0gF ubj37B">Contact Details</h3> -->
+                        <div class="divformhead divformwidth">
+                            <!-- <h3 class="divhead divformheading">Contact Details</h3> -->
                             <!-- <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group mt-2">
@@ -1502,23 +1472,59 @@
     </div>
     <script src="query.js"></script>
     <script>
-      $(document).on("keyup", ".lwhq", function() {
-  
-  
-  var multi=1;
- $('.lwhq').each(function(index,item) {
-  
-   var val = parseFloat($(item).val());
-
-   if(!isNaN(val))
-      {
-         multi = multi * val;
-      }
-   
- });
- $(".totalwh").text(multi);
-
-});
+         $(".add").click(function () {
+        var html = '';
+        html += '<div class="row calculate" id="">';
+        html += '<div class="col-md-6">';
+        html += '<div class="form-group mt-4">';
+        html += '<label class="dimlabel"><span class="dimspan">Dimensions of Box</span>';
+        html += '<div class="dimdiv">';
+        html += '<div class="weightdiv1"><span class="weightdiv1" style="max-width: initial;">';
+        html += '<input class="diminput length" type="number" name="dimensions.length" placeholder="length" value="">';
+        html += '<span class="divcross"><svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg">';
+        html += '<path fill-rule="evenodd" clip-rule="evenodd" d="M.529 8.529a.667.667 0 00.943.943L5 5.943l3.53 3.529a.667.667 0 10.943-.943L5.942 5l3.53-3.528a.667.667 0 00-.943-.943L5 4.057 1.472.53a.667.667 0 00-.943.943L4.057 5 .53 8.53z" fill="#6E7E92"> </path>';
+        html += '</svg></span></span><span class="weightdiv1">';
+        html += '<input class="diminput width" type="number" name="dimensions.width" placeholder="width" value="">';
+        html += '<span class="divcross"><svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg">';
+        html += '<path fill-rule="evenodd" clip-rule="evenodd" d="M.529 8.529a.667.667 0 00.943.943L5 5.943l3.53 3.529a.667.667 0 10.943-.943L5.942 5l3.53-3.528a.667.667 0 00-.943-.943L5 4.057 1.472.53a.667.667 0 00-.943.943L4.057 5 .53 8.53z" fill="#6E7E92"> </path>';
+        html += '</svg></span></span><span class="weightdiv1">';
+        html += '<input class="diminput height" type="number" name="dimensions.height" placeholder="height" value=""></span></div>';
+        html += '<span class="mt">';
+        html += '<select name="" id="" class="dropmt"> <option value="m">m</option> <option value="cm">cm </option> </select>';
+        html += '</span>';
+        html += '</div>';
+        html += '</label>';
+        html += '</div>';
+        html += '</div>';
+        html += '<div class="col-md-2">';
+        html += '<div class="form-group mt-4">';
+        html += '<label class="label" for="email_id">Number of Box<span style="color:red">*</span></label>';
+        html += '<div class="weightdiv">';
+        html += '<div class="weightdiv1"><input class="divformcontrolInput qty" type="text" name="cargoWeight" placeholder="no of boxes"> </div>';
+        html += '</div>';
+        html += '</div>';
+        html += '</div>';
+        html += '<div class="col-md-3">';
+        html += '<div class="form-group mt-4">';
+        html += '<label class="label" for="email_id">Weight of Box<span style="color:red">*</span></label>';
+        html += '<div class="weightdiv">';
+        html += '<div class="weightdiv1"><input class="divformcontrolInput boxweight" type="text" name="cargoWeight" placeholder="no of boxes"> </div>';
+        html += '<span class="mt">';
+        html += ' <select name="" id="" class="dropmt"> <option value="kg">kg</option> <option value="mt">mt</option></select>';
+        html += ' </span>';
+        html += '</div>';
+        html += '</div>';
+        html += '<input type="text" class="bal">';
+        html += '</div>';
+        html += '<div class="col-md-1 ">'
+        html += '<div class="removeRow mt-5">';
+        html += '<i class="fa fa-trash"></i>';
+        html += '</div>';
+        html += '</div>';
+        html += '</div>';
+        
+        $('.newRow').append(html);
+    });
     </script>
 </body>
 
