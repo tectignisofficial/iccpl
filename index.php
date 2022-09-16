@@ -35,6 +35,25 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    .c{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #3498db;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #3498db;
+    width: 158px;
+    }
+    </style>
 </head>
 
 <body>
@@ -44,11 +63,11 @@
   <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero" class="d-flex align-items-center"  >
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+    <div class="container" >
+      <div class="row" >
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center hero-img"  >
           <h1 data-aos="fade-up">Strongest Distribution Network</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">“We are an extension of your team”</h2>
           <div data-aos="fade-up" data-aos-delay="800">
@@ -56,7 +75,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          <img src="assets/img/index.jpg" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -138,20 +157,33 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+          <h6>Explore Our Supply Chain Services</h6>
         </div>
 
         <div class="row" style="justify-content: center;">
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/air2.jpg" class="img-fluid" alt="">
+                
+              </div>
+              <div class="member-info">
+                
+                <a  href="air.php"><h4>AIR FREIGHT</h4></a>
+                <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
+              </div>
+            </div>
+          </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/img01.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/truck.jpg" class="img-fluid" alt="">
                 
               </div>
               <div class="member-info">
               
-              <a  href="sea.php"><h4>TRANSPORTATION</h4></a>
+              <a  href="land.php"><h4>TRANSPORTATION</h4></a>
               <p>We have a wide experience in overland industry specific logistic solutions like pharmaceutical logistics, retail and automotive logistics by train or road.
 </p>
                 
@@ -159,10 +191,14 @@
             </div>
           </div>
 
+        
+
+          
+
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/img02.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/ship1.jpg" class="img-fluid" alt="">
                 
               </div>
               <div class="member-info">
@@ -170,20 +206,6 @@
                 <a  href="sea.php"><h4>SEA FREIGHT</h4></a>
                 <p>We bring your goods safely to worldwide destinations with our great sea fright services. We offer LLC and FLC shipments that are fast and effective with no delays.
 </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/img03.jpg" class="img-fluid" alt="">
-                
-              </div>
-              <div class="member-info">
-                
-                <a  href="sea.php"><h4>AIR FREIGHT</h4></a>
-                <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
               </div>
             </div>
           </div>
@@ -205,18 +227,12 @@
               </div>
             </div>
           </div> -->
-
+          <div class="row">
+          <a href="services.php" class="btn-learn-more c" style="margin-left: 44%;">Learn More</a>
+          </div>
         </div>
 
-        <div class="row">
-    <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-      
-      <div data-aos="fade-up" data-aos-delay="800">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-      </div>
-    </div>
-    
-  </div>
+        
 
          
       </div>

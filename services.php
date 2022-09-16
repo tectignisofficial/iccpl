@@ -55,27 +55,38 @@
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-   
-
     <section id="team" class="team section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
-        <h6>Explore Our Supply Chain Services</h6>
-                  </div>
+          <h6>Explore Our Supply Chain Services</h6>
+        </div>
 
         <div class="row" style="justify-content: center;">
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/air2.jpg" class="img-fluid" alt="">
+                
+              </div>
+              <div class="member-info">
+                
+                <a  href="air.php"><h4>AIR FREIGHT</h4></a>
+                <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
+              </div>
+            </div>
+          </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/img01.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/truck.jpg" class="img-fluid" alt="">
                 
               </div>
               <div class="member-info">
               
-              <a  href="sea.php"><h4>TRANSPORTATION</h4></a>
+              <a  href="land.php"><h4>TRANSPORTATION</h4></a>
               <p>We have a wide experience in overland industry specific logistic solutions like pharmaceutical logistics, retail and automotive logistics by train or road.
 </p>
                 
@@ -83,10 +94,14 @@
             </div>
           </div>
 
+        
+
+          
+
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/img02.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/ship1.jpg" class="img-fluid" alt="">
                 
               </div>
               <div class="member-info">
@@ -94,20 +109,6 @@
                 <a  href="sea.php"><h4>SEA FREIGHT</h4></a>
                 <p>We bring your goods safely to worldwide destinations with our great sea fright services. We offer LLC and FLC shipments that are fast and effective with no delays.
 </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/img03.jpg" class="img-fluid" alt="">
-                
-              </div>
-              <div class="member-info">
-                
-                <a  href="sea.php"><h4>AIR FREIGHT</h4></a>
-                <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
               </div>
             </div>
           </div>
@@ -129,7 +130,7 @@
               </div>
             </div>
           </div> -->
-
+          
         </div>
 
         
@@ -137,6 +138,8 @@
          
       </div>
     </section><!-- End Team Section -->
+
+    
    
     
 
@@ -151,7 +154,7 @@
             
           
             <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/air.jpg" alt="" class="img-fluid">
+            <img src="assets/img/s2.jpg" alt="" class="img-fluid">
           </div>
             
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
@@ -193,7 +196,7 @@
             
             </div>
             <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/th1.jpg" alt="" class="img-fluid">
+            <img src="assets/img/s1.jpg" alt="" class="img-fluid">
           </div>
         </div>
 
@@ -210,7 +213,7 @@
             
           
             <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/img34.jpg" alt="" class="img-fluid">
+            <img src="assets/img/s4.jpg" alt="" class="img-fluid">
           </div>
             
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">

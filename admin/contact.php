@@ -98,15 +98,15 @@ include("include/sidebar.php");
                                             <tr>
                                                 <th>Sr.No</th>
                                                 <th>Name</th>
-                                               
-                                                <th>Email</th>
-                                                <th>Subject</th>
-                                                <th>Message</th>
-                                             
+                                               <th>Email</th>
+                                                <th>Contact</th>
+                                                <th>Company Name</th>
+                                                <th>Meeting Date</th>
+                                                <th>Agenda OfMeeting</th>
                                                 <th>Action</th>
                                                 
                                             </tr>
-                                        </thead>
+    </thead>
                                         <tbody>
                                         <?php 
                       
@@ -119,27 +119,22 @@ include("include/sidebar.php");
                                                 <td> <?php echo $arr['name'];?> </td>
                                                
                                                 <td> <?php echo $arr['email'];?></td>
-                                                <td> <?php echo $arr['subject'];?></td>
-                                                <td> <?php echo $arr['message'];?></td>
+                                                <td> <?php echo $arr['contact_no'];?></td>
+                                                <td> <?php echo $arr['company_name'];?></td>
+
+                                                <td> <?php echo $arr['meeting_date'];?></td>
+
+                                                <td> <?php echo $arr['meeting_agenda'];?></td>
                                                 
                                                 
                                                 <td>
                                                      
                                                
-                                          
-                                               
-                                                
-
-                                                            
-                                                
-                                                            
-                                                    
-
-                                               <a href="contact.php?delid=<?php echo $arr['id']; ?>"><button
+                                      <a href="contact.php?delid=<?php echo $arr['id']; ?>"><button
                                                             type="button" class="btn btn-danger btn-rounded btn-icon"
                                                             onclick="ConfirmDelete()" style="color: aliceblue"> <i
                                                                 class="fas fa-trash"></i> </button></a>
-                                                                <?php } ?>
+                                                                <?php $count++; } ?>
 </td>
                                                                                 </tr>
                                                                                

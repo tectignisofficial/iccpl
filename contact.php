@@ -6,13 +6,15 @@ if(isset($_POST['submit'])){
 
  
   $name=$_POST['name'];
-  $email	=$_POST['email'];
-  $subject=$_POST['subject'];
-  $message=$_POST['message'];
+  $email=$_POST['email'];
+  $contact_no=$_POST['contact_no'];
+  $company_name=$_POST['company_name'];
+  $meeting_date=$_POST['meeting_date'];
+  $meeting_agenda=$_POST['meeting_agenda'];
   
   
-  $sql=mysqli_query($conn,"INSERT INTO `contact`(`name`,`email`,`subject`,`message`) 
-  VALUES ('$name','$email','$subject','$message')");
+  $sql=mysqli_query($conn,"INSERT INTO `contact`(`name`,`email`,`contact_no`,`company_name`,`meeting_date`,`meeting_agenda`) 
+  VALUES ('$name','$email','$contact_no','$company_name','$meeting_date','$meeting_agenda')");
 
 if($sql==1){
     header("location:contact.php");
@@ -32,7 +34,7 @@ else{
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Contact</title>
+  <title>Book An Appointment</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -109,10 +111,16 @@ else{
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="tel" class="form-control" name="contact_no" id="contact_no" placeholder="Your Conatact Number" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <input type="text" class="form-control" name="company_name" id="company_name" placeholder="Your Company Name" required>
+              </div>
+              <div class="form-group">
+                <input type="date" class="form-control" name="meeting_date" id="meeting_date" placeholder="Your Meeting Date" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="meeting_agenda" rows="5" placeholder="Agenda Of Meeting" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
