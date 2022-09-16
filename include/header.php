@@ -17,7 +17,7 @@
           <li><a class="nav-link scrollto" href="blog.php">Blog</a></li>
          
           <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
-          <li><a class="getstarted scrollto" href="Request/request.php">REQUEST A QUOTE
+          <li><a class="getstarted scrollto" href="Request/check.php">REQUEST A QUOTE
 </a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

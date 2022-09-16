@@ -52,7 +52,7 @@
           <h1 data-aos="fade-up">Strongest Distribution Network</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">“We are an extension of your team”</h2>
           <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#about" class="btn-get-started scrollto">REQUEST A QUOTE</a>
+            <a href="Request/check.php" class="btn-get-started scrollto">REQUEST A QUOTE</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
