@@ -68,8 +68,8 @@
                
 
                 
-                <div class="">
-                  <img src="assets/img/land1.png" alt="" style="margin-left: 14%;">
+                <div class="" data-aos="fade-up">
+                  <img src="assets/img/team/truck1.jpg" alt="" style="margin-left: 14%;">
                 </div>
 
               </div>
