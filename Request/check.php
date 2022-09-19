@@ -546,7 +546,7 @@
                                                                             <div class="weightdiv1"><input
                                                                                     class="divformcontrolInput boxweight"
                                                                                     type="text" name="cargoWeight"
-                                                                                    placeholder="no of boxes">
+                                                                                    placeholder="Weight">
                                                                             </div>
                                                                             <span class="mt">
                                                                                 <select name="" id="weightkg"
@@ -639,7 +639,7 @@
                                                                     <div class="weightdiv1"><input
                                                                             class="divformcontrolInput" type="text"
                                                                             name="grossWeight"
-                                                                            placeholder="no of boxes">
+                                                                            placeholder="Gross weight">
                                                                     </div>
                                                                     <span class="mt">
                                                                         <select name="grossmt" id="" class="dropmt">
@@ -697,7 +697,7 @@
                                                                     <div class="weightdiv1"><input
                                                                             class="divformcontrolInput" type="number"
                                                                             name="truckquantity"
-                                                                            placeholder="no of boxes">
+                                                                            placeholder="no of Trucks">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -722,7 +722,7 @@
                                                                     <div class="weightdiv1"><input
                                                                             class="divformcontrolInput" type="number"
                                                                             name="truckquantity"
-                                                                            placeholder="no of boxes">
+                                                                            placeholder="no of wagons">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -939,7 +939,7 @@
                         </div>
                         <div class="divformhead divformwidth">
                             <div class="form-group">
-                                <input type="submit" class="btn btn-primary" name="send" value="Send">
+                                <input type="submit" class="btn btn-primary" name="send" value="Submit">
                             </div>
                         </div>
                 </div>
