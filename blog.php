@@ -15,7 +15,7 @@ include('admin/include/config.php');
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -70,7 +70,9 @@ include('admin/include/config.php');
                    
                        while($arr=mysqli_fetch_array($sql)){
                       ?>
-          <div class="col-md-6 d-flex align-items-stretch">
+          <div class="col-md-6 d-flex align-items-stretch" style="
+    margin-bottom: 15px;
+">
             <div class="card" style='background-image: url("admin/dist/img/blog/<?php echo $arr['image'];?>");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
                 <h5 class="card-title"><a href="blog_detail.php?id=<?php echo $arr['id']; ?>"><?php echo $arr['title'];?></a></h5>

@@ -5,8 +5,8 @@
             <div class="row">
 
                 <div class="col-lg-4 col-md-6 footer-contact">
-                    <!-- <h1><a href="index.php"><img src="assets/images/logo/logo-capeeza.webp" alt=""></a></h1> -->
-                    <h1 ><b>ICCPL</b></h1>
+                    <h1><a href="index.php"><img src="assets/img/logo.png" alt="" style="width: 45%;"></a></h1>
+                  
                     <p class="mt-3">We are located at Mundra,Navi Mumbai,Kandla and Chennai providing a wide range of services on PAN
                         India basis and across the Globe. <br>
                     </p>
