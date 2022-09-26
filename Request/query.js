@@ -9,6 +9,38 @@ $(".roadfrom").hide();
 
 $(document).ready(function(){
    
+$("#sea").click(function(){
+    $(".lessContainer").hide();
+    $(".fulltruck").hide();
+    $(".fullContain").hide();
+    $(".bulkcontainer").hide();
+    $(".fullwagon").hide();
+    $(".uldContainer").hide();
+    $('.railfrom').hide();
+$(".roadfrom").hide();
+$('.seafrom').show();
+});
+$("#land").click(function(){
+    $(".lessContainer").hide();
+    $(".fulltruck").hide();
+    $(".fullContain").hide();
+    $(".bulkcontainer").hide();
+    $(".fullwagon").hide();
+    $(".uldContainer").hide();
+
+});
+$("#air").click(function(){
+    $(".lessContainer").hide();
+    $(".fulltruck").hide();
+    $(".fullContain").hide();
+    $(".bulkcontainer").hide();
+    $(".fullwagon").hide();
+    $(".uldContainer").hide();
+    $('.railfrom').hide();
+$(".roadfrom").hide();
+$('.seafrom').show();
+});
+
 $(".trans").change(function() {
     let val = $(this).val();
 if(val == "Full container load  FCL") {
@@ -20,6 +52,7 @@ if(val == "Full container load  FCL") {
     $(".uldContainer").hide();
     $('.warHous').show();
     $(".insSer").css('display','none');
+    $(".checkfactory").show();
 }
 else if(val == "Less container load  LCL") {
     $(".lessContainer").show();
@@ -30,6 +63,7 @@ else if(val == "Less container load  LCL") {
     $(".uldContainer").hide();
     $('.warHous').show();
     $(".insSer").css('display','none');
+    $(".checkfactory").show();
 }
 else if(val == "Bulk") {
     $(".bulkcontainer").show();
@@ -40,6 +74,7 @@ else if(val == "Bulk") {
     $(".uldContainer").hide();
     $(".insSer").css('display','block');
     $('.warHous').hide();
+    $(".checkfactory").hide();
 }
 
 });
@@ -168,17 +203,17 @@ $('.checkboxconta').hide();
         $(".after-add-more").after(html);  
     });  
 
-    $('#weightkg').change(function(){
-        let ff=$(this).val();
-        $(".kgclass").text(ff);
-        $(".weightKG").text(ff);
-    });
+    // $('#weightkg').change(function(){
+    //     let ff=$(this).val();
+    //     $(".kgclass").text(ff);
+    //     $(".weightKG").text(ff);
+    // });
 
-    $("#lengthMCM").change(function(){
-        let lengthMCM = $('#lengthMCM').val();
-        $('.lbhMT').text(lengthMCM);
-        $('.Symbol').text(lengthMCM);
-    });
+    // $("#lengthMCM").change(function(){
+    //     let lengthMCM = $('#lengthMCM').val();
+    //     $('.lbhMT').text(lengthMCM);
+    //     $('.Symbol').text(lengthMCM);
+    // });
 
     $(document).on('keyup', '.qty', function () {
         let mul=0;
@@ -192,11 +227,6 @@ $('.checkboxconta').hide();
         });
         $(".totalwh").text(mul);  
     });
-
-//     $(".add").click(function () {
-//         let html =' <div class="row calculate"> <div class="col-md-6"><div class="form-group mt-4"> <label class="dimlabel"><span class="dimspan">Dimensions of Box</span> <div class="dimdiv">  <div class="weightdiv1"><span   class="weightdiv1" style="max-width: initial;">   <input class="diminput length"   type="number" name="dimensions.length" placeholder="length"  value="">  <span class="divcross">x</span></span><span  class="weightdiv1"> <input class="diminput width"  type="number"  name="dimensions.width"   placeholder="width"  value=""><span   class="divcross">X</span></span><span class="weightdiv1"> <input class="diminput height"  type="number"  name="dimensions.height"  placeholder="height"  value=""></span></div> <span class="mt"> <select name="" id="lengthMCM" class="dropmt">  <option value="m">m</option> <option value="cm">cm   </option>  </select> </span> </div> </label> </div></div> <div class="col-md-3"> <div class="form-group mt-4"> <label class="label" for="email_id">Number of   Box<span  style="color:red">*</span></label></label> <div class="weightdiv">  <div class="weightdiv1"><input class="divformcontrolInput qty" type="text" name="cargoWeight"  placeholder="no of boxes"> </div> </div> </div> </div> <div class="col-md-3"> <div class="form-group mt-4"> <label class="label" for="email_id">Weight   of  Box<span  style="color:red">*</span></label></label> <div class="weightdiv">  <div class="weightdiv1"><input class="divformcontrolInput boxweight"   type="text" name="cargoWeight"  placeholder="no of boxes"></div>   <span class="mt"> <select name="" id="weightkg"   class="dropmt">   <option value="kg">kg</option>  <option value="mt">mt</option>  </select> </span> </div> </div> <input type="hidden" class="bal"> </div> </div>';
-//         $('#newRow').append(html);
-// });
 
     $(".add").click(function () {
         var html = '';
@@ -215,7 +245,7 @@ $('.checkboxconta').hide();
         html += '<path fill-rule="evenodd" clip-rule="evenodd" d="M.529 8.529a.667.667 0 00.943.943L5 5.943l3.53 3.529a.667.667 0 10.943-.943L5.942 5l3.53-3.528a.667.667 0 00-.943-.943L5 4.057 1.472.53a.667.667 0 00-.943.943L4.057 5 .53 8.53z" fill="#6E7E92"> </path>';
         html += '</svg></span></span><span class="weightdiv1">';
         html += '<input class="diminput height" type="number" name="dimensions.height" placeholder="height" value=""></span></div>';
-        html += '<span class="mt lbhMT">';
+        html += '<span class="mt">';
         html += 'm';
         html += '</span>';
         html += '</div>';
@@ -234,9 +264,9 @@ $('.checkboxconta').hide();
         html += '<div class="form-group mt-4">';
         html += '<label class="label" for="email_id">Weight of Box<span style="color:red">*</span></label>';
         html += '<div class="weightdiv">';
-        html += '<div class="weightdiv1"><input class="divformcontrolInput boxweight" type="text" name="cargoWeight" placeholder="no of boxes"> </div>';
-        html += '<span class="mt weightKG">';
-        html += 'kg';
+        html += '<div class="weightdiv1"><input class="divformcontrolInput boxweight" type="text" name="cargoWeight" placeholder="Weight"> </div>';
+        html += '<span class="mt">';
+        html += 'mt';
         html += ' </span>';
         html += '</div>';
         html += '</div>';

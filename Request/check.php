@@ -115,14 +115,18 @@
                                                 style="color:red">
                                                 *</span></label>
                                     </div>
-                                    <div class="divformcargoinput">
-                                    <select name="" id="lengthMCM"
-                                                                                        class="form-control">
-                                                                                        <option value="kg">kg</option>
-                                                                                        <option value="mt">mt
-                                                                                        </option>
-                                                                                    </select>
-                                                                                    </div>
+                                    <div class="weightdiv">
+                                                                    <div class="weightdiv1"><input
+                                                                            class="divformcontrolInput" type="text"
+                                                                            name="hsnetweight" placeholder="Net Weight"
+                                                                           >
+                                                                    </div><span class="mt">
+                                                                        <select name="" id="" class="dropmt">
+                                                                            <option value="mt">mt</option>
+                                                                            <option value="kg">kg</option>
+                                                                        </select>
+                                                                    </span>
+                                                                </div>
                                 </div>
                             </div>
                         </div>
@@ -359,6 +363,7 @@
                                                                             style="color:red">*</span></label>
                                                                     <select class="form-control trans"
                                                                         name="seaTransport">
+                                                                        <option selected disabled>Select Load Type</option>
                                                                         <option value="Full container load  FCL">Full
                                                                             container load FCL</option>
                                                                         <option value="Less container load  LCL">Less
@@ -381,6 +386,7 @@
                                                                             style="color:red">*</span></label>
                                                                     <select class="form-control roadraltrans"
                                                                         name="landtrans">
+                                                                        <option selected disabled>Select Transportation</option>
                                                                         <optgroup label="Road">
                                                                             <option>Full truck load FTL</option>
                                                                         </optgroup>
@@ -405,6 +411,7 @@
                                                                         BY <span style="color:red">*</span></label>
                                                                     <select class="form-control airtrans"
                                                                         name="airtrans">
+                                                                        <option selected disabled>Select Transportation</option>
                                                                         <optgroup label="Air">
                                                                             <option>Standard cargo</option>
                                                                             <option>ULD container</option>
@@ -523,14 +530,9 @@
                                                                                             name="dimensions.height"
                                                                                             placeholder="height"
                                                                                             value=""></span></div>
-                                                                                <span class="mt">
-                                                                                    <select name="" id="lengthMCM"
-                                                                                        class="dropmt">
-                                                                                        <option value="m">m</option>
-                                                                                        <option value="cm">cm
-                                                                                        </option>
-                                                                                    </select>
-                                                                                </span>
+                                                                                            <span class="mt">
+                                                                        m 
+                                                                    </span>
                                                                             </div>
                                                                         </label>
                                                                     </div>
@@ -562,12 +564,8 @@
                                                                                     placeholder="Weight">
                                                                             </div>
                                                                             <span class="mt">
-                                                                                <select name="" id="weightkg"
-                                                                                    class="dropmt">
-                                                                                    <option value="kg">kg</option>
-                                                                                    <option value="mt">mt</option>
-                                                                                </select>
-                                                                            </span>
+                                                                        mt
+                                                                    </span>
                                                                         </div>
                                                                     </div>
                                                                     <input type="hidden" class="bal">
@@ -592,8 +590,8 @@
                                                                 <div class="weightdiv">
                                                                     <div class="weightdiv1"><input
                                                                             class="divformcontrolInput" type="text"
-                                                                            name="cargoWeight" placeholder="Weight"
-                                                                            value="766">
+                                                                            name="cargoWeight"
+                                                                            >
                                                                     </div><span class="mt">
                                                                         <select name="" id="" class="dropmt">
                                                                             <option value="mt">mt</option>
@@ -610,8 +608,7 @@
                                                                 <div class="weightdiv">
                                                                     <div class="weightdiv1"><input
                                                                             class="divformcontrolInput" type="text"
-                                                                            name="cargoWeight" placeholder="Weight"
-                                                                            value="766">
+                                                                            name="cargoWeight">
                                                                     </div><span class="mt">
                                                                         m <sub>3</sub>
                                                                     </span>
@@ -861,7 +858,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row">
+                                                <div class="row checkfactory">
                                                     <div class="col-md-12">
                                                         <div class="associatemaindiv">
                                                             <div class="assodiv">
