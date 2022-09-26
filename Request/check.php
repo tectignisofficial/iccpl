@@ -109,7 +109,20 @@
                                             <input type="tel" class="divforminputControl divforminputControl1"
                                                 name="hscode" minlength="10" maxlength="10"
                                                 placeholder="Enter HS code"></span></span>
+                                                
                                     </div>
+                                    <div class="divformcargohead mt-5"><label class="label">Net Weight<span
+                                                style="color:red">
+                                                *</span></label>
+                                    </div>
+                                    <div class="divformcargoinput">
+                                    <select name="" id="lengthMCM"
+                                                                                        class="form-control">
+                                                                                        <option value="kg">kg</option>
+                                                                                        <option value="mt">mt
+                                                                                        </option>
+                                                                                    </select>
+                                                                                    </div>
                                 </div>
                             </div>
                         </div>
