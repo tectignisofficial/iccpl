@@ -1,24 +1,25 @@
 <?php
 include("include/config.php");
 
-if(isset($_POST['submit'])){
+// if(isset($_POST['submit'])){
 
  
-    $name=$_POST['name'];
-    $company_email=$_POST['company_email'];
-    $contact_no=$_POST['contact_no'];
-    $job_title=$_POST['job_title'];
-    $company=$_POST['company'];
-    $country=$_POST['country'];
-    $state=$_POST['state'];
-    $industry=$_POST['industry'];
-    $meeting_agenda=$_POST['meeting_agenda'];
+//     $name=$_POST['name'];
+//     $company_email=$_POST['company_email'];
+//     $contact_no=$_POST['contact_no'];
+//     $job_title=$_POST['job_title'];
+//     $company=$_POST['company'];
+//     $country=$_POST['country'];
+//     $state=$_POST['state'];
+//     $industry=$_POST['industry'];
+//     $meeting_agenda=$_POST['meeting_agenda'];
+//     $date=$_POST['date'];
    
     
   
-    $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`company_email`,`contact_no`,`job_title`,`company`,`country`,`state`,`industry`,`meeting_agenda`) 
-    VALUES ('$name','$company_email','$contact_no','$job_title','$company','$country','$state','$industry','$meeting_agenda')");
-  }
+//     $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`company_email`,`contact_no`,`job_title`,`company`,`country`,`state`,`industry`,`meeting_agenda`) 
+//     VALUES ('$name','$company_email','$contact_no','$job_title','$company','$country','$state','$industry','$meeting_agenda')");
+//   }
 
 if(isset($_GET['delid'])){
     $id=mysqli_real_escape_string($conn,$_GET['delid']);
@@ -122,6 +123,7 @@ if(isset($_GET['delid'])){
                     <th>State</th>
                     <th>Industry</th>
                     <th>Meeting Agenda</th>
+                    <th>Meeting Date</th>
                     <th>Action</th>
 
                 </tr>
@@ -144,6 +146,7 @@ if(isset($_GET['delid'])){
                                         <td><?php echo $arr['state'];?> </td>
                                         <td><?php echo $arr['industry'];?> </td>
                                         <td><?php echo $arr['meeting_agenda'];?> </td>
+                                        <th><?php echo $arr['date'];?></th>
                                          <td>
                       
 

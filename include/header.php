@@ -20,7 +20,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
           <li><a class="nav-link scrollto <?= $page == 'blog.php' ? 'active':'' ?>" href="blog.php">Blog</a></li>
          
          
-          <li><a class="getstarted scrollto <?= $page == 'check.php' ? 'active':'' ?>" href="Request/check.php">REQUEST A QUOTE
+          <li><a class="getstarted scrollto <?= $page == 'check.php' ? 'active':'' ?>" href="check.php">REQUEST A QUOTE
 </a></li>
 <li><a class="getstarted scrollto <?= $page == 'contact.php' ? 'active':'' ?>" href="contact.php">Book An Appointment</a></li>
         </ul>

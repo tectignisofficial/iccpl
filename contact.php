@@ -1,20 +1,24 @@
 <?php
-include('admin/include/config.php');
+include('admin_iccpl/include/config.php');
 
 
 if(isset($_POST['submit'])){
 
  
   $name=$_POST['name'];
-  $email=$_POST['email'];
+  $company_email=$_POST['company_email'];
   $contact_no=$_POST['contact_no'];
-  $company_name=$_POST['company_name'];
-  $meeting_date=$_POST['meeting_date'];
+  $job_title=$_POST['job_title'];
+  $company=$_POST['company'];
+  $country=$_POST['country'];
+  $state=$_POST['state'];
+  $industry=$_POST['industry'];
+  $date=$_POST['date'];
   $meeting_agenda=$_POST['meeting_agenda'];
   
   
-  $sql=mysqli_query($conn,"INSERT INTO `contact`(`name`,`email`,`contact_no`,`company_name`,`meeting_date`,`meeting_agenda`) 
-  VALUES ('$name','$email','$contact_no','$company_name','$meeting_date','$meeting_agenda')");
+  $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`company_email`,`contact_no`,`job_title`,`company`,`country`,`state`,`industry`,`date`,`meeting_agenda`) 
+  VALUES ('$name','$company_email','$contact_no','$job_title','$company','$country','$state','$industry','$date','$meeting_agenda')");
 
 if($sql==1){
     header("location:contact.php");
@@ -108,16 +112,28 @@ else{
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input type="email" class="form-control" name="company_email" id="company_email" placeholder="Your Company Email" required>
               </div>
               <div class="form-group">
                 <input type="tel" class="form-control" name="contact_no" id="contact_no" placeholder="Your Conatact Number" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="company_name" id="company_name" placeholder="Your Company Name" required>
+                <input type="text" class="form-control" name="job_title" id="job_title" placeholder="Your Job Title" required>
               </div>
               <div class="form-group">
-                <input type="date" class="form-control" name="meeting_date" id="meeting_date" placeholder="Your Meeting Date" required>
+                <input type="text" class="form-control" name="company" id="company" placeholder="Your Company Name" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="country" id="country" placeholder="Your Country" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="state" id="state" placeholder="Your State" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="industry" id="industry" placeholder="Your Industry" required>
+              </div>
+              <div class="form-group">
+                <input type="date" class="form-control" name="date" id="date" placeholder="Your Meeting Date" required>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="meeting_agenda" rows="5" placeholder="Agenda Of Meeting" required></textarea>
