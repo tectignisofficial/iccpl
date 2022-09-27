@@ -162,6 +162,7 @@ $('.checkboxconta').hide();
     $('.perishableout').hide();
     $('.haraout').hide();
     $('.odcout').hide();
+
     $('.Generalcargo').click(function(){
         $('.perishableout').hide();
         $('.haraout').hide();
@@ -169,6 +170,8 @@ $('.checkboxconta').hide();
         $('#air').show();
         $('#land').show();
         $('#sea').show();
+        $(this).parent().addClass("selectedCargo");
+        $(this).parent().siblings().removeClass("selectedCargo");
     });
 
     $('.Perishablecargo').click(function(){
@@ -178,6 +181,8 @@ $('.checkboxconta').hide();
         $('#air').show();
         $('#land').show();
         $('#sea').show();
+        $(this).parent().addClass("selectedCargo");
+        $(this).parent().siblings().removeClass("selectedCargo");
     });
 
     $('.Harardouscargo').click(function(){
@@ -186,6 +191,8 @@ $('.checkboxconta').hide();
         $('.odcout').hide();
         $('#air').hide();
         $('#land').show();
+        $(this).parent().addClass("selectedCargo");
+        $(this).parent().siblings().removeClass("selectedCargo");
     });
 
     $('.ODCcargo').click(function(){
@@ -194,6 +201,8 @@ $('.checkboxconta').hide();
         $('.haraout').hide();
         $('#land').hide();
         $('#air').hide();
+        $(this).parent().addClass("selectedCargo");
+        $(this).parent().siblings().removeClass("selectedCargo");
     });
 
     $('.remove').hide();
