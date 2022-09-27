@@ -142,13 +142,13 @@ include("include/sidebar.php");
                 <div class="card-body">
                   <div class="form-group row">
                     <div class="col-sm-12">
-                      <label>Meta Title</label>
+                      <label>Meta Title</label>Meta Description
                       <input type="text" name="meta_title" class="form-control" id="meta_title" placeholder="Meta Title">
                     </div>
                   </div>
                   <div class="form-group row">
                     <div class="col-sm-12">
-                      <label>Meta Description</label>
+                      <label></label>
                       <input type="text" name="meta_description" class="form-control" id="meta_description "
                         placeholder="Meta Description">
                     </div>
