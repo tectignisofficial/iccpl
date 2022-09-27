@@ -15,11 +15,13 @@ include('admin/include/config.php');
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-    <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -54,7 +56,7 @@ include('admin/include/config.php');
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
-        
+
       </div>
     </section><!-- End Breadcrumbs -->
 
@@ -62,9 +64,9 @@ include('admin/include/config.php');
     <!-- ======= More Services Section ======= -->
     <section id="more-services" class="more-services">
       <div class="container">
-      
+
         <div class="row">
-        <?php 
+          <?php 
                       
                       $sql=mysqli_query($conn,"select * from `blog`");
                    
@@ -73,31 +75,35 @@ include('admin/include/config.php');
           <div class="col-md-6 d-flex align-items-stretch" style="
     margin-bottom: 15px;
 ">
-            <div class="card" style='background-image: url("admin/dist/img/blog/<?php echo $arr['image'];?>");' data-aos="fade-up" data-aos-delay="100">
+            <div class="card" style='background-image: url("admin/dist/img/blog/<?php echo $arr['image'];?>");'
+              data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
-                <h5 class="card-title"><a href="blog_detail.php?id=<?php echo $arr['id']; ?>"><?php echo $arr['title'];?></a></h5>
-                
-                <div class="read-more"><a href="blog_detail.php?id=<?php echo $arr['id']; ?>"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <h5 class="card-title"><a
+                    href="blog_detail.php?id=<?php echo $arr['id']; ?>"><?php echo $arr['title'];?></a></h5>
+
+                <div class="read-more"><a href="blog_detail.php?id=<?php echo $arr['id']; ?>"><i
+                      class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
           </div>
-          
-          
-          <?php    } ?>  
+
+
+          <?php    } ?>
         </div>
-      
+
       </div>
     </section><!-- End More Services Section -->
-    
-    
+
+
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-    <?php include"include/f.php";?>
+  <?php include"include/f.php";?>
   <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
