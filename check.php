@@ -37,7 +37,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
     <style>
-
+.btn-outline-warning{
+    background-color: #f1cc8361;
+  color: #f39015;
+  font-weight:500;
+  border:2px solid #f39015;
+  padding: 8px 25px;
+  border-radius: 50px;
+}
+.btn-outline-warning:hover{
+    background-color: #ff9d24;
+  color: #fff;
+}
     </style>
 </head>
 
@@ -162,7 +173,7 @@
                                         <!--------- Old dropdown --------->
 
                                         <div class="weightdiv parent">
-                                            <div class="weightdiv1"><input class="divformcontrolInput" type="text"
+                                            <div class="weightdiv1"><input class="divformcontrolInput" id="netWeight" type="text"
                                                     name="hsnetweight" placeholder="Net Weight">
                                             </div><span class="mt">
                                                 <select name="" id="" class="dropmt">
@@ -385,19 +396,17 @@
                                                         <li class="nav-item">
                                                             <a class="nav-link active" id="sea" data-toggle="tab"
                                                                 href="#sea_form" role="tab" aria-controls="login"
-                                                                aria-selected="true"><i class='fas fa-ship'></i>Sea</a>
+                                                                aria-selected="true">Sea</a>
                                                         </li>
                                                         <li class="nav-item">
                                                             <a class="nav-link" id="land" data-toggle="tab"
                                                                 href="#land_form" role="tab" aria-controls="land"
-                                                                aria-selected="false"><i class="fa fa-road"
-                                                                    aria-hidden="true"></i>Land</a>
+                                                                aria-selected="false">Land</a>
                                                         </li>
                                                         <li class="nav-item">
                                                             <a class="nav-link" id="air" data-toggle="tab"
                                                                 href="#air_form" role="tab" aria-controls="air"
-                                                                aria-selected="false"><i class="fa fa-plane"
-                                                                    aria-hidden="true"></i>Air</a>
+                                                                aria-selected="false"></i>Air</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -653,9 +662,9 @@
                                                                         for="email_id">Weight of
                                                                         Box<span
                                                                             style="color:red">*</span></label></label>
-                                                                    <div class="weightdiv">
+                                                                    <div class="weightdiv parent1">
                                                                         <div class="weightdiv1"><input
-                                                                                class="divformcontrolInput" type="text"
+                                                                                class="divformcontrolInput" id="weightOfBox" type="text"
                                                                                 name="cargoWeight">
                                                                         </div><span class="mt">
                                                                             <select name="" id="" class="dropmt">
@@ -671,10 +680,10 @@
                                                                     <label class="label volumeChangeName"
                                                                         for="email_id">Volume<span
                                                                             style="color:red">*</span></label></label>
-                                                                    <div class="weightdiv">
+                                                                    <div class="weightdiv parent2">
                                                                         <div class="weightdiv1"><input
                                                                                 class="divformcontrolInput" type="text"
-                                                                                name="cargoWeight">
+                                                                                name="cargoWeight" id="volume">
                                                                         </div><span class="mt">
                                                                             m <sub>3</sub>
                                                                         </span>
@@ -968,34 +977,34 @@
                                 <h3 class="divhead divformheading">Integrated Services</h3>
                                 <div class="">
                                     <div class="associatemaindiv">
-                                        <div class="assodiv">
+                                        <div class="assodiv mt-3">
                                             <label class="checklabel mt-2"><span class="checkspan"><input
                                                         class="checkinput checkservices" type="checkbox"
                                                         name="services"><span
                                                         class="checktext">Insurance</span></span></label>
 
                                         </div>
-                                        <div class="assodiv warHous">
+                                        <div class="assodiv mt-3 warHous">
                                             <label class="checklabel mt-2"><span class="checkspan"><input
                                                         class="checkinput" type="checkbox" name="services"><span
                                                         class="checktext">Warehouse</span></span></label>
                                         </div>
-                                        <div class="assodiv insSer">
+                                        <div class="assodiv mt-3 insSer">
                                             <label class="checklabel mt-2"><span class="checkspan"><input
                                                         class="checkinput" type="checkbox" name="services"><span
                                                         class="checktext">Inspection Services</span></span></label>
                                         </div>
-                                        <div class="assodiv certificate">
+                                        <div class="assodiv mt-3 certificate">
                                             <label class="checklabel mt-2"><span class="checkspan"><input
                                                         class="checkinput" type="checkbox" name="services"><span
                                                         class="checktext">Certification</span></span></label>
                                         </div>
-                                        <div class="assodiv roadTransportation">
+                                        <div class="assodiv mt-3 roadTransportation">
                                             <label class="checklabel mt-2"><span class="checkspan"><input
                                                         class="checkinput" type="checkbox" name="services"><span
                                                         class="checktext">Road Transport</span></span></label>
                                         </div>
-                                        <div class="assodiv">
+                                        <div class="assodiv mt-3">
                                             <label class="checklabel mt-2"><span class="checkspan"><input
                                                         class="checkinput" type="checkbox" name="services"><span
                                                         class="checktext">Customs
@@ -1022,7 +1031,7 @@
                             </div>
                             <div class="divformhead divformwidth">
                                 <div class="form-group">
-                                    <input type="submit" class="btn btn-primary" name="send" value="Submit">
+                                    <input type="submit" class="btn btn-outline-warning" name="send" value="Submit">
                                 </div>
                             </div>
                     </div>
@@ -1031,23 +1040,15 @@
                 </div>
             </div>
         </div>
-<<<<<<< HEAD:check.php
     </div>
     </div>
 </main>
 <?php include"include/f.php";?>
   <!-- End Footer -->
-=======
-        </div>
-    </main>
-    <?php include"../include/f.php";?>
-    <!-- End Footer -->
->>>>>>> 401d1819985519781bb9ebeaeead005307ca5d7e:Request/check.php
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
-<<<<<<< HEAD:check.php
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -1059,19 +1060,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-=======
-    <!-- Vendor JS Files -->
-    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="../assets/vendor/aos/aos.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="../assets/js/main.js"></script>
->>>>>>> 401d1819985519781bb9ebeaeead005307ca5d7e:Request/check.php
 
     <script src="query.js"></script>
     <script>
@@ -1087,12 +1075,28 @@
 
         // });
 
-        $('.divformcontrolInput')
+        $('#netWeight')
     .focus(function() {
         $('.parent').addClass('focused');
     })
     .blur(function() {
         $('.parent').removeClass('focused');
+    });
+
+    $('#weightOfBox')
+    .focus(function() {
+        $('.parent1').addClass('focused');
+    })
+    .blur(function() {
+        $('.parent1').removeClass('focused');
+    });
+
+    $('#volume')
+    .focus(function() {
+        $('.parent2').addClass('focused');
+    })
+    .blur(function() {
+        $('.parent2').removeClass('focused');
     });
     </script>
 </body>
