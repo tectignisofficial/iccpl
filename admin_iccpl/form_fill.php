@@ -1,41 +1,56 @@
+<?php
+include("include/config.php");
+
+?>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Favicons -->
-    <link href="assets/img/logo.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description"
+        content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Bootstrap Tables - Vuexy - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
         rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
+    <!-- END: Vendor CSS-->
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/footer.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
-        type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <!-- END: Page CSS-->
+
     <style>
         .btn-outline-warning {
             background-color: #f1cc8361;
@@ -50,14 +65,31 @@
             background-color: #ff9d24;
             color: #fff;
         }
+        .card-head{
+            padding:30px;
+        }
     </style>
 </head>
+<!-- END: Head-->
 
-<body>
-    <?php include('include/header.php') ?>
-    <main id="main">
-        <div class="main mb-3" style="margin-top:10%">
-            <div class="section">
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="">
+
+    <!-- BEGIN: Header-->
+    <?php include"include/header.php";?>
+    <!-- END: Header-->
+    <?php include"include/sidebar.php";?>
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content ">
+        <!-- <div class="content-overlay"></div> -->
+        <!-- <div class="header-navbar-shadow"></div> -->
+        <!-- <div class="content-wrapper container-xxl p-0"> -->
+ <main id="main">
+        <div class="main mb-3">
+            <div class="">
                 <div class="card">
                     <div class="card-head">
                         <div>
@@ -70,7 +102,7 @@
                                 logistics providers.</span>
 
                         </div> -->
-                        <form action="formaction.php" class="divform" method="post" enctype="multipart/form-data">
+                        <form action="../formaction.php" class="divform" method="post" enctype="multipart/form-data">
                             <div class="divformhead divformwidth">
                                 <h3 class="divhead divformheading">Enquiry Form</h3>
                                     <div class="row">
@@ -955,7 +987,7 @@
                                                         <div class="col-md-12">
                                                             <div class="associatemaindiv">
                                                                 <div class="assodiv">
-                                                                    <label class="checklabel mt-2"><span
+                                                                    <label class="checklabel py-1"><span
                                                                             class="checkspan"><input class="checkinput "
                                                                                 type="checkbox" value="Factory
                                                                                 Stuffing" name="Stuffing[]"><span
@@ -964,7 +996,7 @@
 
                                                                 </div>
                                                                 <div class="assodiv">
-                                                                    <label class="checklabel mt-2"><span
+                                                                    <label class="checklabel py-1"><span
                                                                             class="checkspan"><input class="checkinput"
                                                                                 type="checkbox" value="Dock
                                                                                 Stuffing" name="Stuffing[]"><span
@@ -972,7 +1004,7 @@
                                                                                 Stuffing</span></span></label>
                                                                 </div>
                                                                 <div class="assodiv">
-                                                                    <label class="checklabel mt-2"><span
+                                                                    <label class="checklabel py-1"><span
                                                                             class="checkspan"><input class="checkinput"
                                                                                 type="checkbox" value="On the
                                                                                 Wheel" name="Stuffing[]"><span
@@ -996,33 +1028,33 @@
                                 <div class="">
                                     <div class="associatemaindiv">
                                         <div class="assodiv mt-3">
-                                            <label class="checklabel mt-2"><span class="checkspan"><input
+                                            <label class="checklabel py-1"><span class="checkspan"><input
                                                         class="checkinput checkservices" type="checkbox"
                                                         name="services[]" value="Insurance"><span class="checktext">Insurance</span></span></label>
 
                                         </div>
                                         <div class="assodiv mt-3 warHous">
-                                            <label class="checklabel mt-2"><span class="checkspan"><input
+                                            <label class="checklabel py-1"><span class="checkspan"><input
                                                         class="checkinput" value="Warehouse" type="checkbox" name="services[]"><span
                                                         class="checktext" >Warehouse</span></span></label>
                                         </div>
                                         <div class="assodiv mt-3 insSer">
-                                            <label class="checklabel mt-2"><span class="checkspan"><input
+                                            <label class="checklabel py-1"><span class="checkspan"><input
                                                         class="checkinput" value="Inspection Services" type="checkbox" name="services[]"><span
                                                         class="checktext">Inspection Services</span></span></label>
                                         </div>
                                         <div class="assodiv mt-3 certificate">
-                                            <label class="checklabel mt-2"><span class="checkspan"><input
+                                            <label class="checklabel py-1"><span class="checkspan"><input
                                                         class="checkinput" type="checkbox" value="Certification" name="services[]"><span
                                                         class="checktext">Certification</span></span></label>
                                         </div>
                                         <div class="assodiv mt-3 roadTransportation">
-                                            <label class="checklabel mt-2"><span class="checkspan"><input
+                                            <label class="checklabel py-1"><span class="checkspan"><input
                                                         class="checkinput" type="checkbox" value="Road Transport" name="services[]"><span
                                                         class="checktext">Road Transport</span></span></label>
                                         </div>
                                         <div class="assodiv mt-3">
-                                            <label class="checklabel mt-2"><span class="checkspan"><input
+                                            <label class="checklabel py-1"><span class="checkspan"><input
                                                         class="checkinput" type="checkbox"  value="Customs clearance" name="services[]"><span
                                                         class="checktext">Customs clearance</span></span></label>
                                         </div>
@@ -1048,7 +1080,7 @@
                             </div>
                             <div class="divformhead divformwidth">
                                 <div class="form-group">
-                                    <input type="submit" class="btn btn-outline-warning" name="send" value="Submit">
+                                    <input type="submit" class="btn btn-outline-warning" name="adminsend" value="Submit">
                                 </div>
                             </div>
                     </div>
@@ -1057,29 +1089,94 @@
                 </div>
             </div>
         </div>
-        </div>
-        </div>
+       
     </main>
-    <?php include"include/f.php";?>
-    <!-- End Footer -->
+        <!-- </div> -->
+    </div>
+    <!-- edit customer -->
+   
+    <!--/ edit customer -->
+    </div>
+    <!-- view customer end -->
+    <!-- END: Content-->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- BEGIN: Footer-->
+    <?php include"include/footer.php";?>
+    <!-- END: Footer-->
+    
+    <!-- BEGIN: Vendor JS-->
+    <script src="app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <!-- BEGIN: Theme JS-->
+    <script src="app-assets/js/core/app-menu.js"></script>
+    <script src="app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
 
-    <script src="query.js"></script>
+    <!-- BEGIN: Page JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="app-assets/js/scripts/tables/table-datatables-basic.js"></script>
+    <!-- END: Page JS-->
+    <!-- END: Page JS-->
+
+
+    <script src="plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="plugins/jszip/jszip.min.js"></script>
+    <script src="plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <script src="app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+    <script src="assets/form_jquery.js"></script>
+
     <script>
+        $(function () {
+            $("#example1").DataTable({
+                "responsive": true,
+                "lengthChange": true,
+                "autoWidth": false,
+                // "buttons": ["copy", "csv", "excel", "pdf", "print"]
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+
+        });
+    </script>
+
+    <script>
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+ <script>
+            $(document).on("click", "#view", function () {
+            let formmodal = $(this).data('id');
+            $.ajax({
+            url: 'enquiry_modal.php',
+            type: 'post',
+            data: {formmodal: formmodal},
+            success: function(data){ 
+              $('#body').html(data);
+              $('#addNewCard').modal('show'); 
+            }
+          });
+          });
+          </script>
+
+<script>
         $('#netWeight')
             .focus(function () {
                 $('.parent').addClass('focused');
@@ -1105,5 +1202,6 @@
             });
     </script>
 </body>
+<!-- END: Body-->
 
 </html>

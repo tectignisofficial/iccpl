@@ -115,7 +115,7 @@ else{
                 <input type="email" class="form-control" name="company_email" id="company_email" placeholder="Your Company Email" required>
               </div>
               <div class="form-group">
-                <input type="tel" class="form-control" name="contact_no" id="contact_no" placeholder="Your Conatact Number" required>
+                <input type="tel" class="form-control" minlength="10" maxlength="10" name="contact_no" id="contact_no" placeholder="Your Conatact Number" required>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="job_title" id="job_title" placeholder="Your Job Title" required>

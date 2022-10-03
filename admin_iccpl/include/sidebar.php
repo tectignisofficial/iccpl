@@ -38,9 +38,11 @@
                 </li>
                
                 <li class=" nav-item"><a class="d-flex align-items-center" href="enquiry.php"><i data-feather="user"></i><span class="menu-title text-truncate" data-i18n="User">Enquiry</span></a></li>
+
+                <!-- <li class=" nav-item"><a class="d-flex align-items-center" href="form_data.php"><i data-feather="user"></i><span class="menu-title text-truncate" data-i18n="User">Form Data</span></a></li> -->
                
                         
-                <li class=" nav-item"><a class="d-flex align-items-center" href="requestaquote.php"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Request A Quote</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="form_data.php"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Request A Quote</span></a>
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="logout.php"><i data-feather="log-out"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Logout</span></a>
                 </li>
