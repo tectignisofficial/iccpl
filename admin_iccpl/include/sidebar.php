@@ -35,17 +35,17 @@
         <div class="shadow-bottom"></div>
         <div class="main-menu-content">
             <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-                <li class=" nav-item"><a href="index.php" class="d-flex align-items-center nav-link  <?= $page == 'index.php' ? 'active':'' ?>"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboards</span></a>
+                <li class="nav-item <?= $page == 'index.php' ? 'active':'' ?>"><a href="index.php" class="d-flex align-items-center nav-link"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboards</span></a>
                 </li>
                
-                <li class=" nav-item"><a href="enquiry.php"  class="d-flex align-items-center nav-link <?= $page == 'enquiry.php' ? 'active':'' ?>"><i data-feather="user"></i><span class="menu-title text-truncate" data-i18n="User">Enquiry</span></a></li>
+                <li class="nav-item <?= $page == 'enquiry.php' ? 'active':'' ?>"><a href="enquiry.php"  class="d-flex align-items-center nav-link"><i data-feather="user"></i><span class="menu-title text-truncate" data-i18n="User">Enquiry</span></a></li>
 
                 <!-- <li class=" nav-item"><a class="d-flex align-items-center" href="form_data.php"><i data-feather="user"></i><span class="menu-title text-truncate" data-i18n="User">Form Data</span></a></li> -->
                
                         
-                <li class=" nav-item"><a href="form_data.php" class="d-flex align-items-center nav-link  <?= $page == 'form_data.php' ? 'active':'' ?>"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Request A Quote</span></a>
+                <li class=" nav-item <?= $page == 'form_data.php' ? 'active':'' ?>"><a href="form_data.php" class="d-flex align-items-center nav-link"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Request A Quote</span></a>
                 </li>
-                <li class=" nav-item"><a href="logout.php"  class="d-flex align-items-center nav-link <?= $page == 'logout.php' ? 'active':'' ?>"><i data-feather="log-out"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Logout</span></a>
+                <li class=" nav-item <?= $page == 'logout.php' ? 'active':'' ?>"><a href="logout.php"  class="d-flex align-items-center nav-link"><i data-feather="log-out"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Logout</span></a>
                 </li>
             </ul>
         </div>
