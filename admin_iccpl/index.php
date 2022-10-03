@@ -2,7 +2,6 @@
 include("include/config.php");
 session_start();
 
-$id=$_SESSION['id'];
 if(!isset($_SESSION['id']))
 {                                                                                       
   header("location:login.php");
