@@ -1,3 +1,13 @@
+<?php
+include("include/config.php");
+session_start();
+
+$id=$_SESSION['id'];
+if(!isset($_SESSION['id']))
+{                                                                                       
+  header("location:login.php");
+}
+?>
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
 <!-- BEGIN: Head-->
