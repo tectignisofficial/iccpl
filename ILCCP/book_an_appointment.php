@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Logis Bootstrap Template - Get a Quote</title>
+  <title>Book An Appointment</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,15 +28,19 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Logis - v1.2.0
-  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
+<style>
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
 <body>
 
   <!-- ======= Header ======= -->
@@ -68,30 +72,56 @@
             <form action="forms/quote.php" method="post" class="php-email-form">
               <div class="row gy-4">
                 <div class="col-lg-12">
-                  <h3 class="text-center">Contact Us</h3>
+                  <h3 class="text-center mb-5">Contact Us</h3>
                 </div>
-
-                <div class="col-md-12">
+                <div class="row">
+                <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Name" required>
                 </div>
 
-                <div class="col-md-12 ">
+                <div class="col-md-6 ">
                   <input type="email" class="form-control" name="email" placeholder="Email" required>
                 </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                  <input type="number" class="form-control" name="phone" placeholder="Phone" required>
                 </div>
 
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="job" placeholder="Job Title" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="company" placeholder="company Name" required>
                 </div>
 
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="country" placeholder="Country" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="state" placeholder="state" required>
+                </div>
+
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="industry" placeholder="Industry" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="date" class="form-control" name="date" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Agenda Of Meeting" required></textarea>
+                </div>
+              </div>
+            
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
                   <button type="submit">Send Message</button>
                 </div>
 
@@ -107,74 +137,8 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span>Logis</span>
-          </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-          <div class="social-links d-flex mt-4">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
-          </p>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container mt-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Logis</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-
-  </footer><!-- End Footer -->
+  <?php include("include/footer.php");?>
+  <!-- End Footer -->
   <!-- End Footer -->
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

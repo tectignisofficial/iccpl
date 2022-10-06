@@ -89,8 +89,8 @@
           </div>
           <div class="col-lg-6 content order-last  order-lg-first">
             <h3 class="text-center">About Us</h3>
-            <p>As a global transportation management leader, We helps companies grow. We expand their access to markets all over the world, so they can sell and procure raw materials, components and finished goods.</p>
-            <p>After more than 40 years in business as a global transportation provider, our consultative approach coupled with a vast worldwide network has forged trusted partnerships across nearly every industry, including aerospace, e-commerce, food, government, healthcare, life sciences, retail and more.</p>
+            <p>M/s. Intracontinent Logichem Corporation Private Limited (ILCCPL) Is One Of The Leading High Technology Products And Services Company With Business Interests In Supply-Chain Management, Chemical/Petrochemical, Agro And Specialized Engineering Project Services. Each segment is an independent business Division with acknowledged leader associations for providing Product and Service solutions to our customers. With its in-depth knowledge of the Indian market, ILCCPL, provides comprehensive service solutions to its customers, principals and other global corporations. An ideal strategic partner for global corporations desirous of entering the Indian market.</p>
+            <p>Our partnership with acknowledged world leaders and in depth knowledge of the Indian market gives us an edge in offering a wide variety of support services to our customers and at the same time providing unparalleled services to our partners for enhancing their market share in India.</p>
             <ul>
               <li data-aos="fade-up" data-aos-delay="100">
                <a href="about.php"><button class="btn btn-primary">Learn More</button></a> 

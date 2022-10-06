@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span>Logis</span>
+          <a class="logo d-flex align-items-center">
+          <img src="assets\img\logohf.jpeg" alt="">
           </a>
           <p>We are located at Mundra,Navi Mumbai,Kandla and Chennai 
             <br>
@@ -48,14 +48,14 @@
           <h4>Contact Us</h4>
           <ul style="list-style-type: none;">
                         <li><b>Head Office</b></li>
-                        <li><i class="bi bi-geo-alt"></i> <a href="#" target="_blank">B-10, 1-4, Sector-1, Vashi, Navi Mumbai, 400703</a></li>
+                        <li><i class="bi bi-geo-alt"></i> <a href="#" target="_blank"> &nbsp; B-10, 1-4, Sector-1, Vashi, Navi Mumbai, 400703</a></li>
                        
                         <li><b>Associate Office locations</b></li>
-                        <li><i class="bi-geo-alt"></i> <a href="#" target="_blank">Mundra, Kandla, Chennai</a>
+                        <li><i class="bi-geo-alt"></i> <a href="#" target="_blank"> &nbsp; Mundra, Kandla, Chennai</a>
                         </li>
                        
                         <li><b>Agent Network</b></li>
-                        <li><i class="bi-geo-alt"></i> <a href="#" target="_blank"> China, Malaysia, USA, Russia, Germany, UK, Africa</a></li>
+                        <li><i class="bi-geo-alt"></i> <a href="#" target="_blank">&nbsp;  China, Malaysia, USA, Russia, Germany, UK, Africa</a></li>
                         
 
                     </ul>
@@ -68,11 +68,11 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-lg-6 col-md-6 col-sm-12" style="text-align:left;">
-                © 2022<a href="#" target="_blank"><b> ILCCP Services</b></a>| All
+                © 2022 <a href="#" target="_blank"><b style="color: rgba(255, 255, 255, 0.6);">ILCCP Services</b></a>| All
                 Rights Reserved
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12"  style="text-align:right;">
-                Designed by <a href="https://tectignis.in" target="_blank"><b>Tectignis IT Solutions.</b></a>
+                Designed by <a href="https://tectignis.in" target="_blank"><b  style="color: rgba(255, 255, 255, 0.6);">Tectignis IT Solutions.</b></a>
             </div>
         </div>
     </div>

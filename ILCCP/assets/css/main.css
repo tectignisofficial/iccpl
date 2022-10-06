@@ -911,6 +911,7 @@ section {
 
 .features .features-item ul li {
   padding-bottom: 10px;
+  
 }
 
 .features .features-item ul li:last-child {
@@ -1429,7 +1430,7 @@ section {
 }
 
 .get-a-quote .php-email-form {
-  background: #f3f6fc;
+  /* background: #f3f6fc; */
   padding: 40px;
   height: 100%;
 }
@@ -1441,7 +1442,7 @@ section {
 }
 
 .get-a-quote .php-email-form h3 {
-  font-size: 14px;
+  /* font-size: 14px; */
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1503,10 +1504,9 @@ section {
 
 .get-a-quote .php-email-form input,
 .get-a-quote .php-email-form textarea {
-  border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  border-radius: 0;
+  border-radius: 10px;
 }
 
 .get-a-quote .php-email-form input:focus,
@@ -1516,10 +1516,13 @@ section {
 
 .get-a-quote .php-email-form input {
   padding: 12px 15px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
 .get-a-quote .php-email-form textarea {
   padding: 12px 15px;
+  margin-top: 15px;
 }
 
 .get-a-quote .php-email-form button[type=submit] {
@@ -1528,7 +1531,8 @@ section {
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 20px;
+  margin-top: 10px;
 }
 
 .get-a-quote .php-email-form button[type=submit]:hover {
@@ -1919,7 +1923,7 @@ section {
 
 .footer .footer-links ul i {
   padding-right: 2px;
-  color: rgba(13, 66, 255, 0.8);
+  /* color: rgba(13, 66, 255, 0.8); */
   font-size: 12px;
   line-height: 0;
 }

@@ -64,42 +64,17 @@
 
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
-
-        <h3 class="text-center">About Us</h3>
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-last">
-            <p>Our network participation is with trusted international counterparts on the other end of the shipment who
-              are equally dedicated to serve your interests. Our cooperating agents take the same care with your
-              shipment as your customer or vendor would.</p>
-            <p>All of our employees are experienced in all aspects of the freight forwarding process including import
-              and export documentation requirements for all types of cargo.</p>
-            <ul style="list-style:none">
-              <li>
-                <i class="fa-solid fa-check-double"></i>
-                Operating worldwide
-              </li>
-              <li>
-                <i class="fa-solid fa-check-double"></i>
-                Professional personnel
-              </li>
-              <li>
-                <i class="fa-solid fa-check-double"></i>
-                End-to-end solutions
-              </li>
-              <li>
-                <i class="fa-solid fa-check-double"></i>
-                Flexible services
-              </li>
-            </ul>
+            <p>Sustainability is at the core of our business. We understand that long term sustainability can be achieved by reducing environmental footprint and increasing economic as well as community development footprint. At Jubilant Enpro, we uncompromisingly adopt an approach which defines sustainability as ’Business as usual‘ Our promise of Caring, Sharing, Growing along with our stakeholders, is the essence of all our activities that are directed towards sustainable growth.
+            As s responsible and employee friendly organisation, we ensure workplace safety of our employees and it is of our prime importance to us to continuously harness to adopt best safety systems. Our people our assets and their welfare is our responsibility. We respect and encourage talent and in our endeavour to bring out the best in our employees, we adopt policies that are formulated to meet their needs</p>
           </div>
           <div class="col-lg-6 content order-first  order-lg-first">
             <p>
-              As a global transportation management leader, We helps companies grow. We expand their access to markets
-              all over the world, so they can sell and procure raw materials, components and finished goods.
-            </p>
-            <p>After more than 40 years in business as a global transportation provider, our consultative approach
-              coupled with a vast worldwide network has forged trusted partnerships across nearly every industry,
-              including aerospace, e-commerce, food, government, healthcare, life sciences, retail and more.</p>
+            M/s. Intracontinent Logichem Corporation Private Limited (ILCCPL) Is One Of The Leading High Technology Products And Services Company With Business Interests In Supply-Chain Management, Chemical/Petrochemical, Agro And Specialized Engineering Project Services.
+          Each segment is an independent business Division with acknowledged leader associations for providing Product and Service solutions to our customers.
+            With its in-depth knowledge of the Indian market, ILCCPL, provides comprehensive service solutions to its customers, principals and other global corporations. An ideal strategic partner for global corporations desirous of entering the Indian market.</p>
+            <p>Our partnership with acknowledged world leaders and in depth knowledge of the Indian market gives us an edge in offering a wide variety of support services to our customers and at the same time providing unparalleled services to our partners for enhancing their market share in India.</p>
           </div>
         </div>
 
@@ -228,9 +203,13 @@
             <img src="assets\img\ab.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 content order-last  order-lg-last">
-          <h3>RELATIONSHIPS MATTER!</h3>
-           <p>For Us, meeting and exceeding the expectations of our customers is the yard stick of our success. It begins by developing collaborative relationships with our clients, listening and understanding the changing requirements of their supply chains, and continually delivering transportation solutions that drive positive results always....
-            We works with you to strategize and identify the best ways to optimize our network to lower your incremental transportation costs and provide better and effecient service. By matching inbound and outbound customer freight flows, we deliver the power of overlapping networks, satisfying carriers by reducing empty miles, which helps you avoid seasonal rate spikes for frieght....</p>
+          <h3 class="mt-5">RELATIONSHIPS MATTER!</h3>
+           <p>The top management team of committed people anchors a company effectively to its goal of offering customized solutions to its clients. Equipped with technical expertise, excellent domain knowledge and extensive cross-functional experience, they nurture interactive relationships with the client community.
+        With the aforesaid qualities the Intracontinent Logichem Corporation Pvt. Ltd.(ILCCPL), top management team drives the company towards its goals and objectives with their innovative ideas and effective leadership qualities. </p>
+        
+       <p> The company is rapidly progressing due to their consistent efforts towards customer satisfaction through quality services.
+        To ensure that ILCCPL offers timely, services of high standards, its top management highlights the main priority as putting in place and maintaining adequately staffed, well-structured services, supported by latest information technologies and equipment.
+        The commitment of ILCCPL's top management team helps in keeping the wheels of progress to turn smoothly by meeting the specific of our esteemed clients.</p>
           
           </div>
         </div>

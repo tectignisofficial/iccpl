@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Services</title>
+  <title>Supply Chain</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -52,7 +52,7 @@
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-              <h2>Services</h2>
+              <h2>Supply Chain Management Division</h2>
             </div>
           </div>
         </div>
@@ -64,8 +64,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Services</h2>
-          <h6>Explore Our Supply Chain Services</h6>
+          <!-- <h2>Supply Chain Management System</h2>
+          <h6>Explore Our Supply Chain Services</h6> -->
         </div>
 
         <div class="row gy-4">
