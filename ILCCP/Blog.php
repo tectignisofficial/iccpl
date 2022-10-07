@@ -80,8 +80,8 @@ include('../admin/include/config.php');
                        while($arr=mysqli_fetch_array($sql)){
                       ?>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="card">
-              <div class="card-img">
+            <div class="card"style="border-radius:2%">
+              <div class="card-img" style="border-radius:2%">
                 <img src="../admin/dist/img/blog/<?php echo $arr['image'];?>"); alt="" class="img-fluid">
               </div>
               <h3><a href="blog_detail.php?id=<?php echo $arr['id']; ?>"><?php echo $arr['title'];?></a></h3>

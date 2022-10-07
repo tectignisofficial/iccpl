@@ -37,10 +37,10 @@
           <h4>Useful Links</h4>
           <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="aboutus.php">About us</a></li>
+            <li><a href="about.php">About us</a></li>
             <li><a href="service.php">Services</a></li>
             <li><a href="blog.php">Blog</a></li>
-            <li><a href="contact.php">contact</a></li>
+            <li><a href="book_an_appointment.php">Contact</a></li>
           </ul>
         </div>
 
@@ -48,14 +48,14 @@
           <h4>Contact Us</h4>
           <ul style="list-style-type: none;">
                         <li><b>Head Office</b></li>
-                        <li><i class="bi bi-geo-alt"></i> <a href="" target="_blank"> &nbsp; B-10, 1-4, Sector-1, Vashi, Navi Mumbai, 400703</a></li>
+                        <li><i class="bi bi-geo-alt"></i> <a> &nbsp; B-10, 1-4, Sector-1, Vashi, Navi Mumbai, 400703</a></li>
                        
                         <li><b>Associate Office locations</b></li>
-                        <li><i class="bi-geo-alt"></i> <a href="" target="_blank"> &nbsp; Mundra, Kandla, Chennai</a>
+                        <li><i class="bi-geo-alt"></i> <a> &nbsp; Mundra, Kandla, Chennai</a>
                         </li>
                        
                         <li><b>Agent Network</b></li>
-                        <li><i class="bi-geo-alt"></i> <a href="" target="_blank">&nbsp;  China, Malaysia, USA, Russia, Germany, UK, Africa</a></li>
+                        <li><i class="bi-geo-alt"></i> <a>&nbsp;  China, Malaysia, USA, Russia, Germany, UK, Africa</a></li>
                         
 
                     </ul>

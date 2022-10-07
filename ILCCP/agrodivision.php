@@ -67,10 +67,10 @@
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
           <div class="col-md-5">
-            <img src="assets/img/s2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/jcb.jpeg" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7">
-          <h3>About Agro</h3>
+          <h3 class="mb-4">About Agro</h3>
             <p>
             Ministry of Agriculture & Farmers Welfare aims to improve awareness, knowledge and efficiency of farmers. Keeping in view of the overall goal of increasing farmers’ incomes and following the recommendations of the Doubling of Farmers Income (DFI) committee, the Digital Agriculture Division has been created by reorienting the erstwhile Information Technology Division.
             </p>
@@ -80,7 +80,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets\img\s1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/windmil.jpeg" class="img-fluid" alt="" style="width: 80% ;border-radius:2%"">
           </div>
           <div class="col-md-7 order-2 order-md-1">
             <h3>Programmes & Schemes</h3>
@@ -90,9 +90,9 @@
           </div>
         </div><!-- Features Item -->
 
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+        <div class="row gy-4 align-items-center features-item" data-aos="fade-up" >
           <div class="col-md-5">
-            <img src="assets\img\s4.jpg" class="img-fluid" alt="">
+            <img src="assets/img/nature.jpeg" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7">
             <p>Agriculture, with its allied sectors, is unquestionably the largest livelihood provider in India, more so in the vast rural areas. It also contributes a significant figure to the Gross Domestic Product (GDP). Sustainable agriculture, in terms of food security, rural employment, and environmentally sustainable technologies such as soil conservation, sustainable natural resource management and biodiversity protection, are essential for holistic rural development. Indian agriculture and allied activities have witnessed a green revolution, a white revolution, a yellow revolution and a blue revolution.

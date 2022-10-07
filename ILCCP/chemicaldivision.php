@@ -67,7 +67,7 @@
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
           <div class="col-md-5">
-            <img src="assets/img/s2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/ch1.jpg" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7">
           <h3>About Chemicals</h3>
@@ -79,7 +79,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets\img\s1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/ch2.jpg" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7 order-2 order-md-1">
             <h3>Research & Development</h3>
@@ -91,7 +91,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="assets\img\s4.jpg" class="img-fluid" alt="">
+            <img src="assets/img/ch3.jpg" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7">
             <h3>Growth Drivers for the Chemical Division</h3>

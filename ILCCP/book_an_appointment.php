@@ -1,3 +1,37 @@
+<?php
+include('../admin_iccpl/include/config.php');
+
+
+if(isset($_POST['submit'])){
+
+ 
+  $name=$_POST['name'];
+  $company_email=$_POST['company_email'];
+  $contact_no=$_POST['contact_no'];
+  $job_title=$_POST['job_title'];
+  $company=$_POST['company'];
+  $country=$_POST['country'];
+  $industry=$_POST['industry'];
+  $date=$_POST['date'];
+  $meeting_agenda=$_POST['meeting_agenda'];
+  
+  
+  $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`company_email`,`contact_no`,`job_title`,`company`,`country`,`industry`,`date`,`meeting_agenda`) 
+  VALUES ('$name','$company_email','$contact_no','$job_title','$company','$country','$industry','$date','$meeting_agenda')");
+
+if($sql==1){
+    header("location:book_an_appointment.php");
+}
+else{
+    echo 'failed'; 
+}
+
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -69,7 +103,7 @@ input[type=number] {
 
         <div class="row g-0">
           <div class="col-lg-12">
-            <form action="forms/quote.php" method="post" class="php-email-form">
+            <form method="post" class="php-email-form">
               <div class="row gy-4">
                 <div class="col-lg-12">
                   <h3 class="text-center mb-5">Contact Us</h3>
@@ -80,16 +114,16 @@ input[type=number] {
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required>
+                  <input type="email" class="form-control" name="company_email" placeholder="Email" required>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                  <input type="number" class="form-control" name="phone" placeholder="Phone" required>
+                  <input type="number" class="form-control" name="contact_no" placeholder="Phone" required>
                 </div>
 
                 <div class="col-md-6">
-                  <input type="text" class="form-control" name="job" placeholder="Job Title" required>
+                  <input type="text" class="form-control" name="job_title" placeholder="Job Title" required>
                 </div>
               </div>
               <div class="row">
@@ -103,26 +137,21 @@ input[type=number] {
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <input type="text" class="form-control" name="state" placeholder="state" required>
-                </div>
-
-                <div class="col-md-6">
                   <input type="text" class="form-control" name="industry" placeholder="Industry" required>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <input type="date" class="form-control" name="date" required>
+                <div class="col-md-6">
+                <input type="date" class="form-control" name="date" required>
                 </div>
+
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Agenda Of Meeting" required></textarea>
+                  <textarea class="form-control" name="meeting_agenda" rows="6" placeholder="Agenda Of Meeting" required></textarea>
                 </div>
               </div>
             
                 <div class="col-md-12 text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit" name="submit">Send Message</button>
                 </div>
 
               </div>
@@ -151,7 +180,7 @@ input[type=number] {
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

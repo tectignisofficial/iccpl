@@ -67,10 +67,10 @@
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
           <div class="col-md-5">
-            <img src="assets/img/s2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/pro1.jpg" class="img-fluid" alt="" style="width:100%; border-radius:2%">
           </div>
           <div class="col-md-7">
-          <h3>Project Construction Planning</h3>
+          <h3 class="mb-4">Project Construction Planning</h3>
             <p>
             Construction planning is a fundamental and challenging activity in the management and execution of construction projects. It involves the choice of technology, the definition of work tasks, the estimation of the required resources and durations for individual tasks, and the identification of any interactions among the different work tasks. A good construction plan is the basis for developing the budget and the schedule for work. Developing the construction plan is a critical task in the management of construction, even if the plan is not written or otherwise formally recorded. In addition to these technical aspects of construction planning, it may also be necessary to make organizational decisions about the relationships between project participants and even which organizations to include in a project. For example, the extent to which sub-contractors will be used on a project is often determined during construction planning.
             </p>
@@ -79,10 +79,10 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets\img\s1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/pro2.jpg" class="img-fluid" alt="" style="width:100%; border-radius:2%">
           </div>
           <div class="col-md-7 order-2 order-md-1">
-            <h3>Planning & Development</h3>
+            <h3 class="mb-4">Planning & Development</h3>
             <p>
             Determining whether to pursue a project is the first and most important part of the construction process. Halting projects after they’ve begun is costly, and the further they progress, the greater the potential losses become. Feasibility studies, capital budgeting, pro-con lists, and extensive input from stakeholders are staples of this stage. You can use these practices, and others, to answer key questions about the project:
             </p>

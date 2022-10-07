@@ -15,7 +15,7 @@
           <!-- <li><a href="services.php">Services</a></li> -->
           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
-          <li><a href="supplychain.php">Supply Chain <br>
+          <li><a href="ILCCP/supplychain.php">Supply Chain <br>
            Management Division</a></li>
             <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
@@ -33,7 +33,7 @@
             </ul>
           </li>
           <li><a href="blog.php">Blog</a></li>
-          <li><a class="get-a-quote" href="request_a_quote.php">Request A Quote</a></li>
+          <li><a class="get-a-quote" href="../check.php">Request A Quote</a></li>
           <li><a class="get-a-quote" href="book_an_appointment.php">Book An Appointment</a></li>
         </ul>
       </nav><!-- .navbar -->
