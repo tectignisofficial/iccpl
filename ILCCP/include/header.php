@@ -32,7 +32,7 @@
                  Construction Division</a></li>
             </ul>
           </li>
-          <li><a href="Blog.php">Blog</a></li>
+          <li><a href="blog.php">Blog</a></li>
           <li><a class="get-a-quote" href="request_a_quote.php">Request A Quote</a></li>
           <li><a class="get-a-quote" href="book_an_appointment.php">Book An Appointment</a></li>
         </ul>

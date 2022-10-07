@@ -1,4 +1,4 @@
-<?php
+<?php 
 include('admin/include/config.php');
 
 $id=$_GET['id'];

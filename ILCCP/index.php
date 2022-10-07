@@ -119,7 +119,7 @@
               <div class="card-img">
                 <img src="assets\img\air2.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="" class="stretched-link">AIR FREIGTH</a></h3>
+              <h3><a href="air.php" class="stretched-link">AIR FREIGTH</a></h3>
               <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
             </div>
           </div><!-- End Card Item -->
@@ -129,7 +129,7 @@
               <div class="card-img">
                 <img src="assets\img\truck.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="" class="stretched-link">TRANSPORTATION</a></h3>
+              <h3><a href="trasnportation.php" class="stretched-link">TRANSPORTATION</a></h3>
               <p>We have a wide experience in overland industry specific logistic solutions like pharmaceutical logistics, retail and automotive logistics by train or road.</p>
             </div>
           </div><!-- End Card Item -->
@@ -139,7 +139,7 @@
               <div class="card-img">
                 <img src="assets\img\ship1.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="" class="stretched-link">SEA FREIGHT</a></h3>
+              <h3><a href="sea.php" class="stretched-link">SEA FREIGHT</a></h3>
               <p>We bring your goods safely to worldwide destinations with our great sea fright services. We offer LLC and FLC shipments that are fast and effective with no delays.</p>
             </div>
           </div><!-- End Card Item -->
