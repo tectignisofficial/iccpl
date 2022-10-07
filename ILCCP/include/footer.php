@@ -48,14 +48,14 @@
           <h4>Contact Us</h4>
           <ul style="list-style-type: none;">
                         <li><b>Head Office</b></li>
-                        <li><i class="bi bi-geo-alt"></i> <a href="#" target="_blank"> &nbsp; B-10, 1-4, Sector-1, Vashi, Navi Mumbai, 400703</a></li>
+                        <li><i class="bi bi-geo-alt"></i> <a href="" target="_blank"> &nbsp; B-10, 1-4, Sector-1, Vashi, Navi Mumbai, 400703</a></li>
                        
                         <li><b>Associate Office locations</b></li>
-                        <li><i class="bi-geo-alt"></i> <a href="#" target="_blank"> &nbsp; Mundra, Kandla, Chennai</a>
+                        <li><i class="bi-geo-alt"></i> <a href="" target="_blank"> &nbsp; Mundra, Kandla, Chennai</a>
                         </li>
                        
                         <li><b>Agent Network</b></li>
-                        <li><i class="bi-geo-alt"></i> <a href="#" target="_blank">&nbsp;  China, Malaysia, USA, Russia, Germany, UK, Africa</a></li>
+                        <li><i class="bi-geo-alt"></i> <a href="" target="_blank">&nbsp;  China, Malaysia, USA, Russia, Germany, UK, Africa</a></li>
                         
 
                     </ul>
