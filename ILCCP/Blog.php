@@ -1,5 +1,5 @@
 <?php 
-include('admin/include/config.php');
+include('../admin/include/config.php');
 
 ?>
 
