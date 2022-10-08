@@ -80,7 +80,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/windmil.jpeg" class="img-fluid" alt="" style="width: 80% ;border-radius:2%"">
+            <img src="assets/img/windmil.jpeg" class="img-fluid" alt="" style="width:100% ;border-radius:2%"">
           </div>
           <div class="col-md-7 order-2 order-md-1">
             <h3>Programmes & Schemes</h3>
