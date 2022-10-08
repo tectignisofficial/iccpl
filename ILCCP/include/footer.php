@@ -1,3 +1,5 @@
+
+
 <footer id="footer" class="footer">
 
     <div class="container">
@@ -45,7 +47,7 @@
         </div>
 
         <div class="col-lg-5 col-md-12 footer-contact text-center text-md-start footer-links">
-          <h4>Contact Us</h4>
+          <h4 class="text-start">Contact Us</h4>
           <ul style="list-style-type: none;">
                         <li><b>Head Office</b></li>
                         <li><i class="bi bi-geo-alt"></i> <a> &nbsp; B-10, 1-4, Sector-1, Vashi, Navi Mumbai, 400703</a></li>
@@ -67,12 +69,12 @@
 
     <div class="container">
         <div class="row mt-5">
-            <div class="col-lg-6 col-md-6 col-sm-12" style="text-align:left;">
-                © 2022 <a href="#" target="_blank"><b style="color: rgba(255, 255, 255, 0.6);">ILCCP Services</b></a>| All
+            <div class="col-lg-9 col-md-8 col-sm-12" style="text-align:left; text-decoration:none">
+                © 2022 <a href="#" target="_blank"><b style="color: rgba(255, 255, 255, 0.6); text-decoration:none">ILCCP Services</b></a>| All
                 Rights Reserved
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12"  style="text-align:right;">
-                Designed by <a href="https://tectignis.in" target="_blank"><b  style="color: rgba(255, 255, 255, 0.6);">Tectignis IT Solutions.</b></a>
+            <div class="col-lg-3 col-md-4 col-sm-12 company">
+                Designed by <a href="https://tectignis.in" target="_blank"><b  style="color: rgba(255, 255, 255, 0.6); text-decoration:none">Tectignis IT Solutions.</b></a>
             </div>
         </div>
     </div>

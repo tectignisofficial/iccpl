@@ -19,7 +19,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
           <!-- <li><a href="services.php">Services</a></li> -->
           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
-          <li><a class="nav-link <?= $page == 'supplychain.php' ? 'active':'' ?>" href=supplychain.php">Supply Chain <br>
+          <li><a class="nav-link <?= $page == 'supplychain.php' ? 'active':'' ?>" href="supplychain.php">Supply Chain <br>
            Management Division</a></li>
             <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
@@ -37,7 +37,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
             </ul>
           </li>
           <li><a class="nav-link <?= $page == 'blog.php' ? 'active':'' ?>" href="blog.php">Blog</a></li>
-          <li><a class="get-a-quote nav-link" <?= $page == '../check.php' ? 'active':'' ?>" href="../check.php">Request A Quote</a></li>
+          <li><a class="get-a-quote nav-link" <?= $page == 'check.php' ? 'active':'' ?>" href="check.php">Request A Quote</a></li>
           <li><a class="get-a-quote nav-link" class="nav-link <?= $page == 'book_an_appointment.php' ? 'active':'' ?>" href="book_an_appointment.php">Book An Appointment</a></li>
         </ul>
       </nav><!-- .navbar -->
