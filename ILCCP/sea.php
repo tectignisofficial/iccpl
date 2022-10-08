@@ -85,7 +85,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 content position-relative align-self-start order-lg-first order-first">
-         <h3>Our trucking service includes:</h3>
+         <h3>Our Sea Freight service includes :</h3>
          <ul>
               <li>
                 <i class="fa fa-check-double"></i>
@@ -94,7 +94,7 @@
               </li>
               <li style="margin-top:10px">
                 <i class="fa-solid fa-check-double"></i>
-                Movement of 20 GP / 40 GP / Open Top / Flat Rack Container
+               FCL Movement of 20 GP / 40 GP / Open Top / Flat Rack Container
               </li>
               <li style="margin-top:10px">
                 <i class="fa-solid fa-check-double"></i>
