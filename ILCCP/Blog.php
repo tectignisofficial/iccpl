@@ -1,4 +1,7 @@
+<?php 
+include('../admin/include/config.php');
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -70,12 +73,17 @@
         </div>
 
         <div class="row gy-4">
-     
+        <?php 
+                      
+                      $sql=mysqli_query($conn,"select * from `blog`");
+                   
+                       while($arr=mysqli_fetch_array($sql)){
+                      ?>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="card"style="border-radius:2%">
-              <!-- <div class="card-img" style="border-radius:2%">
+              <div class="card-img" style="border-radius:2%">
                 <img src="../admin/dist/img/blog/<?php echo $arr['image'];?>"); alt="" class="img-fluid">
-              </div> -->
+              </div>
               <h3><a href="blog_detail.php?id=<?php echo $arr['id']; ?>"><?php echo $arr['title'];?></a></h3>
               <div class="read-more text-center">
                 <a href="blog_details.php?id=<?php echo $arr['id']; ?>">Read More</a>
@@ -83,7 +91,7 @@
               </div>
             </div>
           </div><!-- End Card Item -->
-        
+          <?php    } ?>
         </div>
         
       </div>
