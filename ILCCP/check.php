@@ -665,7 +665,7 @@ body {
                                         <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
                                                 <input type="tel"
                                                     class="divforminputControl divforminputControl1 form-control"
-                                                    name="hscode" minlength="10" maxlength="10"
+                                                    name="hscode"
                                                     placeholder="Enter HS code" required></span></span>
 
                                         </div>

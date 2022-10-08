@@ -82,7 +82,7 @@
     </section>
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
+    <!-- <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
@@ -120,7 +120,7 @@
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section>End About Us Section -->
 
     <!-- ======= Stats Counter Section ======= -->
     <section class="about">

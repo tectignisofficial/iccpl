@@ -47,10 +47,13 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Services</h4>
           <ul>
-            <li><a href="supplychain.php">Supply Chain</a></li>
+            <li><a href="supplychain.php">Supply Chain 
+             <p></p> Management Division</a></li>
             <li><a href="chemicaldivision.php">Chemical Division</a></li>
             <li><a href="agrodivision.php">Agro Division</a></li>
-            <li><a href="project&construction.php">Project And Construction</a></li>
+            <li><a href="project&construction.php">Project And
+              <p></p>
+               Construction Division</a></li>
           </ul>
         </div>
 
