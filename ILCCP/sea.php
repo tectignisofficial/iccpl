@@ -67,8 +67,8 @@
         <div class="row gy-4">
           <div class="col-lg-6  content position-relative align-self-start order-lg-last order-first mt-5">
             <h3>About Sea Freight</h3>
-            <p>We bring your goods safely to worldwide destinations with our great sea fright services. We offer LLC and FLC shipments that are fast and effective with no delays.</p>
-            <p>At ICCPL we deliver highly flexible services through our partnerships with leading shipping lines.The cultivation of long-term, secure partnerships with major shipping lines brings tangible benefits to our customers as we have reliable links with all commercial centres worldwide which is why our Sea Freight services are among the best in the marketplace.</p>
+            <p>We bring your goods safely to worldwide destinations with our great sea fright services. We offer LCL and FLC shipments that are fast and effective with no delays.</p>
+            <p>At ILCCPL we deliver highly flexible services through our partnerships with leading shipping lines.The cultivation of long-term, secure partnerships with major shipping lines brings tangible benefits to our customers as we have reliable links with all commercial centres worldwide which is why our Sea Freight services are among the best in the marketplace.</p>
             <p>Through these connections we can guarantee capacity and also offer adaptability to the ever changing shipping regulations of every country and port thus enabling a smooth passage for your consignment.</p>
             </div>
         <div class="col-lg-6 order-first  order-lg-last pb-5">
@@ -89,7 +89,8 @@
          <ul>
               <li>
                 <i class="fa fa-check-double"></i>
-                ODC Heavy Machinery, Project Cargo by Mechanical trailers / Hydraulic Axles
+                <!-- ODC Heavy Machinery, Project Cargo by Mechanical trailers / Hydraulic Axles -->
+                Ocean Freight LCL Consolidation
               </li>
               <li style="margin-top:10px">
                 <i class="fa-solid fa-check-double"></i>
@@ -97,21 +98,24 @@
               </li>
               <li style="margin-top:10px">
                 <i class="fa-solid fa-check-double"></i>
-                7.5MT / 9MT / 16MT vehicles
+                <!-- 7.5MT / 9MT / 16MT vehicles -->
+                Break- Bulk and Cargo Handling
               </li>
               <li style="margin-top:10px">
 
                 <i class="fa-solid fa-check-double"></i>
-                Break Bulk Cargo Movement
+                <!-- Break Bulk Cargo Movement -->
+                ODC Cargo Handling 
               </li>
               <li style="margin-top:10px">
                 <i class="fa-solid fa-check-double"></i>
-                Containerized Vehicles of 20 ft/24 ft / 32 ft length
+                <!-- Containerized Vehicles of 20 ft/24 ft / 32 ft length -->
+                ISO Tank Container Handling
               </li>
-              <li style="margin-top:10px">
+              <!-- <li style="margin-top:10px">
                 <i class="fa-solid fa-check-double"></i>
                 Cranes & Forklifts Available
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="col-lg-6 content order-last  order-lg-last">
