@@ -52,7 +52,7 @@
                         <li><i class="bx bx-chevron-right" style="color:#3498db;"></i> <a  href="index.php"><h6>Home</h6></a></li>
                         <li><i class="bx bx-chevron-right" style="color:#3498db;"></i> <a  href="about.php"><h6>About Us</h6></a></li>
                         <li><i class="bx bx-chevron-right" style="color:#3498db;"></i> <a  href="services.php"><h6>Services</h6></a></li>
-                        <li><i class="bx bx-chevron-right" style="color:#3498db;"></i> <a  href="blog.php"><h6>Blog</h6></a></li>
+                        <li><i class="bx bx-chevron-right" style="color:#3498db;"></i> <a  href="blogs.php"><h6>Blog</h6></a></li>
                         <li><i class="bx bx-chevron-right" style="color:#3498db;"></i> <a  href="contact.php"><h6>Contact</h6></a></li>
                         
 

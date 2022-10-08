@@ -41,7 +41,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About us</a></li>
             <li><a href="service.php">Services</a></li>
-            <li><a href="blog.php">Blog</a></li>
+            <li><a href="blogs.php">Blog</a></li>
             <li><a href="book_an_appointment.php">Contact</a></li>
           </ul>
         </div>
