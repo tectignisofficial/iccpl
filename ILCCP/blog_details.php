@@ -16,8 +16,8 @@ $id=$_GET['id'];
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logohf.jpeg" rel="icon">
-  <link href="assets/img/logohf.jpeg" rel="apple-touch-icon">
+  <link href="assets/img/logo (2).png" rel="icon">
+  <link href="assets/img/logo (2).png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
