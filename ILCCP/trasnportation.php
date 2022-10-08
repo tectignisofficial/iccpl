@@ -69,7 +69,7 @@
             <h3>About Transportation</h3>
             <p>We have a wide experience in overland industry specific logistic solutions like pharmaceutical logistics, retail and automotive logistics by train or road.</p>
             <p>Our in-depth logistics knowledge and resources enable us to support shipments in any vertical, including cold chain or government cargo with stringent requirements.</p>
-            <p>Shipments for any industry benefit from AIT's wide-ranging, U.S. cartage footprint and subject matter expertise. In addition, our strong agent relationships enable us to extend fast, secure transport beyond high-traffic metro areas.</p>
+            <p>Shipments for any industry benefit from (ILCCPL) wide-ranging, INDIAN cartage footprint and subject matter expertise. In addition, our strong agent relationships enable us to extend fast, secure transport beyond high-traffic metro areas.</p>
             </div>
         <div class="col-lg-6 order-first  order-lg-last pb-5">
         <img src="assets\img\truck1.jpg" alt="" class="img-fluid">
@@ -146,7 +146,11 @@
             </ul>
           </div>
         </div>
-
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+           <a href="book_an_appointment.php"><button class="btn btn-primary">Request A Quote</button></a>
+          </div>
+        </div>
       </div>
     </section><!-- End About Us Section -->
 

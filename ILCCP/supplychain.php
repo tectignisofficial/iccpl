@@ -153,11 +153,16 @@
             <p>Your products are valuable; they may be priceless, they must arrive at their destination in the same condition in which they left you. To achieve this they must be protected and cared for, cargo insurers expect this. APT Logistics offers specialist customs cases individually prepared to the exact size and specification required, providing the appropriate level of protection. Whether built around the project itself or in a component form for subsequent packing, they will always conform to a high standard of quality. The product itself can be collected from you and packed in our dedicated facilities or on site service at your own premises.</p>
             <ul>
               <li><i class="bi bi-check"></i> Clear your effects quickly and smoothly.</li>
-              <li><i class="bi bi-check"></i> DuiFast and smooth delivery of your personal effects cargo.</li>
+              <li><i class="bi bi-check"></i> Due Fast and smooth delivery of your personal effects cargo.</li>
               <li><i class="bi bi-check"></i> Specially trained staff</li>
             </ul>
           </div>
         </div><!-- Features Item -->
+        <div class="row">
+          <div class="col-md-12 text-center">
+           <a href="book_an_appointment.php"><button class="btn btn-primary">Request A Quote</button></a>
+          </div>
+        </div>
       </div>
     </section><!-- End Features Section -->
 

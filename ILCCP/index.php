@@ -51,7 +51,9 @@
 
             <div class="col-6">
               <div class="stats-item">
+                <a href="check.php">
                 <button class="btn btn-primary">Request A Quote</button>
+                </a>
               </div>
             </div><!-- End Stats Item -->
           </div>

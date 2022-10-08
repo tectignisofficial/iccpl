@@ -128,7 +128,7 @@ input[type=number] {
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <input type="text" class="form-control" name="company" placeholder="company Name" required>
+                  <input type="text" class="form-control" name="company" placeholder="Company Name" required>
                 </div>
 
                 <div class="col-md-6">
@@ -140,7 +140,9 @@ input[type=number] {
                   <input type="text" class="form-control" name="industry" placeholder="Industry" required>
                 </div>
                 <div class="col-md-6">
-                <input type="date" class="form-control" name="date" required>
+                <input type="text" placeholder="Meeting Date"  class="form-control" onfocus="(this.type='date')">
+                   
+                <!-- <input type="date" class="form-control" name="date" placeholder="Meeting Date" required> -->
                 </div>
 
               </div>

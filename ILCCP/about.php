@@ -66,8 +66,8 @@
       <div class="container" data-aos="fade-up">
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-last">
-            <p>Sustainability is at the core of our business. We understand that long term sustainability can be achieved by reducing environmental footprint and increasing economic as well as community development footprint. At Jubilant Enpro, we uncompromisingly adopt an approach which defines sustainability as ’Business as usual‘ Our promise of Caring, Sharing, Growing along with our stakeholders, is the essence of all our activities that are directed towards sustainable growth.
-            As s responsible and employee friendly organisation, we ensure workplace safety of our employees and it is of our prime importance to us to continuously harness to adopt best safety systems. Our people our assets and their welfare is our responsibility. We respect and encourage talent and in our endeavour to bring out the best in our employees, we adopt policies that are formulated to meet their needs</p>
+            <p>Sustainability is at the core of our business. We understand that long term sustainability can be achieved by reducing environmental footprint and increasing economic as well as community development footprint. At INTRACONTINENT LOGICHEM CORPORATION PVT LTD, we uncompromisingly adopt an approach which defines sustainability as ’Business as usual‘ Our promise of Caring, Sharing, Growing along with our stakeholders, is the essence of all our activities that are directed towards sustainable growth.
+            As a responsible and employee friendly organisation, we ensure workplace safety of our employees and it is of our prime importance to us to continuously harness to adopt best safety systems. Our people our assets and their welfare is our responsibility. We respect and encourage talent and in our endeavour to bring out the best in our employees, we adopt policies that are formulated to meet their needs</p>
           </div>
           <div class="col-lg-6 content order-first  order-lg-first">
             <p>
@@ -146,17 +146,14 @@
                 Efficient team of expert skilled and expert workforce
               </li>
               <li style="margin-top:10px">
-
                 <i class="fa-solid fa-check-double"></i>
                 Complete customer satisfaction
               </li>
               <li style="margin-top:10px">
-
                 <i class="fa-solid fa-check-double"></i>
                 Effective logistics ensuring speedy and timely delivery of assignments
               </li>
-              <li>
-
+              <li style="margin-top:10px">
                 <i class="fa-solid fa-check-double"></i>
                 Flexible transportation solutions
               </li>

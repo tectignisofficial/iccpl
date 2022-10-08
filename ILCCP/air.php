@@ -68,7 +68,7 @@
           <div class="col-lg-6  content position-relative align-self-start order-lg-last order-first mt-5">
             <h3>About Air Freight</h3>
             <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
-            <p>Whether you're a first-time shipper or an established importer or exporter, ICCPL offers global air freight solutions for nearly every industry, from pharmaceuticals to industrial machinery to perishable foodstuffs and beyond.</p>
+            <p>Whether you're a first-time shipper or an established importer or exporter, ILCCPL offers global air freight solutions for nearly every industry, from pharmaceuticals to industrial machinery to perishable foodstuffs and beyond.</p>
         </div>
         <div class="col-lg-6 order-first  order-lg-last pb-5">
         <img src="assets\img\air3.jpg" alt="" class="img-fluid">
@@ -85,12 +85,12 @@
         <div class="row gy-4">
           <div class="col-lg-6 content position-relative align-self-start order-lg-first order-first">
          <h3>Your cargo is safe with us</h3>
-         <p>ICCPL offers to our clients ,a cost effective,secure,timely and efficient solution for all airfreight shipments, to and from any point in the world. We control the entire process from ground transportation,insurance coverage arrangement,air consolidation,arrangement of cargo survey,appropriate and safe warehousing to customs documentation.Time being the essence,we ensure speed matches reliability for your shipment.</p>
-         <p>At ICCPL , we believe in offering the best possible service to our clients and so we can modify our offerings to ensure that our products are tailor-made to you needs. We have no qualms in saying that we can offer a perfect solution for your requirement,be it a single shipment or a multi plane chartering operation.</p>
+         <p>ILCCPL offers to our clients ,a cost effective,secure,timely and efficient solution for all airfreight shipments, to and from any point in the world. We control the entire process from ground transportation,insurance coverage arrangement,air consolidation,arrangement of cargo survey,appropriate and safe warehousing to customs documentation.Time being the essence,we ensure speed matches reliability for your shipment.</p>
+         <p>At ILCCPL , we believe in offering the best possible service to our clients and so we can modify our offerings to ensure that our products are tailor-made to you needs. We have no qualms in saying that we can offer a perfect solution for your requirement,be it a single shipment or a multi plane chartering operation.</p>
           </div>
           <div class="col-lg-6 content order-last  order-lg-last">
                 <h3>We provide a complete package of air logistics services, including:</h3>
-                <p>All of our employees are experienced in all aspects of the freight forwarding process including import and export documentation requirements for all types of cargo.We provide a complete package of air logistics services, including: At ICCPL , we believe in offering the best possible service to our clients and so we can modify our offerings to ensure that our products are tailor-made to you needs. We have no qualms in saying that we can offer a perfect solution for your requirement,be it a single shipment or a multi plane chartering operation.</p>
+                <p>All of our employees are experienced in all aspects of the freight forwarding process including import and export documentation requirements for all types of cargo.We provide a complete package of air logistics services, including: At ILCCPL , we believe in offering the best possible service to our clients and so we can modify our offerings to ensure that our products are tailor-made to you needs. We have no qualms in saying that we can offer a perfect solution for your requirement,be it a single shipment or a multi plane chartering operation.</p>
                 <ul>
               <li>
                 <i class="fa fa-check-double"></i>
@@ -115,12 +115,16 @@
               </li>
               <li style="margin-top:10px">
                 <i class="fa-solid fa-check-double"></i>
-                Just in time deliveryHazardous and perishable product handling
+                Just in time delivery Hazardous and perishable product handling
               </li>
             </ul>
           </div>
         </div>
-
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+           <a href="book_an_appointment.php"><button class="btn btn-primary">Request A Quote</button></a>
+          </div>
+        </div>
       </div>
     </section><!-- End About Us Section -->
 
