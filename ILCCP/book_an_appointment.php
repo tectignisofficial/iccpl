@@ -106,7 +106,7 @@ input[type=number] {
             <form method="post" class="php-email-form">
               <div class="row gy-4">
                 <div class="col-lg-12">
-                  <h3 class="text-center mb-5">Contact Us</h3>
+                  <!-- <h3 class="text-center mb-5">Contact Us</h3> -->
                 </div>
                 <div class="row">
                 <div class="col-md-6">

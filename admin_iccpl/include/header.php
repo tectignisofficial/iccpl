@@ -175,7 +175,6 @@
                             </a><a class="d-flex" href="#">
                                 <div class="list-item d-flex align-items-start">
                                     <div class="me-1">
-                                        <div class="avatar bg-light-success">
                                             <div class="avatar-content"><i class="avatar-icon" data-feather="check"></i></div>
                                         </div>
                                     </div>

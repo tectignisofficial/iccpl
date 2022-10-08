@@ -1,7 +1,7 @@
 <!-- ======= Header ======= -->
 <?php
 $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
-?>  
+?>   
 <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 

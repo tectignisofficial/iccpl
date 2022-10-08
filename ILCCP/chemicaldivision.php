@@ -71,7 +71,7 @@
           </div>
           <div class="col-md-7">
           <h3>About Chemicals</h3>
-            <p>
+            <p style="margin-bottom:15%">
             Chemicals are an indispensable and integral part of modern life, touching almost all spheres of human activity. The chemical industry is a very important constituent of the growing Indian economy and it is the mainstay of industrial and agricultural development of the country, providing several building blocks and raw materials for a number of industries, including textile, paper, paint, soap and detergent, pharmaceutical, agrochemical etc. The per capita consumption of chemicals is about one tenth of the world average indicating that potential demand is yet to be realized. Natural Gas, Benzene, Toluene, Xylene, Naphthalene (BTXN), Ethylene, Propylene, Phosphorus, Common Salt, Sulphur etc. are the main raw materials for the manufacture of the chemicals.
             </p>
           </div>
@@ -83,7 +83,7 @@
           </div>
           <div class="col-md-7 order-2 order-md-1">
             <h3>Research & Development</h3>
-            <p>
+            <p style="margin-bottom:5%">
             The Chemical sector is highly heterogeneous encompassing many segments like organic, in-organics, dyestuffs, pesticides, paints, soaps and petrochemicals etc. Research and Development is critical and of paramount importance for the growth and development of this sector. Continued R&D efforts in the part of the industry helps to improve their quality standards, obtain higher yields resulting in reduction in cost of production and to earn competitive edge in the International Market. Indian Chemical Industry spends about 2-3% of their total turnover on R&D, as against 9-10% by the multi-national companies in overseas countries. The industry would, therefore, have to make large investments in R&D to successfully counter competition from the international chemicals industry. lndia has a number of scientific institutions and the country’s strength lies in its large pool of highly trained scientific manpower.
             </p>
           </div>

@@ -137,7 +137,7 @@
             </div>
           </div><!-- End Card Item -->
           <div class="text-center">
-          <a href="service.php"><button class="btn btn-primary">Learn More</button></a> 
+          <a href="supplychain.php"><button class="btn btn-primary">Learn More</button></a> 
           </div>
         </div>
 
