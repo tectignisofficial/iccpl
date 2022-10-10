@@ -94,7 +94,11 @@
             <p>To answer these and other relevant questions, use a combination of insights from robust data analysis and feedback from the key stakeholders on your team. Analytics provides decision-makers with an objective perspective on the proposed project, while wide-ranging input from team members can help identify potential issues that might otherwise pass unnoticed.</p>
           </div>
         </div><!-- Features Item -->
-
+        <div class="row">
+          <div class="col-md-12 text-center mt-5">
+           <a href="book_an_appointment.php"><button class="btn btn-primary">Book An Appointment</button></a>
+          </div>
+        </div>
       </div>
     </section><!-- End Features Section -->
 

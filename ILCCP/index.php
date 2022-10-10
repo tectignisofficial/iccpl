@@ -114,7 +114,7 @@
               <div class="card-img">
                 <img src="assets\img\air2.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="air.php" class="stretched-link">AIR FREIGTH</a></h3>
+              <h3><a href="air.php" class="stretched-link">AIR FREIGHT</a></h3>
               <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
             </div>
           </div><!-- End Card Item -->

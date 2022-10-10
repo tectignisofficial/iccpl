@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
+        <div class="col-lg-2 col-12 footer-links">
           <h4>Useful Links</h4>
           <ul>
             <li><a href="index.php">Home</a></li>
@@ -44,7 +44,7 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
+        <div class="col-lg-2 col-12 footer-links">
           <h4>Services</h4>
           <ul>
             <li><a href="supplychain.php">Supply Chain 

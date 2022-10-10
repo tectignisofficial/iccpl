@@ -75,7 +75,7 @@
               <div class="card-img">
                 <img src="assets\img\air2.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="air.php" class="stretched-link">AIR FREIGTH</a></h3>
+              <h3><a href="air.php" class="stretched-link">AIR FREIGHT</a></h3>
               <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
             </div>
           </div><!-- End Card Item -->
@@ -159,8 +159,8 @@
           </div>
         </div><!-- Features Item -->
         <div class="row">
-          <div class="col-md-12 text-center">
-           <a href="check.php"><button class="btn btn-primary">Request A Quote</button></a>
+          <div class="col-md-12 text-center mt-5">
+           <a href="book_an_appointment.php"><button class="btn btn-primary">Book An Appointment</button></a>
           </div>
         </div>
       </div>
@@ -187,7 +187,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  
 </body>
 
 </html>

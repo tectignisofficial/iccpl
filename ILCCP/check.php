@@ -591,7 +591,7 @@ body {
                                 logistics providers.</span>
 
                         </div> -->
-                        <form action="formaction.php" class="divform" method="post" enctype="multipart/form-data">
+                        <form action="formaction.php" class="divform" method="post" name="myform" onsubmit="return validation()" enctype="multipart/form-data">
                             <div class="divformhead divformwidth">
                                 <h3 class="divhead divformheading">Enquiry Form</h3>
                                     <div class="row">
@@ -663,10 +663,10 @@ body {
                                                     *</span></label>
                                         </div>
                                         <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
-                                                <input type="tel"
+                                                <input type="number"
                                                     class="divforminputControl divforminputControl1 form-control"
                                                     name="hscode"
-                                                    placeholder="Enter HS code" minlength="9" maxlength="9" required></span></span>
+                                                    placeholder="Enter HS code" onkeyup="numberonly(this)" required></span></span>
 
                                         </div>
                                         <div class="divformcargohead mt-5"><label class="label">Net Weight<span
@@ -1631,6 +1631,14 @@ body {
       window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
     });
   }
+    </script>
+    <script type="text/javascript">
+        function numberonly(input)
+        {
+            var num =/[^0-9]/gi;
+            input.value = input.value.replace(num, "");
+
+        }
     </script>
 </body>
 

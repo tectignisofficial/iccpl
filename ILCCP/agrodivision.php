@@ -99,6 +99,11 @@
             This section provides the information on agriculture produces; machineries, research etc. Detailed information on the government policies, schemes, agriculture loans, market prices, animal husbandry, fisheries, horticulture, loans & credit, sericulture etc. is also available.</p>
           </div>
         </div><!-- Features Item -->
+        <div class="row">
+          <div class="col-md-12 text-center mt-5">
+           <a href="book_an_appointment.php"><button class="btn btn-primary">Book An Appointment</button></a>
+          </div>
+        </div>
       </div>
     </section><!-- End Features Section -->
 
