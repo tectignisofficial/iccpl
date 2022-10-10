@@ -28,7 +28,7 @@
           <div class="social-links d-flex mt-4">
             <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
             <a href="https://www.facebook.com/profile.php?id=100086559640334" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/ilccpl/" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/company/intracontinent-logichem-corporation-pvt-ltd/"  target="_blank"  class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
