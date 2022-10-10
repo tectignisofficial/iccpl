@@ -658,15 +658,15 @@ body {
                                         </div>
                                         <small class="text-muted">eg. Sodium Carbonate, Banana, Meat etc.</small>
 
-                                        <div class="divformcargohead mt-5"><label class="label">HS Code<span
+                                        <div class="divformcargohead mt-5"><label class="label" id="lbltext" style="color: red;visibility:hidden">HS Code<span
                                                     style="color:red">
                                                     *</span></label>
                                         </div>
                                         <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
-                                                <input type="number"
+                                                <input type="text"
                                                     class="divforminputControl divforminputControl1 form-control"
                                                     name="hscode"
-                                                    placeholder="Enter HS code" onkeyup="numberonly(this)" required></span></span>
+                                                    placeholder="Enter HS code" id="text1" required></span></span>
 
                                         </div>
                                         <div class="divformcargohead mt-5"><label class="label">Net Weight<span
@@ -1569,7 +1569,7 @@ body {
                             </div>
                             <div class="divformhead divformwidth">
                                 <div class="form-group">
-                                    <input type="submit" class="btn btn-outline-warning" name="send" value="Submit">
+                                    <input type="submit" class="btn btn-outline-warning" name="send" value="Submit" onclick="validate()">
                                 </div>
                             </div>
                     </div>
@@ -1633,12 +1633,24 @@ body {
   }
     </script>
     <script type="text/javascript">
-        function numberonly(input)
+      function validate(){
+        var text = document.getElementById("text1").value;
+        var regx = /[0-9]\d{9}/;
+        if(regx.test(text))
         {
-            var num =/[^0-9]/gi;
-            input.value = input.value.replace(num, "");
+            document.getElementById("lbltext").innerHTML="Valid";
+            document.getElementById("lbltext").style.visibility="visible";
+            document.getElementById("lbltext").style.color="green";
 
         }
+        else
+        {
+            document.getElementById("lbltext").innerHTML="InValid";
+            document.getElementById("lbltext").style.visibility="visible";
+            document.getElementById("lbltext").style.color="red";
+ 
+        }
+      }
     </script>
 </body>
 

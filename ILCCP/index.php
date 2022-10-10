@@ -110,8 +110,8 @@
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card">
-              <div class="card-img">
+            <div class="card" style="border-radius:2%">
+              <div class="card-img"  style="border-radius:2%">
                 <img src="assets\img\air2.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="air.php" class="stretched-link">AIR FREIGHT</a></h3>
@@ -120,8 +120,8 @@
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="card">
-              <div class="card-img">
+            <div class="card"  style="border-radius:2%">
+              <div class="card-img"  style="border-radius:2%">
                 <img src="assets\img\truck.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="trasnportation.php" class="stretched-link">TRANSPORTATION</a></h3>
@@ -130,8 +130,8 @@
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="card">
-              <div class="card-img">
+            <div class="card"  style="border-radius:2%">
+              <div class="card-img"  style="border-radius:2%">
                 <img src="assets\img\ship1.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="sea.php" class="stretched-link">SEA FREIGHT</a></h3>

@@ -10,7 +10,7 @@ if(isset($_POST['formmodal'])){
   echo '<div data-v-aa799a9e="" class="row">
   <div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
       <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__942"><label for="cardNumber" class="d-block" id="__BVID__942__BV_label_">Name</label>
-          <div><input type="text" id="cardNumber" value="'.$fetch['name'].'" placeholder="0000 0000 0000 0000" class="form-control" readonly>
+          <div><input type="text" id="cardNumber" value="'.$fetch['name'].'" placeholder="0000 0000 0000 0000" class="form-control" >
           </div>
       </div>
   </div>
@@ -20,7 +20,7 @@ if(isset($_POST['formmodal'])){
           <div>
               <div role="group" class="input-group">
                   <div class="input-group-prepend">
-                  </div><input type="text" id="phone" value="'.$fetch['designation'].'" placeholder="1234 567 8900" class="form-control" readonly>
+                  </div><input type="text" id="phone" value="'.$fetch['designation'].'" placeholder="1234 567 8900" class="form-control" >
               </div>
           </div>
       </div>
@@ -28,35 +28,35 @@ if(isset($_POST['formmodal'])){
   <div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
       <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__946"><label for="date" class="d-block"
               id="__BVID__946__BV_label_">Company Name</label>
-          <div><input type="text" id="date" placeholder="YYYY-MM-DD" class="form-control" readonly value="'.$fetch['cname'].'">
+          <div><input type="text" id="date" placeholder="YYYY-MM-DD" class="form-control"  value="'.$fetch['cname'].'">
           </div>
       </div>
   </div>
   <div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
       <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__948"><label for="time" class="d-block"
               id="__BVID__948__BV_label_">Email</label>
-          <div><input type="text" id="time" placeholder="hh:mm:ss" class="form-control" readonly value="'.$fetch['email'].'">
+          <div><input type="text" id="time" placeholder="hh:mm:ss" class="form-control"  value="'.$fetch['email'].'">
           </div>
       </div>
   </div>
   <div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
       <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__950"><label for="number" class="d-block"
               id="__BVID__950__BV_label_">Phone</label>
-          <div><input type="text" id="number" placeholder="10,000" class="form-control" readonly value="'.$fetch['phone'].'">
+          <div><input type="text" id="number" placeholder="10,000" class="form-control"  value="'.$fetch['phone'].'">
           </div>
       </div>
   </div>
   <div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
       <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__952"><label for="block" class="d-block"
               id="__BVID__952__BV_label_">Cargo Name</label>
-          <div><input type="text" id="block" placeholder="Block [4,3,3]" class="form-control" readonly value="'.$fetch['cargoname'].'">
+          <div><input type="text" id="block" placeholder="Block [4,3,3]" class="form-control"  value="'.$fetch['cargoname'].'">
           </div>
       </div>
   </div>
   <div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
       <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__954"><label for="delimiter" class="d-block"
               id="__BVID__954__BV_label_">HS Code</label>
-          <div><input type="text" id="delimiter" placeholder="Delimiter: '.'" class="form-control" readonly value="'.$fetch['hscode'].'">
+          <div><input type="text" id="delimiter" placeholder="Delimiter: '.'" class="form-control"  value="'.$fetch['hscode'].'">
           </div>
       </div>
   </div>
@@ -64,7 +64,7 @@ if(isset($_POST['formmodal'])){
   <div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
       <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block"
               id="__BVID__958__BV_label_">Net Weight</label>
-          <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['hscodenetweight'].$fetch['hscodenetweightmt'].'">
+          <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['hscodenetweight'].$fetch['hscodenetweightmt'].'">
           </div>
       </div>
   </div>';
@@ -72,7 +72,7 @@ if(isset($_POST['formmodal'])){
 echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
 <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block"
         id="__BVID__958__BV_label_">Temperature Maintained</label>
-    <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['temperatureRegime'].'°C">
+    <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['temperatureRegime'].'°C">
     </div>
 </div>
 </div>';
@@ -81,7 +81,7 @@ echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
     echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
     <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block"
             id="__BVID__958__BV_label_">IMO Class</label>
-        <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['imoClass'].'">
+        <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['imoClass'].'">
         </div>
     </div>
     </div>';
@@ -90,7 +90,7 @@ echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
         echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
         <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block"
                 id="__BVID__958__BV_label_">UN Number</label>
-            <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['unNumber'].'">
+            <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['unNumber'].'">
             </div>
         </div>
         </div>';
@@ -99,7 +99,7 @@ echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
             echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
             <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block"
                     id="__BVID__958__BV_label_">ODC lxbxh</label>
-                <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['odctotalmtThree'].'m3 '.$fetch['odctotalm'].'mt">
+                <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['odctotalmtThree'].'m3 '.$fetch['odctotalm'].'mt">
                 </div>
             </div>
             </div>';
@@ -107,7 +107,7 @@ echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   if($fetch['containerType']!=""){
     echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
     <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Container Type</label>
-        <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['containerType'].'">
+        <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['containerType'].'">
         </div>
     </div>
     </div>';
@@ -115,7 +115,7 @@ echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
 if($fetch['contaiquantity']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Quantity Of Containers</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['contaiquantity'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['contaiquantity'].'">
       </div>
   </div>
   </div>';
@@ -124,15 +124,15 @@ if($fetch['lbhnomtTotal']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block"
           id="__BVID__958__BV_label_">Dimension Of Weight</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['lbhnomtTotal'].'m 3'.$fetch['lbhnomtotal'].'mt">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['lbhnomtTotal'].'m 3'.$fetch['lbhnomtotal'].'mt">
       </div>
   </div>
   </div>';
 }
 if($fetch['lclWeightOfBox']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
-  <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">LCL Weight Of BOx</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['lclWeightOfBox'].'m 3'.$fetch['lclWeightOfBoxmt'].'mt">
+  <div role="group" class="form-group" data-v-aa799readonlya9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">LCL Weight Of BOx</label>
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['lclWeightOfBox'].'m 3'.$fetch['lclWeightOfBoxmt'].'mt">
       </div>
   </div>
   </div>';
@@ -140,7 +140,7 @@ if($fetch['lclWeightOfBox']!=""){
 if($fetch['lclHeight']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Volume</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['lclHeight'].'m3">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['lclHeight'].'m3">
       </div>
   </div>
   </div>';
@@ -148,7 +148,7 @@ if($fetch['lclHeight']!=""){
 if($fetch['vesseltype']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Vessel Type</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['vesseltype'].'m3">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['vesseltype'].'m3">
       </div>
   </div>
   </div>';
@@ -156,7 +156,7 @@ if($fetch['vesseltype']!=""){
 if($fetch['grossWeightShip']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Gross Weight</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['grossWeightShip'].$fetch['grossWeightShipmt'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['grossWeightShip'].$fetch['grossWeightShipmt'].'">
       </div>
   </div>
   </div>';
@@ -164,7 +164,7 @@ if($fetch['grossWeightShip']!=""){
 if($fetch['loadingRate']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Loading Rate</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['loadingRate'].'mt">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['loadingRate'].'mt">
       </div>
   </div>
   </div>';
@@ -172,7 +172,7 @@ if($fetch['loadingRate']!=""){
 if($fetch['dischargeRate']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Discharge Rate</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['dischargeRate'].'mt">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['dischargeRate'].'mt">
       </div>
   </div>
   </div>';
@@ -180,7 +180,7 @@ if($fetch['dischargeRate']!=""){
 if($fetch['Vehicleshiptype']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Vehicle/Trailer Type</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['Vehicleshiptype'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['Vehicleshiptype'].'">
       </div>
   </div>
   </div>';
@@ -188,7 +188,7 @@ if($fetch['Vehicleshiptype']!=""){
 if($fetch['truckquantity']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">No Of Trucks</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['truckquantity'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['truckquantity'].'">
       </div>
   </div>
   </div>';
@@ -196,7 +196,7 @@ if($fetch['truckquantity']!=""){
 if($fetch['wagontype']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Wagon Type</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['wagontype'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['wagontype'].'">
       </div>
   </div>
   </div>';
@@ -204,7 +204,7 @@ if($fetch['wagontype']!=""){
 if($fetch['no_of_wagon']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">No Of Wagons</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['no_of_wagon'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['no_of_wagon'].'">
       </div>
   </div>
   </div>';
@@ -212,7 +212,7 @@ if($fetch['no_of_wagon']!=""){
 if($fetch['airContType']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Air Container Type</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['airContType'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['airContType'].'">
       </div>
   </div>
   </div>';
@@ -220,7 +220,7 @@ if($fetch['airContType']!=""){
 if($fetch['airquantityOfCont']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Quantity Of Container</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['airquantityOfCont'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['airquantityOfCont'].'">
       </div>
   </div>
   </div>';
@@ -228,7 +228,7 @@ if($fetch['airquantityOfCont']!=""){
 if($fetch['fromPortOfLoad']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Port Of Load</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['fromPortOfLoad'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['fromPortOfLoad'].'">
       </div>
   </div>
   </div>';
@@ -236,7 +236,7 @@ if($fetch['fromPortOfLoad']!=""){
 if($fetch['toPortOfLoad']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Port Of Dispatch</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['toPortOfLoad'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['toPortOfLoad'].'">
       </div>
   </div>
   </div>';
@@ -244,7 +244,7 @@ if($fetch['toPortOfLoad']!=""){
 if($fetch['frompick_up']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Pick up Location</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['frompick_up'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['frompick_up'].'">
       </div>
   </div>
   </div>';
@@ -252,7 +252,7 @@ if($fetch['frompick_up']!=""){
 if($fetch['todispatch']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Dispatch Location</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['todispatch'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['todispatch'].'">
       </div>
   </div>
   </div>';
@@ -260,7 +260,7 @@ if($fetch['todispatch']!=""){
 if($fetch['fromLoadStation']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Loading Station</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['fromLoadStation'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['fromLoadStation'].'">
       </div>
   </div>
   </div>';
@@ -268,28 +268,28 @@ if($fetch['fromLoadStation']!=""){
 if($fetch['todischargeStat']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Discharge Station</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['todischargeStat'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['todischargeStat'].'">
       </div>
   </div>
   </div>';
 }
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Pick Up Date</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['pickUpDate'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['pickUpDate'].'">
       </div>
   </div>
   </div>
   <div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Additional Information</label>
-      <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['additional'].'">
+      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['additional'].'">
       </div>
   </div>
   </div>
   ';
   if($fetch['Stuffing']!=""){
     echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
-    <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Check Box</label>
-        <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['Stuffing'].'">
+    <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Requirement</label>
+        <div><li  id="prefix">'.$fetch['Stuffing'].'</li>
         </div>
     </div>
     </div>';
@@ -297,7 +297,7 @@ if($fetch['todischargeStat']!=""){
   if($fetch['services']!=""){
     echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
     <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Integrated Services</label>
-        <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['services'].'">
+        <div><li  id="prefix">'.$fetch['services'].'</li>
         </div>
     </div>
     </div>';
@@ -305,7 +305,7 @@ if($fetch['todischargeStat']!=""){
   if($fetch['invoiceAmtW']!=""){
     echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
     <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Invoice Amount</label>
-        <div><input type="text" id="prefix" class="form-control" readonly value="'.$fetch['invoiceAmtW'].$fetch['invoiced'].'">
+        <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['invoiceAmtW'].$fetch['invoiced'].'">
         </div>
     </div>
     </div>';
@@ -370,7 +370,7 @@ if(isset($_POST['enquiryModal'])){
       <div class="input-group">
       <input type="hidden" name="id" value="'.$row['id'].'">
 
-        <input class="form-control"   value="'.$row['name'].'" data-dtp="dtp_dl6pL" readonly>
+        <input class="form-control"   value="'.$row['name'].'" data-dtp="dtp_dl6pL" >
         
       </div>
     </div>
@@ -385,7 +385,7 @@ if(isset($_POST['enquiryModal'])){
 <b> Company Email</b> <span class="text-danger">*</span>
 </label>
 <div class="input-group">
-<input class="form-control"  value="'.$row['company_email'].'"  data-dtp="dtp_qHHzf" readonly>
+<input class="form-control"  value="'.$row['company_email'].'"  data-dtp="dtp_qHHzf" >
 
 </div>
 </div>
@@ -404,7 +404,7 @@ if(isset($_POST['enquiryModal'])){
 <b> Contact No</b> <span class="text-danger">*</span>
 </label>
 <div class="input-group">
-<input class="form-control"  value="'.$row['contact_no'].'"  data-dtp="dtp_qHHzf" readonly>
+<input class="form-control"  value="'.$row['contact_no'].'"  data-dtp="dtp_qHHzf" >
 
 </div>
 </div>
@@ -423,7 +423,7 @@ if(isset($_POST['enquiryModal'])){
 <b> Job Title</b> <span class="text-danger">*</span>
 </label>
 <div class="input-group">
-<input class="form-control"  value="'.$row['job_title'].'"  data-dtp="dtp_qHHzf" readonly>
+<input class="form-control"  value="'.$row['job_title'].'"  data-dtp="dtp_qHHzf" >
 
 </div>
 </div>
@@ -443,7 +443,7 @@ if(isset($_POST['enquiryModal'])){
 <b> Company </b> <span class="text-danger">*</span>
 </label>
 <div class="input-group">
-<input class="form-control"  value="'.$row['company'].'"  data-dtp="dtp_qHHzf" readonly>
+<input class="form-control"  value="'.$row['company'].'"  data-dtp="dtp_qHHzf" >
 
 </div>
 </div>
@@ -461,7 +461,7 @@ if(isset($_POST['enquiryModal'])){
 <b> Country</b> <span class="text-danger">*</span>
 </label>
 <div class="input-group">
-<input class="form-control"  value="'.$row['country'].'"  data-dtp="dtp_qHHzf" readonly>
+<input class="form-control"  value="'.$row['country'].'"  data-dtp="dtp_qHHzf" >
 
 </div>
 </div>
@@ -480,7 +480,7 @@ if(isset($_POST['enquiryModal'])){
 <b>State</b> <span class="text-danger">*</span>
 </label>
 <div class="input-group">
-<input class="form-control"  value="'.$row['state'].'"  data-dtp="dtp_qHHzf" readonly>
+<input class="form-control"  value="'.$row['state'].'"  data-dtp="dtp_qHHzf" >
 
 </div>
 </div>
@@ -498,7 +498,7 @@ if(isset($_POST['enquiryModal'])){
 <b>Industry</b> <span class="text-danger">*</span>
 </label>
 <div class="input-group">
-<input class="form-control"  value="'.$row['industry'].'"  data-dtp="dtp_qHHzf" readonly>
+<input class="form-control"  value="'.$row['industry'].'"  data-dtp="dtp_qHHzf" >
 
 </div>
 </div>
@@ -516,7 +516,7 @@ if(isset($_POST['enquiryModal'])){
           <b> Meeting Agenda</b> <span class="text-danger">*</span>
           </label>
           <div class="input-group">
-            <input class="form-control"  value="'.$row['meeting_agenda'].'"  data-dtp="dtp_qHHzf" readonly>
+            <input class="form-control"  value="'.$row['meeting_agenda'].'"  data-dtp="dtp_qHHzf" >
             
           </div>
         </div>
