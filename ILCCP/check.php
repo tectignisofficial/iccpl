@@ -666,7 +666,7 @@ body {
                                                 <input type="tel"
                                                     class="divforminputControl divforminputControl1 form-control"
                                                     name="hscode"
-                                                    placeholder="Enter HS code" required></span></span>
+                                                    placeholder="Enter HS code" minlength="9" maxlength="9" required></span></span>
 
                                         </div>
                                         <div class="divformcargohead mt-5"><label class="label">Net Weight<span
@@ -730,9 +730,9 @@ body {
                                                 Harardous Cargo
                                             </button>
                                         </div>
-                                        <div class="assodiv">
-                                            <button type="button" class="checklabel buttoncargo ODCcargo">
-                                                Over Dimention Cargo
+                                        <div class="assodiv mt-2">
+                                            <button type="button" class="checklabel buttoncargo  Harardouscargo">
+                                            Over Dimention Cargo
                                             </button>
                                         </div>
                                     </div>

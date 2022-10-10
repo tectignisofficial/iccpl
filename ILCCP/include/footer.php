@@ -15,9 +15,9 @@
                         <b class="my-3"><i class="bi bi-telephone"></i>&nbsp;
                         <a style="color:#888;" href="tel:+919724903223"> +91 9724903223</a></b><br>
                         <b class="my-3"><i class="bi bi-envelope"></i>&nbsp;
-                        <a style="color:#888;" href="mailto:info@capeezacorp.com"> support@ilccpl.com</a></b><br>
+                        <a style="color:#888;" href="mailto:info@ilccpl.com"> info@ilccpl.com</a></b><br>
                         <b class="my-3"><i class="bi bi-envelope"></i>&nbsp;
-                        <a style="color:#888;" href="mailto:info@capeezacorp.com"> enquiry@ilccpl.com</a></b><br>
+                        <a style="color:#888;" href="mailto:enquiry@ilccpl.com"> enquiry@ilccpl.com</a></b><br>
                         <!-- <b class="my-3"><i class="bi bi-envelope"></i>&nbsp;
                         <a style="color:#888;" href="mailto:info@capeezacorp.com"> sales@ilccpl.com</a></b><br>
                         <b class="my-3"><i class="bi bi-envelope"></i>&nbsp;

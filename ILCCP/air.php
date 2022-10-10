@@ -122,7 +122,7 @@
         </div>
         <div class="row mt-3">
           <div class="col-md-12 text-center">
-           <a href="book_an_appointment.php"><button class="btn btn-primary">Request A Quote</button></a>
+           <a href="check.php"><button class="btn btn-primary">Request A Quote</button></a>
           </div>
         </div>
       </div>
