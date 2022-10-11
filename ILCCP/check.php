@@ -3,11 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="" content="ILCCP">
-  <meta name="keywords" content="ILCCP ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Request A Quote</title>
+    <title>ILCCP</title>
     <!-- Favicons -->
     <link href="assets/img/logo (2).webp" rel="icon">
     <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
