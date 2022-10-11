@@ -6,7 +6,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-12 footer-info">
           <a class="logo d-flex align-items-center">
-          <img src="assets\img\logohf.jpeg" alt="">
+          <img src="assets\img\logohf.webp" alt="">
           </a>
           <p>We are located at Mundra,Navi Mumbai,Kandla and Chennai 
             providing a wide range of services on PAN India basis and 

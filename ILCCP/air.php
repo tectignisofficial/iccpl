@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo (2).png" rel="icon">
-  <link href="assets/img/logo (2).png" rel="apple-touch-icon">
+  <link href="assets/img/logo (2).webp" rel="icon">
+  <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,7 +50,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.webp');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -71,7 +71,7 @@
             <p>Whether you're a first-time shipper or an established importer or exporter, ILCCPL offers global air freight solutions for nearly every industry, from pharmaceuticals to industrial machinery to perishable foodstuffs and beyond.</p>
         </div>
         <div class="col-lg-6 order-first  order-lg-last pb-5">
-        <img src="assets\img\air3.jpg" alt="" class="img-fluid">
+        <img src="assets\img\air3.webp" alt="" class="img-fluid">
            </div>
         </div>
 

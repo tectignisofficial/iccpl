@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo (2).png" rel="icon">
-  <link href="assets/img/logo (2).png" rel="apple-touch-icon">
+  <link href="assets/img/logo (2).webp" rel="icon">
+  <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,7 +60,7 @@
         </div>
 
         <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-          <img src="assets\img\home_img.png" class="img-fluid mb-3 mb-lg-0" alt="">
+          <img src="assets\img\home_img.webp" class="img-fluid mb-3 mb-lg-0" alt="">
         </div>
 
       </div>
@@ -80,7 +80,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <img src="assets\img\counts-img.svg" class="img-fluid" alt="">
+            <img src="assets\img\counts-img.webp" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 content order-last  order-lg-first">
             <h3 class="text-center">About Us</h3>
@@ -112,7 +112,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card" style="border-radius:2%">
               <div class="card-img"  style="border-radius:2%">
-                <img src="assets\img\air2.jpg" alt="" class="img-fluid">
+                <img src="assets\img\air2.webp" alt="" class="img-fluid">
               </div>
               <h3><a href="air.php" class="stretched-link">AIR FREIGHT</a></h3>
               <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
@@ -122,7 +122,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card"  style="border-radius:2%">
               <div class="card-img"  style="border-radius:2%">
-                <img src="assets\img\truck.jpg" alt="" class="img-fluid">
+                <img src="assets\img\truck.webp" alt="" class="img-fluid">
               </div>
               <h3><a href="trasnportation.php" class="stretched-link">TRANSPORTATION</a></h3>
               <p>We have a wide experience in overland industry specific logistic solutions like pharmaceutical logistics, retail and automotive logistics by train or road.</p>
@@ -132,7 +132,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card"  style="border-radius:2%">
               <div class="card-img"  style="border-radius:2%">
-                <img src="assets\img\ship1.jpg" alt="" class="img-fluid">
+                <img src="assets\img\ship1.webp" alt="" class="img-fluid">
               </div>
               <h3><a href="sea.php" class="stretched-link">SEA FREIGHT</a></h3>
               <p>We bring your goods safely to worldwide destinations with our great sea fright services. We offer LLC and FLC shipments that are fast and effective with no delays.</p>

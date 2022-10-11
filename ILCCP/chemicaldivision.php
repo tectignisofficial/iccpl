@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo (2).png" rel="icon">
-  <link href="assets/img/logo (2).png" rel="apple-touch-icon">
+  <link href="assets/img/logo (2).webp" rel="icon">
+  <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +48,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.webp');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -67,7 +67,7 @@
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
           <div class="col-md-5">
-            <img src="assets/img/ch1.jpg" class="img-fluid" alt="" style="border-radius:2%">
+            <img src="assets/img/ch1.webp" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7">
           <h3>About Chemicals</h3>
@@ -79,7 +79,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/ch2.jpg" class="img-fluid" alt="" style="border-radius:2%">
+            <img src="assets/img/ch2.webp" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7 order-2 order-md-1">
             <h3>Research & Development</h3>
@@ -91,7 +91,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="assets/img/ch3.jpg" class="img-fluid" alt="" style="border-radius:2%">
+            <img src="assets/img/ch3.webp" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7">
             <h3>Growth Drivers for the Chemical Division</h3>

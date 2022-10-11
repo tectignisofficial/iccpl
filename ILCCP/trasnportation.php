@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo (2).png" rel="icon">
-  <link href="assets/img/logo (2).png" rel="apple-touch-icon">
+  <link href="assets/img/logo (2).webp" rel="icon">
+  <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,7 +50,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.webp');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -72,7 +72,7 @@
             <p>Shipments for any industry benefit from (ILCCPL) wide-ranging, INDIAN cartage footprint and subject matter expertise. In addition, our strong agent relationships enable us to extend fast, secure transport beyond high-traffic metro areas.</p>
             </div>
         <div class="col-lg-6 order-first  order-lg-last pb-5">
-        <img src="assets\img\truck1.jpg" alt="" class="img-fluid">
+        <img src="assets\img\truck1.webp" alt="" class="img-fluid">
            </div>
         </div>
 

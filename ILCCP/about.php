@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo (2).png" rel="icon">
-  <link href="assets/img/logo (2).png" rel="apple-touch-icon">
+  <link href="assets/img/logo (2).webp" rel="icon">
+  <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,7 +50,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.webp');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -128,7 +128,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <img src="assets\img\ab4.jpg" class="img-fluid" alt="">
+            <img src="assets\img\ab4.webp" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 content order-last  order-lg-first">
             <h3>WHY CHOOSE US? WE'LL TELL YOU!</h3>
@@ -181,7 +181,7 @@
 
         <div class="row">
           <div class="col-lg-6 position-relative align-self-start order-lg-first order-first">
-            <img src="assets\img\ab.jpg" class="img-fluid" alt="">
+            <img src="assets\img\ab.webp" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 content order-last  order-lg-last">
             <h3>RELATIONSHIPS MATTER!</h3>
@@ -197,7 +197,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-first order-first">
-            <img src="assets\img\ab.jpg" class="img-fluid" alt="">
+            <img src="assets\img\ab.webp" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 content order-last  order-lg-last">
           <h3 class="mt-5">RELATIONSHIPS MATTER!</h3>

@@ -6,7 +6,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.php" class="logo d-flex align-items-center">
-        <img src="assets\img\logohf.jpeg" alt="">
+        <img src="assets\img\logohf.webp" alt="">
         
       </a>
 

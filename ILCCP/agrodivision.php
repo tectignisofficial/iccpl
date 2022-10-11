@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo (2).png" rel="icon">
-  <link href="assets/img/logo (2).png" rel="apple-touch-icon">
+  <link href="assets/img/logo (2).webp" rel="icon">
+  <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +48,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.webp');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -67,7 +67,7 @@
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
           <div class="col-md-5">
-            <img src="assets/img/jcb.jpeg" class="img-fluid" alt="" style="border-radius:2%">
+            <img src="assets/img/jcb.webp" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7">
           <h3 class="mb-4">About Agro</h3>
@@ -80,7 +80,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/windmil.jpeg" class="img-fluid" alt="" style="width:100% ;border-radius:2%"">
+            <img src="assets/img/windmil.webp" class="img-fluid" alt="" style="width:100% ;border-radius:2%"">
           </div>
           <div class="col-md-7 order-2 order-md-1">
             <h3>Programmes & Schemes</h3>
@@ -92,7 +92,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up" >
           <div class="col-md-5">
-            <img src="assets/img/nature.jpeg" class="img-fluid" alt="" style="border-radius:2%">
+            <img src="assets/img/nature.webp" class="img-fluid" alt="" style="border-radius:2%">
           </div>
           <div class="col-md-7">
             <p>Agriculture, with its allied sectors, is unquestionably the largest livelihood provider in India, more so in the vast rural areas. It also contributes a significant figure to the Gross Domestic Product (GDP). Sustainable agriculture, in terms of food security, rural employment, and environmentally sustainable technologies such as soil conservation, sustainable natural resource management and biodiversity protection, are essential for holistic rural development. Indian agriculture and allied activities have witnessed a green revolution, a white revolution, a yellow revolution and a blue revolution.

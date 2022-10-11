@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Request A Quote</title>
     <!-- Favicons -->
-    <link href="assets/img/logo (2).png" rel="icon">
-    <link href="assets/img/logo (2).png" rel="apple-touch-icon">
+    <link href="assets/img/logo (2).webp" rel="icon">
+    <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -565,7 +565,7 @@ body {
 
       <!-- ======= Breadcrumbs ======= -->
       <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.webp');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">

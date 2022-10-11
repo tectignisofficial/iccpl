@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo (2).png" rel="icon">
-  <link href="assets/img/logo (2).png" rel="apple-touch-icon">
+  <link href="assets/img/logo (2).webp" rel="icon">
+  <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +48,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.webp');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -73,7 +73,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card"  style="border-radius:2%">
               <div class="card-img"  style="border-radius:2%">
-                <img src="assets\img\air2.jpg" alt="" class="img-fluid">
+                <img src="assets\img\air2.webp" alt="" class="img-fluid">
               </div>
               <h3><a href="air.php" class="stretched-link">AIR FREIGHT</a></h3>
               <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
@@ -83,7 +83,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card"  style="border-radius:2%">
               <div class="card-img"  style="border-radius:2%">
-                <img src="assets\img\truck.jpg" alt="" class="img-fluid">
+                <img src="assets\img\truck.webp" alt="" class="img-fluid">
               </div>
               <h3><a href="trasnportation.php" class="stretched-link">TRANSPORTATION</a></h3>
               <p>We have a wide experience in overland industry specific logistic solutions like pharmaceutical logistics, retail and automotive logistics by train or road.</p>
@@ -93,7 +93,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card"  style="border-radius:2%">
               <div class="card-img"  style="border-radius:2%">
-                <img src="assets\img\ship1.jpg" alt="" class="img-fluid">
+                <img src="assets\img\ship1.webp" alt="" class="img-fluid">
               </div>
               <h3><a href="sea.php" class="stretched-link">SEA FREIGHT</a></h3>
               <p>We bring your goods safely to worldwide destinations with our great sea fright services. We offer LLC and FLC shipments that are fast and effective with no delays.</p>
@@ -113,7 +113,7 @@
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
           <div class="col-md-5">
-            <img src="assets/img/s2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/s2.webp" class="img-fluid" alt="">
           </div>
           <div class="col-md-7">
             <h3>We offer secure storing and warehousing facilities</h3>
@@ -131,7 +131,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets\img\s1.jpg" class="img-fluid" alt="">
+            <img src="assets\img\s1.webp" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1">
             <h3>Global logistics expertise you can count on for international shipping and more</h3>
@@ -147,7 +147,7 @@
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="assets\img\s4.jpg" class="img-fluid" alt="">
+            <img src="assets\img\s4.webp" class="img-fluid" alt="">
           </div>
           <div class="col-md-7">
             <p>Your products are valuable; they may be priceless, they must arrive at their destination in the same condition in which they left you. To achieve this they must be protected and cared for, cargo insurers expect this. APT Logistics offers specialist customs cases individually prepared to the exact size and specification required, providing the appropriate level of protection. Whether built around the project itself or in a component form for subsequent packing, they will always conform to a high standard of quality. The product itself can be collected from you and packed in our dedicated facilities or on site service at your own premises.</p>
