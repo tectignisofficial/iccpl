@@ -102,7 +102,7 @@ include("include/config.php");
                                 logistics providers.</span>
 
                         </div> -->
-                        <form action="../formaction.php" class="divform" method="post" enctype="multipart/form-data">
+                        <form action="../formaction.php" class="divform" method="post"  name="form1" enctype="multipart/form-data">
                             <div class="divformhead divformwidth">
                                 <h3 class="divhead divformheading">Enquiry Form</h3>
                                     <div class="row">
@@ -174,9 +174,9 @@ include("include/config.php");
                                                     *</span></label>
                                         </div>
                                         <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
-                                                <input type="tel"
+                                                <input type="number"
                                                     class="divforminputControl divforminputControl1 form-control"
-                                                    name="hscode" minlength="10" maxlength="10"
+                                                    name="hscode"
                                                     placeholder="Enter HS code" required></span></span>
 
                                         </div>
@@ -1080,7 +1080,7 @@ include("include/config.php");
                             </div>
                             <div class="divformhead divformwidth">
                                 <div class="form-group">
-                                    <input type="submit" class="btn btn-outline-warning" name="adminsend" value="Submit">
+                                    <input type="submit" class="btn btn-outline-warning" name="adminsend" value="Submit" onclick="stringlength(document.form1.hscode,1,9)"/>
                                 </div>
                             </div>
                     </div>
@@ -1201,6 +1201,24 @@ include("include/config.php");
                 $('.parent2').removeClass('focused');
             });
     </script>
+     <script>
+   function stringlength(inputtxt, minlength, maxlength)
+{ 
+var field = inputtxt.value; 
+var mnlen = minlength;
+var mxlen = maxlength;
+
+if(field.length<mnlen || field.length> mxlen)
+{ 
+alert("Please input the userid between " +mnlen+ " and " +mxlen+ " characters");
+return false;
+}
+else
+{ 
+alert('Your userid have accepted.');
+return true;
+}
+}</script>
 </body>
 <!-- END: Body-->
 
