@@ -37,7 +37,7 @@ else{
     <meta name="author" content="PIXINVENT">
     <title>Login </title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="..\ILCCP/assets/img/logo (2).webp">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
@@ -103,7 +103,7 @@ else{
                                     </g>
                                 </g>
                             </svg>
-                            <h2 class="brand-text text-primary ms-1">ICCPL</h2>
+                            <h2 class="brand-text text-primary ms-1">ILCCP</h2>
                         </a>
                         <!-- /Brand logo-->
                         <!-- Left Text-->
@@ -114,7 +114,7 @@ else{
                         <!-- Login-->
                         <div class="d-flex col-lg-4 align-items-center auth-bg px-2 p-lg-5">
                             <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
-                                <h2 class="card-title fw-bold mb-1">Welcome to ICCPL 👋</h2>
+                                <h2 class="card-title fw-bold mb-1">Welcome to ILCCP 👋</h2>
                                 <p class="card-text mb-2">Please sign-in to your account and start the adventure</p>
                                 <form class="auth-login-form mt-2"  method="POST">
                                     <div class="mb-1">
