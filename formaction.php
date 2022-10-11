@@ -1,5 +1,5 @@
 <?php
-include('config.php');
+include('../config.php');
 if(isset($_POST['send'])){
 $name=mysqli_real_escape_string($conn,$_POST['name']);
 $designation=mysqli_real_escape_string($conn,$_POST['designation']);

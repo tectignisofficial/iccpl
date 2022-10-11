@@ -1,59 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Request A Quote</title>
+    <title>ILCCP</title>
     <!-- Favicons -->
-    <link href="assets/img/logo.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-<!-- //////////////////////////////////////////////////////////////////////////////// -->
-  <!-- Favicons -->
-  <link href="assets/img/logohf.jpeg" rel="icon">
-  <link href="assets/img/logohf.jpeg" rel="apple-touch-icon">
+    <link href="assets/img/logo (2).webp" rel="icon">
+    <link href="assets/img/logo (2).webp" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="ILCCP/https://fonts.googleapis.com">
-  <link rel="preconnect" href="ILCCP/https://fonts.gstatic.com" crossorigin>
-  <link href="ILCCP/https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="ILCCP/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="ILCCP/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="ILCCP/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="ILCCP/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="ILCCP/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="ILCCP/assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="ILCCP/assets/css/main.css" rel="stylesheet">
-<!-- ///////////////////////////////////////////////////////////////////////////////// -->
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="..\assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="..\assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="..\assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="..\assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="..\assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="..\assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="..\assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- <link href="assets/css/footer.css" rel="stylesheet">
- -->
+    <link href="..\assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="..\style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
         type="text/css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
@@ -71,12 +49,533 @@
             background-color: #ff9d24;
             color: #fff;
         }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 30px 0;
+}
+
+.header.sticked {
+  background: rgba(14, 29, 52, 0.9);
+  padding: 15px 0;
+  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
+}
+
+.header .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+  color: #fff;
+  font-family: var(--font-primary);
+}
+/*--------------------------------------------------------------
+# Desktop Navigation
+--------------------------------------------------------------*/
+@media (min-width: 1280px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navbar li {
+    position: relative;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: #fff;
+  }
+
+  .navbar .get-a-quote,
+  .navbar .get-a-quote:focus {
+    background: var(--color-primary);
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .navbar .get-a-quote:hover,
+  .navbar .get-a-quote:focus:hover {
+    color: #fff;
+    background: #2756ff;
+  }
+
+  .navbar .dropdown ul {
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+    border-radius: 4px;
+  }
+
+  .navbar .dropdown ul li {
+    min-width: 200px;
+  }
+
+  .navbar .dropdown ul a {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 400;
+    color: var(--color-secondary);
+  }
+
+  .navbar .dropdown ul a i {
+    font-size: 12px;
+  }
+
+  .navbar .dropdown ul a:hover,
+  .navbar .dropdown ul .active:hover,
+  .navbar .dropdown ul li:hover>a {
+    color: var(--color-primary);
+  }
+
+  .navbar .dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+
+  .navbar .dropdown .dropdown ul {
+    top: 0;
+    left: calc(100% - 30px);
+    visibility: hidden;
+  }
+
+  .navbar .dropdown .dropdown:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: 100%;
+    visibility: visible;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+
+  .navbar .dropdown .dropdown:hover>ul {
+    left: -100%;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .mobile-nav-show,
+  .mobile-nav-hide {
+    display: none;
+  }
+}
+
+/*--------------------------------------------------------------
+# Mobile Navigation
+--------------------------------------------------------------*/
+@media (max-width: 1279px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    max-width: 400px;
+    bottom: 0;
+    transition: 0.3s;
+    z-index: 9997;
+  }
+
+  .navbar ul {
+    position: absolute;
+    inset: 0;
+    padding: 50px 0 10px 0;
+    margin: 0;
+    background: rgba(14, 29, 52, 0.9);
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 9998;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: #fff;
+  }
+
+  .navbar .get-a-quote,
+  .navbar .get-a-quote:focus {
+    background: var(--color-primary);
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin: 15px;
+    color: #fff;
+  }
+
+  .navbar .get-a-quote:hover,
+  .navbar .get-a-quote:focus:hover {
+    color: #fff;
+    background: rgba(13, 66, 255, 0.8);
+  }
+
+  .navbar .dropdown ul,
+  .navbar .dropdown .dropdown ul {
+    position: static;
+    display: none;
+    padding: 10px 0;
+    margin: 10px 20px;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #19335c;
+  }
+
+  .navbar .dropdown>.dropdown-active,
+  .navbar .dropdown .dropdown>.dropdown-active {
+    display: block;
+  }
+
+  .mobile-nav-show {
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    line-height: 0;
+    transition: 0.5s;
+    z-index: 9999;
+    margin-right: 10px;
+  }
+
+  .mobile-nav-hide {
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    line-height: 0;
+    transition: 0.5s;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 9999;
+  }
+
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+
+  .mobile-nav-active .navbar {
+    right: 0;
+  }
+
+  .mobile-nav-active .navbar:before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(14, 29, 52, 0.8);
+    z-index: 9996;
+  }
+}
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs .page-header {
+  padding: 140px 0 80px 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs .page-header:before {
+  content: "";
+  background-color: rgba(14, 29, 52, 0.8);
+  position: absolute;
+  inset: 0;
+}
+
+.breadcrumbs .page-header h2 {
+  font-size: 56px;
+  font-weight: 500;
+  color: #fff;
+  font-family: var(--font-secondary);
+}
+
+.breadcrumbs .page-header p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.breadcrumbs nav {
+  background-color: #f3f6fc;
+  padding: 20px 0;
+}
+
+.breadcrumbs nav ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.breadcrumbs nav ol a {
+  color: var(--color-primary);
+  transition: 0.3s;
+}
+
+.breadcrumbs nav ol a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs nav ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs nav ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #4278cc;
+  content: "/";
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  font-size: 14px;
+  background-color: var(--color-secondary);
+  padding: 50px 0;
+  color: white;
+}
+
+.footer .footer-info .logo {
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.footer .footer-info .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: var(--font-primary);
+}
+
+.footer .footer-info p {
+  font-size: 14px;
+  font-family: var(--font-primary);
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul i {
+  padding-right: 2px;
+  /* color: rgba(13, 66, 255, 0.8); */
+  font-size: 12px;
+  line-height: 0;
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a {
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  text-decoration:none;
+}
+
+.footer .footer-links ul a:hover {
+  color: #fff;
+}
+
+.footer .footer-contact p {
+  line-height: 26px;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .credits {
+  padding-top: 4px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer .credits a {
+  color: #fff;
+}
+body {
+  font-family: var(--font-default);
+  color: var(--color-default);
+}
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+
+/* Colors */
+:root {
+  --color-default: #0a0d13;
+  --color-primary: #0d42ff;
+  --color-secondary: #0e1d34;
+}
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
     </style>
-</head>
+</head> 
 
 <body>
-    <?php include("ILCCP/include/header.php"); ?>
+    <?php include('include/header.php') ?>
     <main id="main">
+
+      <!-- ======= Breadcrumbs ======= -->
+      <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.webp');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>Request A Quote</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Breadcrumbs -->
+
         <div class="main mb-3" style="margin-top:10%">
             <div class="section">
                 <div class="card">
@@ -85,13 +584,13 @@
                             <div class="divmainheader">
                                 <h2 class="divhead divhead1">Request a quote</h2>
                             </div>
-
+ 
                         </div>
                         <!-- <div class="divTitle1"><span class="divhead divTitle">And get the best rates from the leading
                                 logistics providers.</span>
 
                         </div> -->
-                        <form action="formaction.php" class="divform" method="post" enctype="multipart/form-data">
+                        <form action="formaction.php" class="divform" method="post" name="form1" enctype="multipart/form-data">
                             <div class="divformhead divformwidth">
                                 <h3 class="divhead divformheading">Enquiry Form</h3>
                                     <div class="row">
@@ -158,15 +657,15 @@
                                         </div>
                                         <small class="text-muted">eg. Sodium Carbonate, Banana, Meat etc.</small>
 
-                                        <div class="divformcargohead mt-5"><label class="label">HS Code<span
+                                        <div class="divformcargohead mt-5"><label class="label" id="lbltext" style="color: red;visibility:hidden">HS Code<span
                                                     style="color:red">
                                                     *</span></label>
                                         </div>
                                         <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
-                                                <input type="tel"
+                                                <input type="number"
                                                     class="divforminputControl divforminputControl1 form-control"
-                                                    name="hscode" minlength="10" maxlength="10"
-                                                    placeholder="Enter HS code" required></span></span>
+                                                    name="hscode"
+                                                    placeholder="Enter HS code" id="text1" required></span></span>
 
                                         </div>
                                         <div class="divformcargohead mt-5"><label class="label">Net Weight<span
@@ -230,9 +729,9 @@
                                                 Harardous Cargo
                                             </button>
                                         </div>
-                                        <div class="assodiv">
-                                            <button type="button" class="checklabel buttoncargo ODCcargo">
-                                                Over Dimention Cargo
+                                        <div class="assodiv mt-2">
+                                            <button type="button" class="checklabel buttoncargo  Harardouscargo">
+                                            Over Dimention Cargo
                                             </button>
                                         </div>
                                     </div>
@@ -1069,7 +1568,7 @@
                             </div>
                             <div class="divformhead divformwidth">
                                 <div class="form-group">
-                                    <input type="submit" class="btn btn-outline-warning" name="send" value="Submit">
+                                    <input type="submit" class="btn btn-outline-warning" name="send" value="Submit" onclick="stringlength(document.form1.hscode,1,9)"/>
                                 </div>
                             </div>
                     </div>
@@ -1081,37 +1580,25 @@
         </div>
         </div>
     </main>
-    <?php include("ILCCP/include/footer.php"); ?>
+ 
     <!-- End Footer -->
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <?php include ("include/footer.php"); ?>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
-    <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a> -->
-<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
-  <!-- Vendor JS Files -->
-  <script src="ILCCP/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="ILCCP/assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="ILCCP/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="ILCCP/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="ILCCP/assets/vendor/aos/aos.js"></script>
-  <script src="ILCCP/assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="ILCCP/assets/js/main.js"></script>
-<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="..\assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="..\assets/vendor/aos/aos.js"></script>
+    <script src="..\assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="..\assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="..\assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="..\assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="..\assets/vendor/php-email-form/validate.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="..\assets/js/main.js"></script>
 
-    <script src="query.js"></script>
+    <script src="..\query.js"></script>
     <script>
         $('#netWeight')
             .focus(function () {
@@ -1136,7 +1623,34 @@
             .blur(function () {
                 $('.parent2').removeClass('focused');
             });
+
+            const selectHeader = document.querySelector('#header');
+  if (selectHeader) {
+    document.addEventListener('scroll', () => {
+      window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
+    });
+  }
     </script>
+ 
+   
+   <script>
+   function stringlength(inputtxt, minlength, maxlength)
+{ 
+var field = inputtxt.value; 
+var mnlen = minlength;
+var mxlen = maxlength;
+
+if(field.length<mnlen || field.length> mxlen)
+{ 
+alert("Please  " +mnlen+ " and " +mxlen+ " characters");
+return false;
+}
+else
+{ 
+alert('Your userid have accepted.');
+return true;
+}
+}</script>
 </body>
 
 </html>
