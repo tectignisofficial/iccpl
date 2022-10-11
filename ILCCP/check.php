@@ -1642,7 +1642,7 @@ var mxlen = maxlength;
 
 if(field.length<mnlen || field.length> mxlen)
 { 
-alert("Please  " +mnlen+ " and " +mxlen+ " characters");
+alert("Please input the userid between  " +mnlen+ " and " +mxlen+ " characters");
 return false;
 }
 else
