@@ -102,7 +102,7 @@ include("include/config.php");
                                 logistics providers.</span>
 
                         </div> -->
-                        <form action="../formaction.php" class="divform" method="post"  name="form1" enctype="multipart/form-data">
+                        <form action="../formaction.php" class="divform" method="post" enctype="multipart/form-data">
                             <div class="divformhead divformwidth">
                                 <h3 class="divhead divformheading">Enquiry Form</h3>
                                     <div class="row">
@@ -1201,7 +1201,8 @@ include("include/config.php");
                 $('.parent2').removeClass('focused');
             });
     </script>
-     <script>
+
+    <script>
    function stringlength(inputtxt, minlength, maxlength)
 { 
 var field = inputtxt.value; 
@@ -1210,7 +1211,7 @@ var mxlen = maxlength;
 
 if(field.length<mnlen || field.length> mxlen)
 { 
-alert("Please input the userid between " +mnlen+ " and " +mxlen+ " characters");
+alert("Please  " +mnlen+ " and " +mxlen+ " characters");
 return false;
 }
 else
