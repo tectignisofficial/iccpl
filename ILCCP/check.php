@@ -557,9 +557,9 @@ body {
     --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
 }
     </style>
-</head>
+</head> 
 
-<body>
+<body onload='document.form1.hscode.focus()'>
     <?php include('include/header.php') ?>
     <main id="main">
 
@@ -591,7 +591,7 @@ body {
                                 logistics providers.</span>
 
                         </div> -->
-                        <form action="formaction.php" class="divform" method="post" name="myform" onsubmit="return validation()" enctype="multipart/form-data">
+                        <form action="formaction.php" class="divform" method="post" name="form1" enctype="multipart/form-data">
                             <div class="divformhead divformwidth">
                                 <h3 class="divhead divformheading">Enquiry Form</h3>
                                     <div class="row">
@@ -663,7 +663,7 @@ body {
                                                     *</span></label>
                                         </div>
                                         <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
-                                                <input type="text"
+                                                <input type="number"
                                                     class="divforminputControl divforminputControl1 form-control"
                                                     name="hscode"
                                                     placeholder="Enter HS code" id="text1" required></span></span>
@@ -1569,7 +1569,7 @@ body {
                             </div>
                             <div class="divformhead divformwidth">
                                 <div class="form-group">
-                                    <input type="submit" class="btn btn-outline-warning" name="send" value="Submit" onclick="validate()">
+                                    <input type="submit" class="btn btn-outline-warning" name="send" value="Submit" onclick="stringlength(document.form1.hscode,1,9)"/>
                                 </div>
                             </div>
                     </div>
@@ -1632,26 +1632,26 @@ body {
     });
   }
     </script>
-    <script type="text/javascript">
-      function validate(){
-        var text = document.getElementById("text1").value;
-        var regx = /[0-9]\d{9}/;
-        if(regx.test(text))
-        {
-            document.getElementById("lbltext").innerHTML="Valid";
-            document.getElementById("lbltext").style.visibility="visible";
-            document.getElementById("lbltext").style.color="green";
-
-        }
-        else
-        {
-            document.getElementById("lbltext").innerHTML="InValid";
-            document.getElementById("lbltext").style.visibility="visible";
-            document.getElementById("lbltext").style.color="red";
  
-        }
-      }
-    </script>
+   
+   <script>
+   function stringlength(inputtxt, minlength, maxlength)
+{ 
+var field = inputtxt.value; 
+var mnlen = minlength;
+var mxlen = maxlength;
+
+if(field.length<mnlen || field.length> mxlen)
+{ 
+alert("Please input the userid between " +mnlen+ " and " +mxlen+ " characters");
+return false;
+}
+else
+{ 
+alert('Your userid have accepted.');
+return true;
+}
+}</script>
 </body>
 
 </html>
