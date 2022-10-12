@@ -80,7 +80,7 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-lg-9 col-md-8 col-sm-12" style="text-align:left; text-decoration:none">
-                © 2022 <a href="#" target="_blank"><b style="color: rgba(255, 255, 255, 0.6); text-decoration:none">ILCCP Services</b></a>| All
+                © 2022 <a href="https://iccpl.tectignis.in/" target="_blank"><b style="color: rgba(255, 255, 255, 0.6); text-decoration:none">ILCCP Services</b></a>| All
                 Rights Reserved
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12 company">
