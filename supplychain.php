@@ -160,7 +160,7 @@
         </div><!-- Features Item -->
         <div class="row">
           <div class="col-md-12 text-center mt-5">
-           <a href="book_an_appointment.php"><button class="btn btn-primary">Book An Appointment</button></a>
+           <a href="check.php"><button class="btn btn-primary">Request A Quote</button></a>
           </div>
         </div>
       </div>
