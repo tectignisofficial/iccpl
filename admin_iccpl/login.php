@@ -37,7 +37,7 @@ else{
     <meta name="author" content="PIXINVENT">
     <title>Login </title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="..\ILCCP/assets/img/logo (2).webp">
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/logohf.webp">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
@@ -123,7 +123,7 @@ else{
                                     </div>
                                     <div class="mb-1">
                                         <div class="d-flex justify-content-between">
-                                            <label class="form-label" for="login-password">Password</label><a href="auth-forgot-password-cover.html"><small>Forgot Password?</small></a>
+                                            <label class="form-label" for="login-password">Password</label><a href="forgot_password.php"><small>Forgot Password?</small></a>
                                         </div>
                                         <div class="input-group input-group-merge form-password-toggle">
                                             <input class="form-control form-control-merge" id="password" type="password" name="password" placeholder="············" aria-describedby="login-password" tabindex="2" /><span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>

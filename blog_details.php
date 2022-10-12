@@ -1,5 +1,5 @@
 <?php 
-include('../admin/include/config.php');
+include('admin_iccpl/include/config.php');
 $id=$_GET['id'];
 
 ?>
@@ -89,7 +89,7 @@ $id=$_GET['id'];
 
         <div class="row justify-content-center">
           <div class="col-lg-8 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
-                <img src="../admin/dist/img/blog/<?php echo $arr['image'];?>"   alt="" class="img-fluid img">
+                <img src="admin/dist/img/blog/<?php echo $arr['image'];?>"   alt="" class="img-fluid img">
               </div>
               <p  style="margin-left: 6%; margin-top: 41px;">
                 <?php echo $arr['blog_content'];?>

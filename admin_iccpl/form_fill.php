@@ -19,7 +19,7 @@ include("include/config.php");
     <meta name="author" content="PIXINVENT">
     <title>Admin Form Fill</title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="..\ILCCP/assets/img/logo (2).webp">
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/logohf.webp">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
         rel="stylesheet">
 
@@ -174,9 +174,9 @@ include("include/config.php");
                                                     *</span></label>
                                         </div>
                                         <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
-                                                <input type="number"
+                                                <input type="tel"
                                                     class="divforminputControl divforminputControl1 form-control"
-                                                    name="hscode"
+                                                    name="hscode" minlength="10" maxlength="10"
                                                     placeholder="Enter HS code" required></span></span>
 
                                         </div>
@@ -1080,7 +1080,7 @@ include("include/config.php");
                             </div>
                             <div class="divformhead divformwidth">
                                 <div class="form-group">
-                                    <input type="submit" class="btn btn-outline-warning" name="adminsend" value="Submit" onclick="stringlength(document.form1.hscode,1,9)"/>
+                                    <input type="submit" class="btn btn-outline-warning" name="adminsend" value="Submit">
                                 </div>
                             </div>
                     </div>
@@ -1201,25 +1201,6 @@ include("include/config.php");
                 $('.parent2').removeClass('focused');
             });
     </script>
-
-    <script>
-   function stringlength(inputtxt, minlength, maxlength)
-{ 
-var field = inputtxt.value; 
-var mnlen = minlength;
-var mxlen = maxlength;
-
-if(field.length<mnlen || field.length> mxlen)
-{ 
-alert("Please  " +mnlen+ " and " +mxlen+ " characters");
-return false;
-}
-else
-{ 
-alert('Your userid have accepted.');
-return true;
-}
-}</script>
 </body>
 <!-- END: Body-->
 

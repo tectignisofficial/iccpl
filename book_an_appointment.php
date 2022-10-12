@@ -1,5 +1,5 @@
 <?php
-include('../admin_iccpl/include/config.php');
+include('admin_iccpl/include/config.php');
 
 
 if(isset($_POST['submit'])){
@@ -39,7 +39,7 @@ else{
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>ILCCP</title>
+  <title>Book An Appointment</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
