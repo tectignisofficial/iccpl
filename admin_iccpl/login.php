@@ -130,10 +130,10 @@ else{
                                         </div>
                                     </div>
                                     <div class="mb-1">
-                                        <div class="form-check">
+<!--                                         <div class="form-check">
                                             <input class="form-check-input" id="remember-me" type="checkbox" tabindex="3" />
                                             <label class="form-check-label" for="remember-me"> Remember Me</label>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <button type="submit" class="btn btn-primary w-100" name="login" tabindex="4">Sign in</button>
                                 </form>
