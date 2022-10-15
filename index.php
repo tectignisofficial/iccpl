@@ -115,7 +115,7 @@
                 <img src="assets1/img/air2.webp" alt="" class="img-fluid">
               </div>
               <h3><a href="air.php" class="stretched-link">AIR FREIGHT</a></h3>
-              <p>We provide full supply chain management package including cost effective and fast sea freight. You can also combine this package with other means of transportation.</p>
+              <p>We provide full supply chain management package including cost effective and fast air freight. You can also combine this package with other means of transportation.</p>
             </div>
           </div><!-- End Card Item -->
 
@@ -135,7 +135,7 @@
                 <img src="assets1/img/ship1.webp" alt="" class="img-fluid">
               </div>
               <h3><a href="sea.php" class="stretched-link">SEA FREIGHT</a></h3>
-              <p>We bring your goods safely to worldwide destinations with our great sea fright services. We offer LLC and FLC shipments that are fast and effective with no delays.</p>
+              <p>We bring your goods safely to worldwide destinations with our great sea fright services. We offer LCL and FLC shipments that are fast and effective with no delays.</p>
             </div>
           </div><!-- End Card Item -->
           <div class="text-center">
