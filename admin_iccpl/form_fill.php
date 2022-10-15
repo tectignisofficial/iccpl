@@ -102,7 +102,7 @@ include("include/config.php");
                                 logistics providers.</span>
 
                         </div> -->
-                        <form action="../formaction.php" class="divform" method="post" enctype="multipart/form-data">
+                        <form action="../formaction.php" class="divform" method="post" name="form1" enctype="multipart/form-data">
                             <div class="divformhead divformwidth">
                                 <h3 class="divhead divformheading">Enquiry Form</h3>
                                     <div class="row">
@@ -176,8 +176,8 @@ include("include/config.php");
                                         <div class="divformcargoinput"><span class="divformcargospan divformcargospan1">
                                                 <input type="tel"
                                                     class="divforminputControl divforminputControl1 form-control"
-                                                    name="hscode" minlength="10" maxlength="10"
-                                                    placeholder="Enter HS code" required></span></span>
+                                                    name="hscode" 
+                                                    placeholder="Enter HS code"  id="text1" required></span></span>
 
                                         </div>
                                         <div class="divformcargohead mt-5"><label class="label">Net Weight<span
@@ -1200,6 +1200,21 @@ include("include/config.php");
             .blur(function () {
                 $('.parent2').removeClass('focused');
             });
+    </script>
+    <script>
+        function stringlength(inputtxt, minlength, maxlength) {
+            var field = inputtxt.value;
+            var mnlen = minlength;
+            var mxlen = maxlength;
+
+            if (field.length < mnlen || field.length > mxlen) {
+                alert("Please input 0-9 number " + mnlen + " and " + mxlen + " characters");
+                return false;
+            } else {
+                alert('Your userid have accepted.');
+                return true;
+            }
+        }
     </script>
 </body>
 <!-- END: Body-->
