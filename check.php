@@ -738,7 +738,7 @@
                                         </div>
                                         <div class="assodiv">
                                             <button type="button" class="checklabel buttoncargo  Harardouscargo">
-                                                Harardous Cargo
+                                               Hazardous Cargo
                                             </button>
                                         </div>
                                         <div class="assodiv mt-2">

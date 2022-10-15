@@ -1,4 +1,9 @@
 <?php
+session_start();
+if(!isset($_SESSION['id']))
+{                                                                                       
+  header("location:login.php");
+}
 include("include/config.php");
 
 ?>
@@ -238,7 +243,7 @@ include("include/config.php");
                                         </div>
                                         <div class="assodiv">
                                             <button type="button" class="checklabel buttoncargo  Harardouscargo">
-                                                Harardous Cargo
+                                            Hazardous Cargo
                                             </button>
                                         </div>
                                         <div class="assodiv">

@@ -1,5 +1,11 @@
 <?php
 session_start();
+
+// $id=$_SESSION['id'];
+if(isset($_SESSION['id']))
+{                                                                                       
+  header("location:index.php");
+}
 include("include/config.php");
 if(isset($_POST['login'])){
 $Email=$_POST['email'];
