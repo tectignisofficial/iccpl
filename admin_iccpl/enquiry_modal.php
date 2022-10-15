@@ -145,14 +145,14 @@ if($fetch['lclHeight']!=""){
   </div>
   </div>';
 }
-if($fetch['vesseltype']!=""){
-  echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
-  <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Vessel Type</label>
-      <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['vesseltype'].'m3">
-      </div>
-  </div>
-  </div>';
-}
+// if($fetch['vesseltype']!=""){
+//   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
+//   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Vessel Type</label>
+//       <div><input type="text" id="prefix" class="form-control"  value="'.$fetch['vesseltype'].'m3">
+//       </div>
+//   </div>
+//   </div>';
+// }
 if($fetch['grossWeightShip']!=""){
   echo '<div data-v-aa799a9e="" class="col-md-6 col-xl-4 mt-2">
   <div role="group" class="form-group" data-v-aa799a9e="" id="__BVID__958"><label for="prefix" class="d-block" id="__BVID__958__BV_label_">Gross Weight</label>
