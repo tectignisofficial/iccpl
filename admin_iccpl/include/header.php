@@ -208,7 +208,7 @@
                             width="40"><span class="avatar-status-online"></span></span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user">
-                    <a class="dropdown-item" href="auth-login-cover.html"><i class="me-50" data-feather="power"></i>
+                    <a class="dropdown-item" href="logout.php"><i class="me-50" data-feather="power"></i>
                         Logout</a>
                             </div>
                         <!-- <div class="dropdown-divider">
