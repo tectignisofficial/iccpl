@@ -95,12 +95,12 @@ include("include/sidebar.php");
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Blog</h1>
+              <h1 class="m-0">Blog Form</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">Dashboard v1</li>
+                <li class="breadcrumb-item"><a href="../admin_iccpl/index.php">Home</a></li>
+                <li class="breadcrumb-item active">Blog Form</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
