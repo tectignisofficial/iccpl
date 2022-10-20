@@ -45,6 +45,8 @@
                         
                 <li class=" nav-item <?= $page == 'form_data.php' ? 'active':'' ?>"><a href="form_data.php" class="d-flex align-items-center nav-link"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Request A Quote</span></a>
                 </li>
+                <li class=" nav-item <?= $page == '../admin/blog_table.php' ? 'active':'' ?>"><a href="../admin/blog_table.php" class="d-flex align-items-center nav-link"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples">Blog</span></a>
+                </li>
                 <li class=" nav-item <?= $page == 'logout.php' ? 'active':'' ?>"><a href="logout.php"  class="d-flex align-items-center nav-link"><i data-feather="log-out"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Logout</span></a>
                 </li>
             </ul>
