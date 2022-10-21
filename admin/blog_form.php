@@ -129,7 +129,8 @@ include("include/sidebar.php");
                   </div>
 
                   <div class="form-group ">
-                    <textarea id="summernote" name="blog_content">
+                  <h5>Description</h5>
+                    <textarea id="" class="form-control" name="blog_content">
 
                      </textarea>
 
@@ -143,13 +144,13 @@ include("include/sidebar.php");
                 <div class="card-body">
                   <div class="form-group row">
                     <div class="col-sm-12">
-                      <label>Meta Title</label>Meta Description
+                      <label>Meta Title</label>
                       <input type="text" name="meta_title" class="form-control" id="meta_title" placeholder="Meta Title">
                     </div>
                   </div>
                   <div class="form-group row">
                     <div class="col-sm-12">
-                      <label></label>
+                      <label>Meta Description</label>
                       <input type="text" name="meta_description" class="form-control" id="meta_description "
                         placeholder="Meta Description">
                     </div>

@@ -4,7 +4,7 @@ include("include/config.php");
 if(isset($_POST['submitt'])){
   $id=$_GET['id'];
   $title=$_POST['title'];
-  $blog_content	=$_POST['blog_content'];
+  $blog_content=$_POST['blog_content'];
   $category=$_POST['category'];
   $meta_title=$_POST['meta_title'];
   $meta_description=$_POST['meta_description'];
@@ -121,7 +121,8 @@ include("include/sidebar.php");
                   </div>
 
                   <div class="form-group ">
-                    <textarea id="summernote" name="blog_content">
+                  <h5>Description</h5>
+                    <textarea class="form-control" name="blog_content">
                     <?php echo $arr['blog_content'];?>
                      </textarea>
 
@@ -178,9 +179,9 @@ include("include/sidebar.php");
                       <label>Category : </label>
                       <p> <select required class="form-control" name="category" id="Selectstatusblog" value="<?php echo $arr['category'];?>">
                           <option value="" disabled selected hidden>select</option>
-                          <option value="Sea">Sea</option>
-                          <option value="Air">Air</option>
-                          <option value="Land">Land</option>
+                          <option>GST</option>
+                          <option>Air</option>
+                          <option>Land</option>
                         </select> </p>
                         
                     </div>
@@ -276,15 +277,19 @@ include("include/footer.php");
       <script src="dist/js/demo.js"></script>
       <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
    
-      <script src="plugins/summernote/summernote-bs4.min.js"></script>
+      <!-- <script src="plugins/summernote/summernote-bs4.min.js"></script> -->
       <script>
-        $(function () {
-          // Summernote
-          $('#summernote').summernote()
+  $(function () {
+    // Summernote
+    $('#summernote').summernote()
 
-
-        })
-      </script>
+    // CodeMirror
+    CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
+      mode: "htmlmixed",
+      theme: "monokai"
+    });
+  })
+</script>
       
       <script>
         $(function () {

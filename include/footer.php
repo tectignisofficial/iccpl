@@ -1,7 +1,6 @@
 
 
 <footer id="footer" class="footer">
-
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-12 footer-info">
@@ -32,7 +31,6 @@
             <a href="https://www.linkedin.com/company/intracontinent-logichem-corporation-pvt-ltd/"  target="_blank"  class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-
         <div class="col-lg-2 col-12 footer-links">
           <h4>Useful Links</h4>
           <ul>
@@ -42,7 +40,6 @@
             <li><a href="book_an_appointment.php">Contact</a></li>
           </ul>
         </div>
-
         <div class="col-lg-2 col-12 footer-links">
           <h4>Services</h4>
           <ul>
@@ -55,7 +52,6 @@
                Construction Division</a></li>
           </ul>
         </div>
-
         <div class="col-lg-4 col-md-12 footer-contact text-center text-md-start footer-links">
           <h4 class="text-start">Contact Us</h4>
           <ul style="list-style-type: none;">
@@ -70,12 +66,9 @@
                         <li><b>Agent Network</b></li>
                         <li><i class="bi-geo-alt"></i> <a>&nbsp;  China, Malaysia, USA, Russia, Germany, UK, Africa</a></li>
                     </ul>
-
         </div>
-
       </div>
     </div>
-
     <div class="container">
         <div class="row mt-5">
             <div class="col-lg-9 col-md-8 col-sm-12" style="text-align:left; text-decoration:none">
@@ -87,6 +80,4 @@
             </div>
         </div>
     </div>
-
-
   </footer>
