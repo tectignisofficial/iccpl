@@ -130,7 +130,7 @@ include("include/sidebar.php");
 
                   <div class="form-group ">
                   <h5>Description</h5>
-                    <textarea id="" class="form-control" name="blog_content">
+                    <textarea id="summernote" name="blog_content">
 
                      </textarea>
 
@@ -203,7 +203,7 @@ include("include/sidebar.php");
                   <div class="form-group row">
                     <label for="exampledate">Image</label>
                       <input type="file" name="image">
-<h6 style="color:red;">Note: 1200 x 600 for better viewing experience</h6>
+                      <h6 style="color:red;">Note: 1200 x 600 for better viewing experience</h6>
                   </div>
                 </div>
               </div>

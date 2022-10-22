@@ -45,6 +45,9 @@ $id=$_GET['id'];
   ======================================================== -->
 </head>
 <style>
+p{
+    width: 100% !important;
+}
 .img {
     width: 100%;
 }
@@ -92,22 +95,22 @@ $id=$_GET['id'];
                     <div class="col-lg-8 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
                         <img src="admin/dist/img/blog/<?php echo $arr['image'];?>" alt="" class="img-fluid img">
                     </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
-                    <p>
-                        <?php echo $arr['blog_content'];?>
-                    </p>
-                       </div>
+                    <div class="col-lg-8 col-md-6 col-sm-6" d0ata-aos="fade-up" data-aos-delay="100">
+                   
+                           <?php echo $arr['blog_content'];?>
+                    
+                     </div>
                 </div>
                 <?php    } ?>
             </div><!-- End Card Item -->
           </section><!-- End Services Section -->
           
-          <?php include ("include/footer.php"); ?>
         </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-
-    <!-- End Footer -->
+        
+        <!-- ======= Footer ======= -->
+        
+        <!-- End Footer -->
+        <?php include ("include/footer.php"); ?>
     <!-- End Footer -->
 
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
