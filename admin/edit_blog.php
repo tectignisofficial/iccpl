@@ -60,8 +60,8 @@ else{
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
   <!-- summernote -->
    <!-- add summernote -->
-<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+<!-- <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet"> -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet"> -->
   <!-- add summernote -->
 
 </head>
@@ -282,7 +282,7 @@ include("include/footer.php");
       <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
    
       <script src="plugins/summernote/summernote-bs4.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script> -->
 
       <script>
   $(function () {
