@@ -59,6 +59,10 @@ else{
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
   <!-- summernote -->
+   <!-- add summernote -->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+  <!-- add summernote -->
 
 </head>
 
@@ -277,7 +281,9 @@ include("include/footer.php");
       <script src="dist/js/demo.js"></script>
       <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
    
-      <!-- <script src="plugins/summernote/summernote-bs4.min.js"></script> -->
+      <script src="plugins/summernote/summernote-bs4.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
       <script>
   $(function () {
     // Summernote

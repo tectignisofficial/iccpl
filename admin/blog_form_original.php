@@ -71,15 +71,8 @@ else{
   <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
-
-  <!-- old summernote  -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
-  <!-- old summernote  -->
-
-  <!-- add summernote -->
-<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
-  <!-- add summernote -->
+  <!-- summernote -->
 
 </head>
 
@@ -278,6 +271,7 @@ include("include/footer.php");
       <!-- Tempusdominus Bootstrap 4 -->
       <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
       <!-- Summernote -->
+      <script src="plugins/summernote/summernote-bs4.min.js"></script>
       <!-- overlayScrollbars -->
       <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
       <!-- AdminLTE App -->
@@ -285,16 +279,8 @@ include("include/footer.php");
       <!-- AdminLTE for demo purposes -->
       <script src="dist/js/demo.js"></script>
       <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-      
-      <!-- old summernote -->
+   
       <script src="plugins/summernote/summernote-bs4.min.js"></script>
-      <script src="plugins/summernote/summernote-bs4.min.js"></script>
-      <!-- old summernote -->
-
-      <!-- add summernote  -->
-      <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
-
-
       <script>
         $(function () {
           // Summernote
