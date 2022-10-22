@@ -179,9 +179,9 @@ include("include/sidebar.php");
                       <label>Category : </label>
                       <p> <select required class="form-control" name="category" id="Selectstatusblog" value="<?php echo $arr['category'];?>">
                           <option value="" disabled selected hidden>select</option>
-                          <option>GST</option>
-                          <option>Air</option>
-                          <option>Land</option>
+                          <option value="GST">GST</option>
+                          <!-- <option>Air</option> -->
+                          <!-- <option>Land</option> -->
                         </select> </p>
                         
                     </div>
