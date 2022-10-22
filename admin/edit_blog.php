@@ -122,7 +122,7 @@ include("include/sidebar.php");
 
                   <div class="form-group ">
                   <h5>Description</h5>
-                    <textarea class="form-control" name="blog_content">
+                    <textarea id="summernote" name="blog_content">
                     <?php echo $arr['blog_content'];?>
                      </textarea>
 
